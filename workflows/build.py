@@ -1,10 +1,10 @@
-from datasets import Dataset
+from datasets import ReadMe
 
 
 def main():
-    for dataset in Dataset.list_all():
-        print(dataset.summary)
+
+    ReadMe.build()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

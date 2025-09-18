@@ -3,7 +3,7 @@ from functools import cached_property
 import requests
 from utils import Log
 
-log = Log('Dataset')
+log = Log("Dataset")
 
 
 class Dataset:
@@ -13,12 +13,12 @@ class Dataset:
 
     @cached_property
     def url_summary(self):
-        return '/'.join(
+        return "/".join(
             [
-                'https://raw.githubusercontent.com',
-                'nuuuwan',
+                "https://raw.githubusercontent.com",
+                "nuuuwan",
                 self.name,
-                'refs/heads/main/summary.json',
+                "refs/heads/main/summary.json",
             ]
         )
 
@@ -33,12 +33,14 @@ class Dataset:
 
     @classmethod
     def list_all_names(cls) -> list[str]:
-        return [
-            "lk_hansard",
-            "lk_appeal_court_judgements",
-            "lk_supreme_court_judgements",
-            "lk_police_press_releases",
-        ]
+        return sorted(
+            [
+                "lk_hansard",
+                "lk_appeal_court_judgements",
+                "lk_supreme_court_judgements",
+                "lk_police_press_releases",
+            ]
+        )
 
     @classmethod
     def list_all(cls) -> list["Dataset"]:
