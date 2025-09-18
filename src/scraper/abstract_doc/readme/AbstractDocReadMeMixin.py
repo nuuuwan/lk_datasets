@@ -43,7 +43,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
 
             label = "" if (n == n_docs) else f"({p:.0%})"
             blob_list.append(f"**{doc_type}** {label}".strip())
-        return "💾 In " + Format.and_list(blob_list)
+        return "- In " + Format.and_list(blob_list)
 
     @classmethod
     def get_line_for_blurb_item_lang(cls, summary) -> list[str]:
@@ -57,7 +57,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             if lang_i in lang:
                 blurb_langs.append(f"**{lang_label}**")
 
-        return "🗣️ In " + Format.and_list(blurb_langs)
+        return "- In " + Format.and_list(blurb_langs)
 
     @classmethod
     def get_lines_for_blurb(cls, summary) -> list[str]:
@@ -79,7 +79,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             "",
             f"[{url_repo}]({url_repo})",
             "",
-            f"📜 [**{n_docs:,}** documents]({url_data})"
+            f"- [**{n_docs:,}** documents]({url_data})"
             + f" (**{dataset_size_humanized}**),"
             + f" from **{date_str_min}** to **{date_str_max}**,"
             + f" scraped from **[{url_source}]({url_source})**",
@@ -126,10 +126,10 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             "",
         ]
 
-        for emoji, label_suffix in [["📄", "docs"], ["📦", "chunks"]]:
+        for label_suffix in ["docs", "chunks"]:
             dataset_id = cls.get_dataset_id(label_suffix)
             url = cls.get_dataset_url(label_suffix)
-            lines.append(f"- {emoji} [{dataset_id}]({url})")
+            lines.append(f"- [{dataset_id}]({url})")
         lines.append("")
         return lines
 
@@ -154,7 +154,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
         return [
             "---",
             "",
-            "## ➡️ [More Datasets about 🇱🇰 #SriLanka]"
+            "### [More Datasets about 🇱🇰 #SriLanka]"
             + "(https://github.com/nuuuwan/lk_datasets)",
             "",
         ]
