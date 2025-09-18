@@ -3,8 +3,9 @@ import os
 
 from utils import File, Log
 
-from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import \
-    AbstractDocChartDocsByYearMixin
+from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import (
+    AbstractDocChartDocsByYearMixin,
+)
 from utils_future import FileOrDirFuture, Format
 
 log = Log("AbstractDocReadMeMixin")
@@ -55,9 +56,9 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
         lang = summary["latest_doc_d"]["lang"]
         blurb_langs = []
         for lang_i, lang_label in [
-            ["en", "English"],
             ["si", "සිංහල"],
             ["ta", "தமிழ்"],
+            ["en", "English"],
         ]:
             if lang_i in lang:
                 blurb_langs.append(f"**{lang_label}**")
