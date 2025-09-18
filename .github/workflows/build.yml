@@ -2,11 +2,6 @@ name: build
 
 on:
   workflow_dispatch:
-    inputs:
-      max_dt:
-        description: "max_dt"
-        required: false
-        default: "1"
   schedule:
     - cron: "30 * * * *"
 
@@ -39,7 +34,7 @@ jobs:
           git config --global --add safe.directory /__w/${{ env.REPO_MAIN }}/${{ env.REPO_MAIN }}
 
           git pull origin main --rebase
-          python workflows/build.py ${{ github.event.inputs.max_dt }}
+          python workflows/build.py
 
       - name: "⬆️ Push main"
         run: |
