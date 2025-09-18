@@ -26,7 +26,7 @@
 
 ## 03  Police Press Releases 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:47:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_20:07:53-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
