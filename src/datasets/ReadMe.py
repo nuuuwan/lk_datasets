@@ -38,6 +38,7 @@ class ReadMe:
                 "",
             ]
             + cls.get_lines_for_datasets()
+            + ["---", ""]
             + AbstractDoc.get_lines_for_footer()
         )
 
