@@ -16,6 +16,7 @@ class ReadMe:
         return [
             AbstractDoc.get_lines_for_header(summary),
             AbstractDoc.get_lines_for_blurb(summary),
+            "---",
         ]
 
     @classmethod
@@ -30,6 +31,8 @@ class ReadMe:
         return (
             [
                 "# 🇱🇰 #SriLanka `Datasets`",
+                "",
+                "---",
                 "",
             ]
             + cls.get_lines_for_datasets()
