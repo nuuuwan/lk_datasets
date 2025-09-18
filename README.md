@@ -1,42 +1,55 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-## 01) lk_appeal_court_judgements
+## 01  Appeal Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_18:32:01-green)
-![DatasetSize](https://img.shields.io/badge/dataset_size-10.1_GB-yellow)
-
-📜 [**10,103** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data) (**10.1 GB**), from **2012-04-23** to **2025-09-18**, scraped from **[https://courtofappeal.lk/](https://courtofappeal.lk/)**
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:46:32-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements)
 
-## 02) lk_hansard
+📜 [**10,103** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data) (**10.1 GB**), from **2012-04-23** to **2025-09-18**, scraped from **[https://courtofappeal.lk/](https://courtofappeal.lk/)**
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_18:27:31-green)
-![DatasetSize](https://img.shields.io/badge/dataset_size-13.0_GB-yellow)
+💾 In **JSON**, **PDF**, **TXT** (0%) and **🤗 Hugging Face** (0%)
 
-📜 [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**13.0 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
+🗣️ In **English**
+
+## 02  Hansard 
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:47:12-green)
 
 [https://github.com/nuuuwan/lk_hansard](https://github.com/nuuuwan/lk_hansard)
 
-## 03) lk_police_press_releases
+📜 [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**13.0 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_18:17:28-green)
-![DatasetSize](https://img.shields.io/badge/dataset_size-226.5_MB-yellow)
+💾 In **JSON**, **PDF**, **TXT** (17%) and **🤗 Hugging Face** (17%)
 
-📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**226.5 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+🗣️ In **සිංහල**, **தமிழ்** and **English**
+
+## 03  Police Press Releases 
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:47:37-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
-## 04) lk_supreme_court_judgements
+📜 [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.6 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_18:58:02-green)
-![DatasetSize](https://img.shields.io/badge/dataset_size-851.0_MB-yellow)
+💾 In **JSON**, **PDF**, **TXT** and **🤗 Hugging Face**
 
-📜 [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**851.0 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+🗣️ In **සිංහල**
+
+## 04  Supreme Court Judgements 
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_19:47:41-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
+
+📜 [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**874.4 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+
+💾 In **JSON**, **PDF** (61%), **TXT** (11%) and **🤗 Hugging Face** (11%)
+
+🗣️ In **English**
 
 ---
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
