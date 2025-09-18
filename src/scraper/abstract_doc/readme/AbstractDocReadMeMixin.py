@@ -3,9 +3,8 @@ import os
 
 from utils import File, Log
 
-from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import (
-    AbstractDocChartDocsByYearMixin,
-)
+from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import \
+    AbstractDocChartDocsByYearMixin
 from utils_future import FileOrDirFuture, Format
 
 log = Log("AbstractDocReadMeMixin")
@@ -41,14 +40,9 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             if n == 0:
                 continue
             p = n / n_docs
-            if n == n_docs:
-                emoji = "✅"
-                label = ""
-            else:
-                emoji = "☑️"
-                label = f"({p:.0%})"
 
-            blob_list.append(f"{emoji} **{doc_type}** {label}".strip())
+            label = "" if (n == n_docs) else f"({p:.0%})"
+            blob_list.append(f"**{doc_type}** {label}".strip())
         return "💾 In " + Format.and_list(blob_list)
 
     @classmethod

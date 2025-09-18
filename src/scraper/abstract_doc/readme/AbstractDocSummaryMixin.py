@@ -52,5 +52,6 @@ class AbstractDocSummaryMixin:
         summary = cls.get_summary()
         log.debug(f"{summary=}")
         summary_json_path = cls.get_summary_path()
+        os.makedirs(cls.get_main_branch_dir_root(), exist_ok=True)
         JSONFile(summary_json_path).write(summary)
         log.info(f"Wrote {summary_json_path}")
