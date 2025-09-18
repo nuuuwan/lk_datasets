@@ -2,7 +2,7 @@
 
 ## 01  Appeal Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_00:37:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_01:19:23-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements)
 
@@ -14,7 +14,7 @@
 
 ## 02  Hansard 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_00:43:03-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_01:05:37-green)
 
 [https://github.com/nuuuwan/lk_hansard](https://github.com/nuuuwan/lk_hansard)
 
@@ -38,11 +38,11 @@
 
 ## 04  Supreme Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_00:51:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_01:20:41-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
 
-- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**931.8 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**938.3 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
 
 - In **JSON**, **PDF** (65%), **TXT** (65%) & **🤗 Hugging Face** (65%)
 
