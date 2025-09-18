@@ -13,7 +13,7 @@ class Format:
             return ""
         if len(x_list) == 1:
             return x_list[0]
-        return ", ".join(x_list[:-1]) + " and " + x_list[-1]
+        return ", ".join(x_list[:-1]) + " & " + x_list[-1]
 
     @staticmethod
     def title(x) -> str:
