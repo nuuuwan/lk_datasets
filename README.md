@@ -14,13 +14,13 @@
 
 ## 02  Hansard 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_22:13:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_22:54:26-green)
 
 [https://github.com/nuuuwan/lk_hansard](https://github.com/nuuuwan/lk_hansard)
 
-- [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**2.6 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
+- [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**5.8 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
 
-- In **JSON**, **PDF** (13%), **TXT** (13%) & **🤗 Hugging Face** (13%)
+- In **JSON**, **PDF** (24%), **TXT** (24%) & **🤗 Hugging Face** (24%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
@@ -38,7 +38,7 @@
 
 ## 04  Supreme Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_22:26:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_22:51:38-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
 
