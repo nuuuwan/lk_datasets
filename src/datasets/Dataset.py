@@ -30,6 +30,7 @@ class Dataset:
             return response.json()
         except Exception as e:
             log.error(f"Failed to fetch summary for dataset {self.name}: {e}")
+            return None
 
     @classmethod
     def list_all_names(cls) -> list[str]:
