@@ -3,8 +3,9 @@ import os
 
 from utils import File, Log
 
-from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import \
-    AbstractDocChartDocsByYearMixin
+from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import (
+    AbstractDocChartDocsByYearMixin,
+)
 from utils_future import FileOrDirFuture, Format
 
 log = Log("AbstractDocReadMeMixin")
@@ -17,8 +18,8 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
     # ----------------------------------------------------------------
 
     @classmethod
-    def get_lines_for_header(cls) -> list[str]:
-        title = Format.title(cls.get_doc_class_label())
+    def get_lines_for_header(cls, summary) -> list[str]:
+        title = Format.title(summary["doc_class_label"])
         return [
             f"# {title} `Dataset`",
             "",
@@ -65,7 +66,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
         return "🗣️ In " + Format.and_list(blurb_langs)
 
     @classmethod
-    def get_lines_for_blurn(cls, summary) -> list[str]:
+    def get_lines_for_blurb(cls, summary) -> list[str]:
         time_updated = summary["time_updated"]
         n_docs = summary["n_docs"]
         date_str_min = summary["date_str_min"]
@@ -169,8 +170,8 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
     def lines(cls) -> list[str]:
         summary = cls.get_summary()
         return (
-            cls.get_lines_for_header()
-            + cls.get_lines_for_blurn(summary)
+            cls.get_lines_for_header(summary)
+            + cls.get_lines_for_blurb(summary)
             + cls.get_lines_for_metadata_example(summary)
             + cls.get_lines_chart_docs_by_year()
             + cls.get_lines_for_hugging_face()
