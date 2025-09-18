@@ -1,6 +1,7 @@
 from utils import File, Log
 
 from datasets.Dataset import Dataset
+from utils_future import FileOrDirFuture
 
 log = Log("ReadMe")
 
@@ -16,27 +17,31 @@ class ReadMe:
         n_docs = summary["n_docs"]
         date_str_min = summary["date_str_min"]
         date_str_max = summary["date_str_max"]
-        total_size_humanized = summary["total_size_humanized"]
+        dataset_size = summary["dataset_size"]
         url_source = summary["url_source"]
         url_data = summary["url_data"]
         url_repo = summary["url_repo"]
 
-        total_size_humanized_for_badge = total_size_humanized.replace(
+        dataset_size_humanized = FileOrDirFuture.humanize_size(dataset_size)
+        dataset_size_humanized_for_badge = dataset_size_humanized.replace(
             " ", "_"
+        )
+        time_updated_for_badge = time_updated.replace(" ", "_").replace(
+            "-", "--"
         )
 
         return [
             "![LastUpdated](https://img.shields.io/badge"
-            + f"/last_updated-{time_updated}-green)",
+            + f"/last_updated-{time_updated_for_badge}-green)",
             "![DatasetSize](https://img.shields.io/badge"
-            + f"/dataset_size-{total_size_humanized_for_badge}-yellow)",
-            "",
-            f"[{url_repo}]({url_repo})",
+            + f"/dataset_size-{dataset_size_humanized_for_badge}-yellow)",
             "",
             f"📜 [**{n_docs:,}** documents]({url_data})"
-            + f" (**{total_size_humanized}**),"
+            + f" (**{dataset_size_humanized}**),"
             + f" from **{date_str_min}** to **{date_str_max}**,"
             + f" scraped from **[{url_source}]({url_source})**",
+            "",
+            f"[{url_repo}]({url_repo})",
             "",
         ]
 
@@ -70,7 +75,7 @@ class ReadMe:
     def get_lines(cls) -> list[str]:
         return (
             [
-                "# 🇱🇰 #SriLanka Dataset `Dataset`",
+                "# 🇱🇰 #SriLanka `Datasets`",
                 "",
             ]
             + cls.get_lines_for_datasets()
