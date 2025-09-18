@@ -13,6 +13,8 @@ class ReadMe:
     @classmethod
     def get_lines_for_dataset(cls, i_dataset, dataset) -> list[str]:
         summary = dataset.summary
+        if not summary or "doc_class_label" not in summary:
+            return []
         return [
             AbstractDoc.get_lines_for_header(summary),
             AbstractDoc.get_lines_for_blurb(summary),
