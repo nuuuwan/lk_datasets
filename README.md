@@ -26,7 +26,7 @@
 
 ## 03  Police Press Releases 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_22:09:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_00:11:33-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
@@ -38,11 +38,11 @@
 
 ## 04  Supreme Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--18_23:51:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_00:29:04-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
 
-- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**914.0 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**920.6 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
 
 - In **JSON**, **PDF** (63%), **TXT** (63%) & **🤗 Hugging Face** (63%)
 
