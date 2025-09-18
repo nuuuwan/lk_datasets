@@ -150,10 +150,18 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
         return lines
 
     @classmethod
-    def get_lines_for_footer(cls) -> list[str]:
+    def get_lines_for_more_datasets(cls) -> list[str]:
         return [
             "---",
             "",
+            "## ➡️ [More Datasets about 🇱🇰 #SriLanka]"
+            + "(https://github.com/nuuuwan/lk_datasets)",
+            "",
+        ]
+
+    @classmethod
+    def get_lines_for_footer(cls) -> list[str]:
+        return [
             "![Maintainer]"
             + "(https://img.shields.io/badge/maintainer-nuuuwan-red)",
             "![MadeWith](https://img.shields.io/badge/made_with-python-blue)",
@@ -173,6 +181,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             + cls.get_lines_chart_docs_by_year()
             + cls.get_lines_for_hugging_face()
             + cls.get_lines_for_latest_docs()
+            + cls.get_lines_for_more_datasets()
             + cls.get_lines_for_footer()
         )
 
