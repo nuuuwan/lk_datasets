@@ -15,11 +15,13 @@ class ReadMe:
         summary = dataset.summary
         if not summary or "doc_class_label" not in summary:
             return []
-        return [
-            AbstractDoc.get_lines_for_header(summary),
-            AbstractDoc.get_lines_for_blurb(summary),
-            "---",
-        ]
+        header_lines = AbstractDoc.get_lines_for_header(summary)
+        first_header_line = header_lines[0]
+        first_header_line = first_header_line.replace(
+            "# 🇱🇰 #SriLanka", f"## {i_dataset:02d} "
+        ).replace("`Dataset`", "")
+        header_lines[0] = first_header_line
+        return header_lines + AbstractDoc.get_lines_for_blurb(summary)
 
     @classmethod
     def get_lines_for_datasets(cls) -> list[str]:
@@ -33,8 +35,6 @@ class ReadMe:
         return (
             [
                 "# 🇱🇰 #SriLanka `Datasets`",
-                "",
-                "---",
                 "",
             ]
             + cls.get_lines_for_datasets()
