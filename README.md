@@ -16,6 +16,38 @@ In Sri Lanka, the Hansard is especially important because it provides citizens, 
 
 - In **සිංහල**, **தமிழ்** & **English**
 
+## 002 ⚖️ Appeal Court Judgements
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_13:59:58-green)
+
+[https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
+
+An appeals court judgment (also called an appellate court judgment) is a ruling delivered by a higher court that reviews decisions made by lower courts. It ensures that justice is applied consistently, correcting legal or procedural errors that may have occurred at trial.
+
+In Sri Lanka, the Court of Appeal plays this role, shaping how laws are interpreted and setting important legal precedents that influence future cases. These judgments are central to upholding fairness, protecting rights, and strengthening the rule of law.
+
+- [**10,103** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.5 GB**), from **2012-04-23** to **2025-09-18**, scraped from **[https://courtofappeal.lk/](https://courtofappeal.lk/)**
+
+- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+
+- In **English**
+
+## 003 ⚖️ Supreme Court Judgements
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_13:51:26-green)
+
+[https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
+
+A Supreme Court judgement is the final and binding decision delivered by the highest court in a country.
+
+In Sri Lanka, the Supreme Court plays a vital role in interpreting the Constitution, safeguarding fundamental rights, and resolving disputes of national importance. Its judgements set legal precedents that influence how laws are applied and upheld across the nation, shaping both governance and society.
+
+- [**1,530** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**980.8 MB**), from **2016-07-22** to **2025-09-19**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+
+- In **JSON**, **PDF** (68%), **TXT** (68%) & **🤗 Hugging Face** (68%)
+
+- In **English**
+
 ## 004 👮‍♂️ Police Press Releases
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_13:08:05-green)

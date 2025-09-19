@@ -48,8 +48,8 @@ class Dataset:
     def get_repo_to_doc_classes(cls) -> dict[str, list[str]]:
         return {
             "lk_hansard": ["lk_hansard"],
-            "lk_appeals_court_judgements": ["lk_appeals_court_judgments"],
-            "lk_supreme_court_judgements": ["lk_supreme_court_judgments"],
+            "lk_appeal_court_judgements": ["lk_appeal_court_judgements"],
+            "lk_supreme_court_judgements": ["lk_supreme_court_judgements"],
             "lk_police_press_releases": ["lk_police_press_releases"],
         }
 
