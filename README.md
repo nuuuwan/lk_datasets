@@ -2,7 +2,7 @@
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:35:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:34:51-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -18,7 +18,7 @@ In Sri Lanka, the Hansard is especially important because it provides citizens, 
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:38:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:19:14-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -34,7 +34,7 @@ In Sri Lanka, the Court of Appeal plays this role, shaping how laws are interpre
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:51:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:21:11-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
