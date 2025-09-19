@@ -3,8 +3,9 @@ import os
 
 from utils import File, Log
 
-from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import \
-    AbstractDocChartDocsByYearMixin
+from scraper.abstract_doc.readme.AbstractDocChartDocsByYearMixin import (
+    AbstractDocChartDocsByYearMixin,
+)
 from utils_future import FileOrDirFuture, Format
 
 log = Log("AbstractDocReadMeMixin")
@@ -15,7 +16,9 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
 
     @classmethod
     def get_lines_for_header(cls, summary) -> list[str]:
-        title = Format.title(summary["doc_class_label"])
+        title = Format.title(
+            summary["doc_class_emoji"] + summary["doc_class_label"]
+        )
         return [
             f"# {title} `Dataset`",
             "",

@@ -30,6 +30,10 @@ class AbstractDocBase(ABC):
     def get_doc_class_description(cls) -> str:
         return f"A collection of {cls.get_doc_class_label()} documents."
 
+    @classmethod
+    def get_doc_class_emoji(cls) -> str:
+        return "📄"
+
     @cached_property
     def num_short(self):
         if len(self.num) < 32:
