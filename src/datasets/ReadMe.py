@@ -2,7 +2,6 @@ from utils import File, Log
 
 from datasets.Dataset import Dataset
 from scraper import AbstractDoc
-from utils_future import FileOrDirFuture
 
 log = Log("ReadMe")
 
@@ -13,7 +12,7 @@ class ReadMe:
     @classmethod
     def get_lines_for_dataset(cls, i_dataset, dataset) -> list[str]:
         summary = dataset.summary
-        if not summary or "doc_class_label" not in summary:
+        if not summary or "doc_class_emoji" not in summary:
             return []
         header_lines = AbstractDoc.get_lines_for_header(summary)
         first_header_line = header_lines[0]

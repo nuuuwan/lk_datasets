@@ -1,52 +1,20 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-## 01  Appeal Court Judgements 
+# 👮‍♂️#SriLanka 🇱🇰 Police Press Releases 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_11:40:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_13:08:05-green)
 
-[https://github.com/nuuuwan/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements)
+[https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
-- [**10,103** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data) (**10.3 GB**), from **2012-04-23** to **2025-09-18**, scraped from **[https://courtofappeal.lk/](https://courtofappeal.lk/)**
+A police press release is an official public statement issued by the police to inform citizens and the media about incidents, investigations, arrests, public safety alerts, or law enforcement initiatives. It serves as an authoritative source of information, countering rumors and ensuring transparency in policing.
 
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+In Sri Lanka, police press releases are especially relevant because they provide timely updates on security matters, traffic advisories, crime prevention campaigns, and major national events. Given the country’s sensitivity to issues of law, order, and public trust, these releases play a key role in shaping public awareness and confidence in the justice system.
 
-- In **English**
-
-## 02  Hansard 
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_12:01:10-green)
-
-[https://github.com/nuuuwan/lk_hansard](https://github.com/nuuuwan/lk_hansard)
-
-- [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**22.2 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
-
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
-
-- In **සිංහල**, **தமிழ்** & **English**
-
-## 03  Police Press Releases 
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_10:08:10-green)
-
-[https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
-
-- [**675** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data) (**230.6 MB**), from **2025-05-01** to **2025-09-18**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+- [**678** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**231.8 MB**), from **2025-05-01** to **2025-09-19**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
 - In **සිංහල**
-
-## 04  Supreme Court Judgements 
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_11:51:06-green)
-
-[https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
-
-- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**960.9 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
-
-- In **JSON**, **PDF** (67%), **TXT** (67%) & **🤗 Hugging Face** (67%)
-
-- In **English**
 
 ---
 
