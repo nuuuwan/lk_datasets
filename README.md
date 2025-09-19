@@ -2,7 +2,7 @@
 
 ## 01  Appeal Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:41:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_10:22:36-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements)
 
@@ -26,7 +26,7 @@
 
 ## 03  Police Press Releases 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_08:23:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_10:08:10-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases)
 
@@ -38,7 +38,7 @@
 
 ## 04  Supreme Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:51:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_10:24:53-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
 
