@@ -25,7 +25,7 @@ class AbstractDocSummaryMixin:
         dataset_size = FileOrDirFuture(cls.get_data_branch_dir_root()).size
         latest_doc = cls.list_all()[0]
         url_source = latest_doc.url_metadata.split("?")[0]
-        url_data = cls.get_remote_data_url_base()
+        url_data = cls.get_remote_data_url_for_class()
         latest_doc = cls.list_all()[0]
         latest_doc_d = latest_doc.to_dict()
 
