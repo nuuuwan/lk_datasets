@@ -84,6 +84,20 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 - In **සිංහල**, **தமிழ்** & **English**
 
+## 007 ⚖️ Extraordinary Gazettes
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:43:08-green)
+
+[https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
+
+An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
+
+- [**100,946** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**136.5 MB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
+
+- In **JSON**, **PDF** (0%), **TXT** (0%) & **🤗 Hugging Face** (0%)
+
+- In **සිංහල**, **தமிழ்** & **English**
+
 ---
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
