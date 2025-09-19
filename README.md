@@ -2,7 +2,7 @@
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_15:33:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:35:20-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -10,7 +10,7 @@ A Hansard is the official, verbatim record of parliamentary debates and proceedi
 
 In Sri Lanka, the Hansard is especially important because it provides citizens, researchers, journalists, and policymakers with direct access to parliamentary debates since independence. It serves as a key historical and political resource, helping track how laws were shaped, how elected representatives engaged with national issues, and how parliamentary democracy has evolved over time.
 
-- [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard) (**22.2 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
+- [**1,662** documents](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard) (**22.2 GB**), from **2006-02-01** to **2025-09-11**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -18,7 +18,7 @@ In Sri Lanka, the Hansard is especially important because it provides citizens, 
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_15:10:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:38:04-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -34,7 +34,7 @@ In Sri Lanka, the Court of Appeal plays this role, shaping how laws are interpre
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_15:23:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:51:17-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -42,15 +42,15 @@ A Supreme Court judgement is the final and binding decision delivered by the hig
 
 In Sri Lanka, the Supreme Court plays a vital role in interpreting the Constitution, safeguarding fundamental rights, and resolving disputes of national importance. Its judgements set legal precedents that influence how laws are applied and upheld across the nation, shaping both governance and society.
 
-- [**1,535** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.0 GB**), from **2016-07-22** to **2025-09-19**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+- [**1,541** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.1 GB**), from **2016-07-22** to **2025-09-19**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
 
-- In **JSON**, **PDF** (71%), **TXT** (71%) & **🤗 Hugging Face** (71%)
+- In **JSON**, **PDF** (74%), **TXT** (74%) & **🤗 Hugging Face** (74%)
 
 - In **English**
 
 ## 004 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_14:09:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:08:21-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
