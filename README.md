@@ -18,15 +18,13 @@ In Sri Lanka, the Hansard is especially important because it provides citizens, 
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:46:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:31:47-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
-An appeals court judgment (also called an appellate court judgment) is a ruling delivered by a higher court that reviews decisions made by lower courts. It ensures that justice is applied consistently, correcting legal or procedural errors that may have occurred at trial.
+A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.
 
-In Sri Lanka, the Court of Appeal plays this role, shaping how laws are interpreted and setting important legal precedents that influence future cases. These judgments are central to upholding fairness, protecting rights, and strengthening the rule of law.
-
-- [**10,110** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.3 GB**), from **2012-04-23** to **2025-09-19**, scraped from **[https://courtofappeal.lk/](https://courtofappeal.lk/)**
+- [**10,110** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.1 GB**), from **2012-04-23** to **2025-09-19**, scraped from **[https://courtofappeal.lk/](https://courtofappeal.lk/)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -34,31 +32,27 @@ In Sri Lanka, the Court of Appeal plays this role, shaping how laws are interpre
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:51:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:33:22-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
-A Supreme Court judgement is the final and binding decision delivered by the highest court in a country.
-
-In Sri Lanka, the Supreme Court plays a vital role in interpreting the Constitution, safeguarding fundamental rights, and resolving disputes of national importance. Its judgements set legal precedents that influence how laws are applied and upheld across the nation, shaping both governance and society.
+A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
 
 - [**1,541** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.1 GB**), from **2016-07-22** to **2025-09-19**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
 
-- In **JSON**, **PDF** (74%), **TXT** (74%) & **🤗 Hugging Face** (74%)
+- In **JSON**, **PDF** (75%), **TXT** (75%) & **🤗 Hugging Face** (75%)
 
 - In **English**
 
 ## 004 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_16:08:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:17:32-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
-A police press release is an official public statement issued by the police to inform citizens and the media about incidents, investigations, arrests, public safety alerts, or law enforcement initiatives. It serves as an authoritative source of information, countering rumors and ensuring transparency in policing.
+A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-In Sri Lanka, police press releases are especially relevant because they provide timely updates on security matters, traffic advisories, crime prevention campaigns, and major national events. Given the country’s sensitivity to issues of law, order, and public trust, these releases play a key role in shaping public awareness and confidence in the justice system.
-
-- [**678** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**231.8 MB**), from **2025-05-01** to **2025-09-19**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+- [**678** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**231.9 MB**), from **2025-05-01** to **2025-09-19**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -66,13 +60,13 @@ In Sri Lanka, police press releases are especially relevant because they provide
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:06:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:36:04-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
-A legal act in Sri Lanka is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
+A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**2,250** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**57.8 MB**), from **2004-12-21** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
+- [**2,250** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**81.3 MB**), from **2004-12-21** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
 
 - In **JSON**, **PDF** (1%), **TXT** (1%) & **🤗 Hugging Face** (1%)
 
@@ -80,13 +74,13 @@ A legal act in Sri Lanka is a law passed by Parliament that governs rights, duti
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:15:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:36:07-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**55.9 MB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
+- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**81.2 MB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
 
 - In **JSON**, **PDF** (1%), **TXT** (1%) & **🤗 Hugging Face** (1%)
 
