@@ -18,5 +18,5 @@ class Format:
     @staticmethod
     def title(x) -> str:
         title = x.title().replace("_", " ")
-        title = title.replace("Lk", "🇱🇰 #SriLanka")
+        title = title.replace("Lk", "#SriLanka 🇱🇰")
         return title
