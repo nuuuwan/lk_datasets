@@ -2,7 +2,7 @@
 
 ## 01  Appeal Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:20:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:41:42-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements)
 
@@ -14,7 +14,7 @@
 
 ## 02  Hansard 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:12:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_10:00:29-green)
 
 [https://github.com/nuuuwan/lk_hansard](https://github.com/nuuuwan/lk_hansard)
 
@@ -38,7 +38,7 @@
 
 ## 04  Supreme Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:28:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_09:51:15-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
 
