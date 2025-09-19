@@ -10,7 +10,8 @@ class AbstractDocChartDocsByYearMixin:
 
     @classmethod
     def get_chart_image_path(cls) -> str:
-        return os.path.join("images", "docs_by_year.png")
+        # E.g. ../lk_acts_data/data/lk_acts/docs_by_year.png
+        return os.path.join(cls.get_dir_docs_for_cls(), "docs_by_year.png")
 
     @classmethod
     def get_chart_build(cls):
