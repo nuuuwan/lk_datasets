@@ -2,7 +2,7 @@
 
 ## 01  Appeal Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_04:43:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_05:08:32-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements)
 
@@ -14,11 +14,11 @@
 
 ## 02  Hansard 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_04:37:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_05:32:37-green)
 
 [https://github.com/nuuuwan/lk_hansard](https://github.com/nuuuwan/lk_hansard)
 
-- [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**22.0 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
+- [**1,661** documents](https://github.com/nuuuwan/lk_hansard/tree/data) (**22.2 GB**), from **2006-02-01** to **2025-09-10**, scraped from **[https://www.parliament.lk/en/business-of-parliament/hansards](https://www.parliament.lk/en/business-of-parliament/hansards)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -38,11 +38,11 @@
 
 ## 04  Supreme Court Judgements 
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_04:50:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_05:21:11-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements)
 
-- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**960.8 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
+- [**1,526** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data) (**960.9 MB**), from **2016-07-22** to **2025-09-18**, scraped from **[https://supremecourt.lk/judgements/](https://supremecourt.lk/judgements/)**
 
 - In **JSON**, **PDF** (67%), **TXT** (67%) & **🤗 Hugging Face** (67%)
 
