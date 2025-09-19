@@ -38,7 +38,6 @@ class Dataset:
             response.raise_for_status()
             summary = response.json()
             log.info(f"Fetched summary for {self}")
-            log.debug(f"{summary=}")
             return summary
         except Exception as e:
             log.error(f"Failed to fetch summary for {self}: {e}")
