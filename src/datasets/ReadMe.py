@@ -16,9 +16,11 @@ class ReadMe:
             return []
         header_lines = AbstractDoc.get_lines_for_header(summary)
         first_header_line = header_lines[0]
-        first_header_line = first_header_line.replace(
-            "# #SriLanka 🇱🇰", f"## {i_dataset:02d} "
-        ).replace("`Dataset`", "")
+        first_header_line = f"## {i_dataset:03d} " + (
+            first_header_line.replace("#SriLanka 🇱🇰", "")
+            .replace("`Dataset`", "")
+            .strip()[2:]
+        )
         header_lines[0] = first_header_line
         return header_lines + AbstractDoc.get_lines_for_blurb(summary)
 
