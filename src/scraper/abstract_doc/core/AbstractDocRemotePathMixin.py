@@ -3,12 +3,10 @@ from functools import cached_property
 
 from utils import Log
 
-log = Log("AbstractDocExtendedDataMixin")
+log = Log("AbstractDocRemotePathMixin")
 
 
-class AbstractDocExtendedDataMixin:
-    T_TIMEOUT_PDF_DOWNLOAD = 120
-
+class AbstractDocRemotePathMixin:
     @classmethod
     def get_remote_repo_url(cls) -> str:
         assert os.environ["GITHUB_USERNAME"]
@@ -40,6 +38,3 @@ class AbstractDocExtendedDataMixin:
                 self.dir_doc_relative_to_class,
             ]
         )
-
-    def scrape_extended_data_for_doc(self):
-        raise NotImplementedError

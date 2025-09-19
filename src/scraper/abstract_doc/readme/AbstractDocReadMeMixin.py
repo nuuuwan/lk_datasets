@@ -13,9 +13,6 @@ log = Log("AbstractDocReadMeMixin")
 class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
     N_LATEST = 20
 
-    # lines
-    # ----------------------------------------------------------------
-
     @classmethod
     def get_lines_for_header(cls, summary) -> list[str]:
         title = Format.title(summary["doc_class_label"])
@@ -36,6 +33,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             ("PDF", n_docs_with_pdfs),
             ("TXT", n_docs_with_text),
             ("🤗 Hugging Face", n_docs_with_text),
+            ("Something New", 0),
         ]:
             if n == 0:
                 continue
@@ -61,6 +59,7 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
 
     @classmethod
     def get_lines_for_blurb(cls, summary) -> list[str]:
+        doc_class_description = summary["doc_class_description"]
         time_updated = summary["time_updated"]
         n_docs = summary["n_docs"]
         date_str_min = summary["date_str_min"]
@@ -68,7 +67,6 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
         dataset_size = summary["dataset_size"]
         url_source = summary["url_source"]
         url_data = summary["url_data"]
-        url_repo = summary["url_repo"]
 
         dataset_size_humanized = FileOrDirFuture.humanize_size(dataset_size)
         time_updated_for_badge = Format.badge(time_updated)
@@ -77,7 +75,9 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
             "![LastUpdated](https://img.shields.io/badge"
             + f"/last_updated-{time_updated_for_badge}-green)",
             "",
-            f"[{url_repo}]({url_repo})",
+            f"[{url_data}]({url_data})",
+            "",
+            doc_class_description,
             "",
             f"- [**{n_docs:,}** documents]({url_data})"
             + f" (**{dataset_size_humanized}**),"
@@ -186,13 +186,14 @@ class AbstractDocReadMeMixin(AbstractDocChartDocsByYearMixin):
         )
 
     @classmethod
-    def get_readme_path(cls) -> str:
-        return os.path.join(cls.get_main_branch_dir_root(), "README.md")
+    def get_doc_class_readme_path(cls) -> str:
+        # E.g. ../lk_acts_data/data/lk_acts/README.md
+        return os.path.join(cls.get_dir_docs_for_cls(), "README.md")
 
     @classmethod
-    def build_readme(cls):
+    def build_doc_class_readme(cls):
         assert cls.list_all()
         os.makedirs(cls.get_main_branch_dir_root(), exist_ok=True)
-        readme_path = cls.get_readme_path()
+        readme_path = cls.get_doc_class_readme_path()
         File(readme_path).write("\n".join(cls.lines()))
         log.info(f"Wrote {readme_path}")

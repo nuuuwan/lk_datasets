@@ -18,8 +18,13 @@ class AbstractDocBase(ABC):
     lang: str
 
     @classmethod
-    def get_doc_class_label(cls) -> str:
+    def get_repo_name(cls) -> str:
         return os.path.basename(os.getcwd())
+
+    @classmethod
+    def get_doc_class_label(cls) -> str:
+        # If the repo has multiple document classes, then override this method
+        return cls.get_repo_name()
 
     @classmethod
     def get_doc_class_description(cls) -> str:
