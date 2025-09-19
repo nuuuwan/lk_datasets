@@ -18,7 +18,7 @@ In Sri Lanka, the Hansard is especially important because it provides citizens, 
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:19:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:46:59-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -34,7 +34,7 @@ In Sri Lanka, the Court of Appeal plays this role, shaping how laws are interpre
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:21:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:51:42-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -66,13 +66,13 @@ In Sri Lanka, police press releases are especially relevant because they provide
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:34:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:06:07-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
 A legal act in Sri Lanka is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**2,250** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**25.7 MB**), from **2004-12-21** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
+- [**2,250** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**57.8 MB**), from **2004-12-21** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
 
 - In **JSON**, **PDF** (1%), **TXT** (1%) & **🤗 Hugging Face** (1%)
 
@@ -80,15 +80,15 @@ A legal act in Sri Lanka is a law passed by Parliament that governs rights, duti
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_17:34:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--19_18:15:45-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
-A Bill in Sri Lanka is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
+A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,003** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**32.4 MB**), from **2010-10-19** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
+- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**55.9 MB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
 
-- In **JSON**, **PDF** (0%), **TXT** (0%) & **🤗 Hugging Face** (0%)
+- In **JSON**, **PDF** (1%), **TXT** (1%) & **🤗 Hugging Face** (1%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
