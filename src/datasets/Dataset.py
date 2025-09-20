@@ -68,4 +68,8 @@ class Dataset:
             for doc_class_label in doc_class_labels:
                 dataset = cls(repo_name, doc_class_label)
                 datasets.append(dataset)
+        datasets.sort(
+            key=lambda d: (d.summary.get("date_str_max")),
+            reverse=True,
+        )
         return datasets
