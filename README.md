@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**8** datasets, with **124,122** documents (**63.7 GB**).
+**8** datasets, with **124,524** documents (**64.1 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:50:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:24:57-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:51:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:32:58-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -36,7 +36,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 003 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_16:06:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:16:59-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -52,13 +52,13 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:42:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:20:47-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**9.9 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
+- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**10.1 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -68,13 +68,13 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:55:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:33:43-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**100,958** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**10.0 GB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
+- [**100,958** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**10.1 GB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
 
 - In **JSON**, **PDF** (2%), **TXT** (2%) & **🤗 Hugging Face** (2%)
 
@@ -84,13 +84,13 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 006 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:27:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:29:54-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
 A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.
 
-- [**1,192** documents](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions) (**41.4 MB**), from **2011-02-02** to **2025-09-15**, scraped from **[https://www.cabinetoffice.gov.lk/cab/index.php](https://www.cabinetoffice.gov.lk/cab/index.php)**
+- [**1,594** documents](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions) (**46.0 MB**), from **2011-02-02** to **2025-09-15**, scraped from **[https://www.cabinetoffice.gov.lk/cab/index.php](https://www.cabinetoffice.gov.lk/cab/index.php)**
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
@@ -100,7 +100,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 007 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:35:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:29:03-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -116,15 +116,15 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 008 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_17:58:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_18:37:01-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
 A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**9.9 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
+- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**10.1 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
 
-- In **JSON**, **PDF** (83%), **TXT** (83%) & **🤗 Hugging Face** (83%)
+- In **JSON**, **PDF** (85%), **TXT** (85%) & **🤗 Hugging Face** (85%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
