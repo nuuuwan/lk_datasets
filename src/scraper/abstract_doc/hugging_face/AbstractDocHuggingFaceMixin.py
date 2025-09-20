@@ -1,9 +1,9 @@
 import os
 
 import pandas as pd
+from datasets import Dataset
 from utils import Hash, Log
 
-from datasets import Dataset
 from utils_future import BigJSONFile, Chunker
 
 log = Log("AbstractDocHuggingFaceMixin")
