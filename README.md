@@ -1,5 +1,7 @@
 # 🇱🇰 #SriLanka `Datasets`
 
+**8** datasets, with **123,620** documents (**58.1 GB**).
+
 ## 001 ⚖️ Appeal Court Judgements
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--20_10:11:11-green)

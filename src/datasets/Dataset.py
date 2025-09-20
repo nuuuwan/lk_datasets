@@ -1,4 +1,4 @@
-from functools import cached_property
+from functools import cache, cached_property
 
 import requests
 from utils import Log
@@ -59,6 +59,7 @@ class Dataset:
         }
 
     @classmethod
+    @cache
     def list_all(cls) -> list["Dataset"]:
         datasets = []
         for (
@@ -73,3 +74,17 @@ class Dataset:
             reverse=True,
         )
         return datasets
+
+    @classmethod
+    @cache
+    def get_global_summary(cls) -> dict:
+        summary_list = [
+            dataset.summary for dataset in cls.list_all() if dataset.summary
+        ]
+        return dict(
+            n_datasets=len(summary_list),
+            n_docs=sum([s.get("n_docs", 0) for s in summary_list]),
+            all_dataset_size=sum(
+                [s.get("dataset_size", 0) for s in summary_list]
+            ),
+        )
