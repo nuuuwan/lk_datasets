@@ -37,7 +37,11 @@ class ReadMe:
             .strip()[2:]
         )
         header_lines[0] = first_header_line
-        return header_lines + AbstractDoc.get_lines_for_blurb(summary)
+        return (
+            header_lines
+            + AbstractDoc.get_lines_for_blurb(summary)
+            + AbstractDoc.get_lines_chart_docs_by_year_and_lang(summary)
+        )
 
     @classmethod
     def get_lines_for_datasets(cls) -> list[str]:
