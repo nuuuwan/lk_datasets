@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,485** documents (**79.0 GB**).
+**10** datasets, with **134,485** documents (**79.1 GB**).
 
 ## 001 👮‍♂️ Police Press Releases
 
@@ -20,7 +20,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:09:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:49:54-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -36,7 +36,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:13:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:43:04-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -52,13 +52,13 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:11:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:42:04-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**14.9 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
+- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**15.0 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -68,7 +68,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:24:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:56:24-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -100,13 +100,13 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:14:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:46:12-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
 A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**14.9 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
+- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**15.0 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -116,7 +116,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_19:52:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_20:53:38-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
