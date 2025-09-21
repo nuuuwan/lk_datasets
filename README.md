@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**9** datasets, with **129,333** documents (**75.1 GB**).
+**9** datasets, with **129,333** documents (**75.5 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:14:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:49:58-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:16:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:43:11-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -52,13 +52,13 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:11:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:41:27-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**13.7 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
+- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**13.8 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -68,13 +68,13 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:27:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:58:55-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**100,958** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**13.7 GB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
+- [**100,958** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**13.8 GB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
 
 - In **JSON**, **PDF** (5%), **TXT** (5%) & **🤗 Hugging Face** (5%)
 
@@ -100,13 +100,13 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:16:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_14:47:35-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
 A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**13.7 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
+- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**13.8 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
