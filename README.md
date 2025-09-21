@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**8** datasets, with **122,982** documents (**72.4 GB**).
+**8** datasets, with **123,455** documents (**72.6 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:17:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:19:21-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:19:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:04:07-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -36,29 +36,29 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 003 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:20:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:28:45-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-- [**678** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**232.1 MB**), from **2025-05-01** to **2025-09-19**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
+- [**678** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**232.4 MB**), from **2025-05-01** to **2025-09-19**, scraped from **[https://www.police.lk/](https://www.police.lk/)**
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
 - In **සිංහල**
 
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_year_and_lang.png)
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
 
 ## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:09:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:09:54-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**12.8 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
+- [**4,056** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**12.9 GB**), from **2010-05-10** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/bills/bl_2025.html](https://documents.gov.lk/view/bills/bl_2025.html)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -68,7 +68,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:21:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:23:17-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -100,13 +100,13 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:12:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:15:22-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
 A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**12.8 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
+- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**12.9 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk/view/acts/acts_2025.html](https://documents.gov.lk/view/acts/acts_2025.html)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -116,19 +116,19 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:21:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_08:31:26-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
 A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.
 
-- [**52** documents](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions) (**603.4 kB**), from **2025-08-18** to **2025-09-08**, scraped from **[https://www.cabinetoffice.gov.lk/cab/index.php](https://www.cabinetoffice.gov.lk/cab/index.php)**
+- [**525** documents](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions) (**2.7 MB**), from **2024-11-25** to **2025-09-08**, scraped from **[https://www.cabinetoffice.gov.lk/cab/index.php](https://www.cabinetoffice.gov.lk/cab/index.php)**
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
 - In **English**
 
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_cabinet_decisions/refs/heads/data/data/lk_cabinet_decisions/docs_by_year_and_lang.png)
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_cabinet_decisions/refs/heads/data/data/lk_cabinet_decisions/docs_by_month_and_lang.png)
 
 ---
 
