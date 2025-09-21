@@ -57,6 +57,7 @@ class Dataset:
             ],
             "lk_cabinet_decisions": ["lk_cabinet_decisions"],
             "lk_treasury": ["lk_treasury_press_releases"],
+            "lk_pmd": ["lk_pmd_press_releases"],
         }
 
     @classmethod
