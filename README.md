@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**9** datasets, with **126,907** documents (**74.2 GB**).
+**9** datasets, with **126,905** documents (**74.3 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:24:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:37:45-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:19:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:43:10-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -52,7 +52,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:15:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:41:00-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -68,7 +68,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:30:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:55:55-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -100,7 +100,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:20:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:46:02-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -132,15 +132,15 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 009 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:25:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_12:58:58-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
 A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.
 
-- [**135** documents](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases) (**145.5 MB**), from **2015-09-08** to **2025-07-30**, scraped from **[https://www.treasury.gov.lk//web/press-releases/section/2025](https://www.treasury.gov.lk//web/press-releases/section/2025)**
+- [**133** documents](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases) (**74.3 MB**), from **2015-09-08** to **2025-07-30**, scraped from **[https://www.treasury.gov.lk//web/press-releases/section/2025](https://www.treasury.gov.lk//web/press-releases/section/2025)**
 
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+- In **JSON**, **PDF** (99%), **TXT** (99%) & **🤗 Hugging Face** (99%)
 
 - In **සිංහල** & **English**
 
