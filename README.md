@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**8** datasets, with **127,157** documents (**72.3 GB**).
+**8** datasets, with **122,982** documents (**72.4 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:27:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:17:58-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:36:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:19:07-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -52,7 +52,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:24:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:09:05-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -68,13 +68,13 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:37:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:21:45-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**100,958** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**12.8 GB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
+- [**100,958** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**12.9 GB**), from **2010-01-01** to **2025-09-18**, scraped from **[https://documents.gov.lk/view/extra-gazettes/egz_2025.html](https://documents.gov.lk/view/extra-gazettes/egz_2025.html)**
 
 - In **JSON**, **PDF** (4%), **TXT** (4%) & **🤗 Hugging Face** (4%)
 
@@ -82,25 +82,9 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data/data/lk_extraordinary_gazettes/docs_by_year_and_lang.png)
 
-## 006 🏛️ Cabinet Decisions
+## 006 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_05:08:22-green)
-
-[https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
-
-A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.
-
-- [**4,227** documents](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions) (**116.1 MB**), from **2011-02-02** to **2025-09-15**, scraped from **[https://www.cabinetoffice.gov.lk/cab/index.php](https://www.cabinetoffice.gov.lk/cab/index.php)**
-
-- In **JSON**, **TXT** & **🤗 Hugging Face**
-
-- In **සිංහල**, **தமிழ்** & **English**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_cabinet_decisions/refs/heads/data/data/lk_cabinet_decisions/docs_by_year_and_lang.png)
-
-## 007 🏛️ Hansard
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:32:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:54:42-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -114,9 +98,9 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_hansard/refs/heads/data/data/lk_hansard/docs_by_year_and_lang.png)
 
-## 008 ⚖️ Acts
+## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_06:29:02-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:12:50-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -129,6 +113,22 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 - In **සිංහල**, **தமிழ்** & **English**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data/data/lk_acts/docs_by_year_and_lang.png)
+
+## 008 🏛️ Cabinet Decisions
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--21_07:21:56-green)
+
+[https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
+
+A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.
+
+- [**52** documents](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions) (**603.4 kB**), from **2025-08-18** to **2025-09-08**, scraped from **[https://www.cabinetoffice.gov.lk/cab/index.php](https://www.cabinetoffice.gov.lk/cab/index.php)**
+
+- In **JSON**, **TXT** & **🤗 Hugging Face**
+
+- In **English**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_cabinet_decisions/refs/heads/data/data/lk_cabinet_decisions/docs_by_year_and_lang.png)
 
 ---
 
