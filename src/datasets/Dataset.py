@@ -56,6 +56,7 @@ class Dataset:
                 "lk_extraordinary_gazettes",
             ],
             "lk_cabinet_decisions": ["lk_cabinet_decisions"],
+            "lk_treasury": ["lk_treasury_press_releases"],
         }
 
     @classmethod
