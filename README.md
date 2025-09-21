@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,495** documents (**81.8 GB**).
+**10** datasets, with **134,495** documents (**81.9 GB**).
 
 ## 001 👮‍♂️ Police Press Releases
 
@@ -20,13 +20,13 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 002 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:27:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:57:57-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**100,968** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**15.9 GB**), from **2010-01-01** to **2025-09-21**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
+- [**100,968** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes) (**16.0 GB**), from **2010-01-01** to **2025-09-21**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
 
 - In **JSON**, **PDF** (6%), **TXT** (6%) & **🤗 Hugging Face** (6%)
 
@@ -36,7 +36,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 003 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:07:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:40:38-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -52,7 +52,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 004 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:14:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:43:13-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -68,7 +68,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 005 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:11:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:41:57-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -100,7 +100,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:16:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:49:35-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -116,7 +116,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_03:53:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_04:53:13-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
