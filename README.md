@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,495** documents (**81.2 GB**).
+**10** datasets, with **134,495** documents (**81.4 GB**).
 
 ## 001 👮‍♂️ Police Press Releases
 
@@ -36,7 +36,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 003 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:19:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:40:12-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -52,7 +52,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 004 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:14:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:43:15-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -68,7 +68,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 005 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:10:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:41:19-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -100,7 +100,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:16:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:45:58-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -116,7 +116,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_01:54:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_02:52:35-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
