@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,495** documents (**84.1 GB**).
+**10** datasets, with **134,495** documents (**84.2 GB**).
 
 ## 001 👮‍♂️ Police Press Releases
 
@@ -20,7 +20,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 002 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_10:27:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_11:30:01-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -36,7 +36,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 003 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_10:14:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_11:06:24-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -52,7 +52,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 004 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_10:44:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_11:15:26-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -60,7 +60,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 - [**1,541** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.1 GB**), from **2016-07-22** to **2025-09-19**, scraped from **[https://supremecourt.lk](https://supremecourt.lk)**
 
-- In **JSON**, **PDF** (79%), **TXT** (79%) & **🤗 Hugging Face** (79%)
+- In **JSON**, **PDF** (80%), **TXT** (80%) & **🤗 Hugging Face** (80%)
 
 - In **English**
 
@@ -84,7 +84,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 006 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_10:19:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_11:25:36-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -148,7 +148,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_10:09:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--22_11:08:21-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
