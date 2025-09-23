@@ -4,7 +4,7 @@
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_23:52:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:25:49-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_23:42:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:19:55-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -36,7 +36,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 003 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_22:09:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:11:48-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -52,7 +52,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 004 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_23:57:16-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:31:35-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -68,7 +68,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 005 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_23:45:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:17:51-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -100,7 +100,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_23:49:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:23:55-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -148,7 +148,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_23:06:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_00:12:45-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
