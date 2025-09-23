@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,584** documents (**92.6 GB**).
+**10** datasets, with **134,589** documents (**92.7 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_15:38:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:22:44-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -18,9 +18,25 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
 
-## 002 👮‍♂️ Police Press Releases
+## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_14:10:00-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:16:47-green)
+
+[https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
+
+A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
+
+- [**1,551** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-23**, scraped from **[https://supremecourt.lk](https://supremecourt.lk)**
+
+- In **JSON**, **PDF** (83%), **TXT** (83%) & **🤗 Hugging Face** (83%)
+
+- In **English**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
+
+## 003 👮‍♂️ Police Press Releases
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:08:18-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -34,9 +50,9 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
 
-## 003 ⚖️ Bills
+## 004 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_15:43:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:14:58-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -50,9 +66,9 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data/data/lk_bills/docs_by_year_and_lang.png)
 
-## 004 ⚖️ Extraordinary Gazettes
+## 005 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_15:58:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:31:25-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -65,22 +81,6 @@ An Extraordinary Gazette is an official government publication used to announce 
 - In **සිංහල**, **தமிழ்** & **English**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data/data/lk_extraordinary_gazettes/docs_by_year_and_lang.png)
-
-## 005 ⚖️ Supreme Court Judgements
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_15:43:08-green)
-
-[https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
-
-A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
-
-- [**1,546** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-19**, scraped from **[https://supremecourt.lk](https://supremecourt.lk)**
-
-- In **JSON**, **PDF** (83%), **TXT** (83%) & **🤗 Hugging Face** (83%)
-
-- In **English**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
 
 ## 006 🏛️ Hansard
 
@@ -100,7 +100,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_15:48:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:20:41-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -148,7 +148,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_15:08:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_16:09:31-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
