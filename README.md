@@ -1,10 +1,26 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,516** documents (**92.0 GB**).
+**10** datasets, with **134,522** documents (**92.2 GB**).
 
-## 001 ⚖️ Appeal Court Judgements
+## 001 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_11:53:29-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:12:43-green)
+
+[https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
+
+A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
+
+- [**694** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**236.9 MB**), from **2025-05-01** to **2025-09-23**, scraped from **[https://www.police.lk](https://www.police.lk)**
+
+- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+
+- In **සිංහල**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
+
+## 002 ⚖️ Appeal Court Judgements
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:20:58-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -18,31 +34,15 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
 
-## 002 👮‍♂️ Police Press Releases
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_10:08:09-green)
-
-[https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
-
-A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
-
-- [**688** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**235.8 MB**), from **2025-05-01** to **2025-09-22**, scraped from **[https://www.police.lk](https://www.police.lk)**
-
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
-
-- In **සිංහල**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
-
 ## 003 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_11:44:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:19:28-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,059** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**19.2 GB**), from **2010-05-10** to **2025-09-22**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
+- [**4,059** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills) (**19.3 GB**), from **2010-05-10** to **2025-09-22**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -68,7 +68,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 005 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_11:43:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:21:26-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -84,7 +84,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_11:20:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:25:28-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -100,13 +100,13 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_11:47:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:25:37-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
 A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.
 
-- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**19.2 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
+- [**3,925** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts) (**19.3 GB**), from **1981-01-22** to **2025-09-10**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
 
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
@@ -148,7 +148,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_11:08:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--23_12:13:49-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
