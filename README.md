@@ -1,10 +1,26 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,630** documents (**92.8 GB**).
+**10** datasets, with **134,634** documents (**92.8 GB**).
 
-## 001 ⚖️ Appeal Court Judgements
+## 001 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_11:40:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:12:53-green)
+
+[https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
+
+A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
+
+- [**698** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**238.7 MB**), from **2025-05-01** to **2025-09-24**, scraped from **[https://www.police.lk](https://www.police.lk)**
+
+- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+
+- In **සිංහල**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
+
+## 002 ⚖️ Appeal Court Judgements
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:26:44-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -18,9 +34,9 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
 
-## 002 ⚖️ Supreme Court Judgements
+## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_11:42:41-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:20:36-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -28,31 +44,15 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 - [**1,554** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-23**, scraped from **[https://supremecourt.lk](https://supremecourt.lk)**
 
-- In **JSON**, **PDF** (84%), **TXT** (84%) & **🤗 Hugging Face** (84%)
+- In **JSON**, **PDF** (85%), **TXT** (85%) & **🤗 Hugging Face** (85%)
 
 - In **English**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
 
-## 003 👮‍♂️ Police Press Releases
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_10:08:39-green)
-
-[https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
-
-A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
-
-- [**694** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**237.9 MB**), from **2025-05-01** to **2025-09-23**, scraped from **[https://www.police.lk](https://www.police.lk)**
-
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
-
-- In **සිංහල**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
-
 ## 004 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_11:58:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:32:23-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_extraordinary_gazettes)
 
@@ -68,7 +68,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 005 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_11:45:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:19:20-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_bills)
 
@@ -100,7 +100,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_11:50:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:23:24-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data/data/lk_acts)
 
@@ -148,7 +148,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_11:07:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--24_12:13:39-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
