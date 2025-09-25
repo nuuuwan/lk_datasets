@@ -1,9 +1,9 @@
 import os
 
 import pandas as pd
+from datasets import Dataset
 from utils import Hash, Log
 
-from datasets import Dataset
 from utils_future import BigJSONFile, Chunker
 
 log = Log("AbstractDocHuggingFaceMixin")
@@ -97,5 +97,7 @@ class AbstractDocHuggingFaceMixin:
 
     @classmethod
     def build_and_upload_to_hugging_face(cls):
-        assert cls.list_all()
-        cls.upload_to_hugging_face()
+        try:
+            cls.upload_to_hugging_face()
+        except Exception as e:
+            log.error(f"Error uploading to Hugging Face: {e}")
