@@ -8,12 +8,19 @@ log = Log("Dataset")
 
 class Dataset:
 
-    def __init__(self, repo_name: str, doc_class_label: str):
+    def __init__(
+        self, repo_name: str, doc_class_label: str, is_multi_doc: bool
+    ):
         self.repo_name = repo_name
         self.doc_class_label = doc_class_label
+        self.is_multi_doc = is_multi_doc
 
     def __str__(self):
         return f"Dataset({self.repo_name}/{self.doc_class_label})"
+
+    @cached_property
+    def branch_name(self):
+        return f"data_{self.doc_class_label}" if self.is_multi_doc else "data"
 
     @cached_property
     def url_summary(self):
@@ -24,7 +31,7 @@ class Dataset:
                 self.repo_name,
                 "refs",
                 "heads",
-                "data",
+                self.branch_name,
                 "data",
                 self.doc_class_label,
                 "summary.json",
@@ -68,8 +75,9 @@ class Dataset:
             repo_name,
             doc_class_labels,
         ) in cls.get_repo_to_doc_classes().items():
+            is_multi_doc = len(doc_class_labels) > 1
             for doc_class_label in doc_class_labels:
-                dataset = cls(repo_name, doc_class_label)
+                dataset = cls(repo_name, doc_class_label, is_multi_doc)
                 datasets.append(dataset)
         datasets.sort(
             key=lambda d: (d.summary.get("date_str_max")),
