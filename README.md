@@ -1,10 +1,26 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,706** documents (**96.6 GB**).
+**10** datasets, with **134,707** documents (**96.6 GB**).
 
-## 001 ⚖️ Supreme Court Judgements
+## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:42:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_13:12:53-green)
+
+[https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
+
+A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.
+
+- [**10,119** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.3 GB**), from **2012-04-23** to **2025-09-25**, scraped from **[https://courtofappeal.lk](https://courtofappeal.lk)**
+
+- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+
+- In **English**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
+
+## 002 ⚖️ Supreme Court Judgements
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_13:13:18-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -17,22 +33,6 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 - In **English**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
-
-## 002 ⚖️ Appeal Court Judgements
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:43:51-green)
-
-[https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
-
-A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.
-
-- [**10,118** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.3 GB**), from **2012-04-23** to **2025-09-24**, scraped from **[https://courtofappeal.lk](https://courtofappeal.lk)**
-
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
-
-- In **English**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
 
 ## 003 👮‍♂️ Police Press Releases
 
@@ -148,7 +148,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:14:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_13:07:15-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data/data/lk_treasury_press_releases)
 
