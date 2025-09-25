@@ -1,10 +1,26 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,705** documents (**96.6 GB**).
+**10** datasets, with **134,706** documents (**96.6 GB**).
 
-## 001 ⚖️ Appeal Court Judgements
+## 001 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:27:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:42:38-green)
+
+[https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
+
+A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
+
+- [**1,556** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-25**, scraped from **[https://supremecourt.lk](https://supremecourt.lk)**
+
+- In **JSON**, **PDF** (86%), **TXT** (86%) & **🤗 Hugging Face** (86%)
+
+- In **English**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
+
+## 002 ⚖️ Appeal Court Judgements
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:43:51-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -18,7 +34,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
 
-## 002 👮‍♂️ Police Press Releases
+## 003 👮‍♂️ Police Press Releases
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:13:21-green)
 
@@ -33,22 +49,6 @@ A police press release is an official update from law enforcement on crimes, arr
 - In **සිංහල**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
-
-## 003 ⚖️ Supreme Court Judgements
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:20:54-green)
-
-[https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
-
-A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
-
-- [**1,555** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-23**, scraped from **[https://supremecourt.lk](https://supremecourt.lk)**
-
-- In **JSON**, **PDF** (86%), **TXT** (86%) & **🤗 Hugging Face** (86%)
-
-- In **English**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
 
 ## 004 ⚖️ Extraordinary Gazettes
 
@@ -116,7 +116,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_11:55:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_12:54:26-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
