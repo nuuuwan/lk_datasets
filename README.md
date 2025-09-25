@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,741** documents (**55.2 GB**).
+**10** datasets, with **133,302** documents (**33.9 GB**).
 
 ## 001 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:08:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:55:01-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -20,7 +20,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 002 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:11:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:42:16-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -52,7 +52,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 004 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:24:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:59:16-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
@@ -84,23 +84,23 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 006 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_09:37:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_18:13:34-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
 A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.
 
-- [**1,663** documents](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard) (**22.2 GB**), from **2006-02-01** to **2025-09-12**, scraped from **[https://www.parliament.lk](https://www.parliament.lk)**
+- [**224** documents](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard) (**964.5 MB**), from **2023-03-22** to **2025-09-12**, scraped from **[https://www.parliament.lk](https://www.parliament.lk)**
 
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
+- In **JSON**, **PDF** (29%), **TXT** (29%) & **🤗 Hugging Face** (29%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_hansard/refs/heads/data/data/lk_hansard/docs_by_year_and_lang.png)
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_hansard/refs/heads/data/data/lk_hansard/docs_by_month_and_lang.png)
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:14:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:40:43-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -116,7 +116,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_16:53:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--25_17:56:34-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
