@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**10** datasets, with **134,761** documents (**51.7 GB**).
+**11** datasets, with **135,219** documents (**51.7 GB**).
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_08:55:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:41:53-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -20,7 +20,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:22:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:43:11-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -36,7 +36,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:15:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:42:09-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -68,7 +68,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:13:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:39:53-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -100,15 +100,15 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:27:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:57:48-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**101,168** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes) (**13.1 GB**), from **2010-01-01** to **2025-09-23**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
+- [**101,168** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes) (**13.2 GB**), from **2010-01-01** to **2025-09-23**, scraped from **[https://documents.gov.lk](https://documents.gov.lk)**
 
-- In **JSON**, **PDF** (14%), **TXT** (13%) & **🤗 Hugging Face** (13%)
+- In **JSON**, **PDF** (14%), **TXT** (14%) & **🤗 Hugging Face** (14%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
@@ -116,7 +116,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_09:55:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:53:51-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -161,6 +161,22 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 - In **සිංහල**, **தமிழ்** & **English**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_pmd/refs/heads/data_lk_pmd_press_releases/data/lk_pmd_press_releases/docs_by_month_and_lang.png)
+
+## 011 📄 News
+
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_10:40:14-green)
+
+[https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
+
+A collection of lk_news documents.
+
+- [**458** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**6.4 MB**), from **2023-05-16** to **2025-09-26**, scraped from **[https://www.virakesari.lk](https://www.virakesari.lk)**
+
+- In **JSON**, **TXT** & **🤗 Hugging Face**
+
+- In **සිංහල**, **தமிழ்** & **English**
+
+![Chart](https://raw.githubusercontent.com/nuuuwan/lk_news/refs/heads/data/data/lk_news/docs_by_month_and_lang.png)
 
 ---
 
