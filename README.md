@@ -1,16 +1,16 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**11** datasets, with **135,611** documents (**51.9 GB**).
+**11** datasets, with **135,347** documents (**51.9 GB**).
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:40:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:45:11-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
 A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.
 
-- [**1,663** documents](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard) (**17.9 GB**), from **2006-02-01** to **2025-09-12**, scraped from [https://www.parliament.lk](https://www.parliament.lk)
+- [**1,664** documents](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard) (**17.9 GB**), from **2006-02-01** to **2025-09-23**, scraped from [https://www.parliament.lk](https://www.parliament.lk)
 
 - In **JSON**, **PDF** (98%), **TXT** (98%) & **🤗 Hugging Face** (98%)
 
@@ -20,7 +20,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:24:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:47:58-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -36,13 +36,13 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:18:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:42:05-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
 A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
 
-- [**1,565** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-26**, scraped from [https://supremecourt.lk](https://supremecourt.lk)
+- [**1,566** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.3 GB**), from **2016-07-22** to **2025-09-26**, scraped from [https://supremecourt.lk](https://supremecourt.lk)
 
 - In **JSON**, **PDF** (87%), **TXT** (87%) & **🤗 Hugging Face** (87%)
 
@@ -68,7 +68,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:15:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:39:43-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -100,7 +100,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:29:35-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:57:17-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
@@ -116,7 +116,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:55:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:54:25-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -164,13 +164,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 011 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:34:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_15:04:36-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**838** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**22.4 MB**), from **2022-07-12** to **2025-09-26**, scraped from [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk) & 13 more
+- [**572** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**17.4 MB**), from **2023-05-16** to **2025-09-26**, scraped from [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.ft.lk](https://www.ft.lk), [https://www.ada.lk](https://www.ada.lk), [https://economynext.com](https://economynext.com) & 5 more
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
