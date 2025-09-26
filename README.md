@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**11** datasets, with **135,282** documents (**51.7 GB**).
+**11** datasets, with **135,343** documents (**51.8 GB**).
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_11:43:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:46:57-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -20,7 +20,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:26:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:44:05-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -36,7 +36,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:19:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:42:17-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -68,7 +68,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:17:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:39:01-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -100,7 +100,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_11:58:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:40:12-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
@@ -116,7 +116,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 008 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_11:55:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:54:05-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -164,13 +164,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 011 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:27:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:45:28-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**515** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**14.6 MB**), from **2023-05-16** to **2025-09-26**, scraped from [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [https://economynext.com](https://economynext.com), [https://www.tamilmirror.lk](https://www.tamilmirror.lk) & 6 more
+- [**576** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**19.8 MB**), from **2023-05-16** to **2025-09-26**, scraped from [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [https://economynext.com](https://economynext.com), [https://www.divaina.lk](https://www.divaina.lk) & 8 more
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
