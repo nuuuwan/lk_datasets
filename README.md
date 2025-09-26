@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**11** datasets, with **135,574** documents (**51.8 GB**).
+**11** datasets, with **135,611** documents (**51.9 GB**).
 
 ## 001 🏛️ Hansard
 
@@ -20,13 +20,13 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:39:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:24:08-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
 A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.
 
-- [**10,120** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.3 GB**), from **2012-04-23** to **2025-09-25**, scraped from [https://courtofappeal.lk](https://courtofappeal.lk)
+- [**10,121** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.3 GB**), from **2012-04-23** to **2025-09-26**, scraped from [https://courtofappeal.lk](https://courtofappeal.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -36,13 +36,13 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:42:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:18:05-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
 A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
 
-- [**1,564** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-26**, scraped from [https://supremecourt.lk](https://supremecourt.lk)
+- [**1,565** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.2 GB**), from **2016-07-22** to **2025-09-26**, scraped from [https://supremecourt.lk](https://supremecourt.lk)
 
 - In **JSON**, **PDF** (87%), **TXT** (87%) & **🤗 Hugging Face** (87%)
 
@@ -52,13 +52,13 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 004 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_12:12:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:10:19-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.
 
-- [**702** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**240.6 MB**), from **2025-05-01** to **2025-09-25**, scraped from [https://www.police.lk](https://www.police.lk)
+- [**706** documents](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases) (**241.2 MB**), from **2025-05-01** to **2025-09-26**, scraped from [https://www.police.lk](https://www.police.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -68,7 +68,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:40:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:15:33-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -84,7 +84,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:34:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:34:43-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
@@ -100,7 +100,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:03:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:29:35-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
@@ -132,7 +132,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 009 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:06:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:11:44-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -164,13 +164,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 011 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_13:58:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--26_14:34:11-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**807** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**40.5 MB**), from **2022-07-12** to **2025-09-26**, scraped from [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk) & 13 more
+- [**838** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**22.4 MB**), from **2022-07-12** to **2025-09-26**, scraped from [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk) & 13 more
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
