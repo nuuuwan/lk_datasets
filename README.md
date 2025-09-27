@@ -20,7 +20,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_03:50:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:06:50-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -36,7 +36,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_03:41:13-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:12:56-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -52,7 +52,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 004 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_02:05:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:05:12-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -68,7 +68,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_03:40:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:09:59-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -84,7 +84,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_03:34:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:05:16-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
@@ -100,13 +100,13 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:00:00-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:29:47-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**101,237** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes) (**15.7 GB**), from **2010-01-01** to **2025-09-26**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
+- [**101,237** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes) (**15.8 GB**), from **2010-01-01** to **2025-09-26**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
 
 - In **JSON**, **PDF** (18%), **TXT** (17%) & **🤗 Hugging Face** (17%)
 
@@ -132,7 +132,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 009 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_03:06:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:07:03-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -164,7 +164,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 011 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_03:38:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--09--28_04:17:47-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
