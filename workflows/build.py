@@ -18,6 +18,10 @@ def main():
             "lk_treasury": ["lk_treasury_press_releases"],
             "lk_pmd": ["lk_pmd_press_releases"],
             "lk_news": ["lk_news"],
+            "lk_tourism": [
+                "lk_tourism_weekly_reports",
+                "lk_tourism_monthly_reports",
+            ],
         }
     ).build()
 
