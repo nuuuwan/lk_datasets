@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**13** datasets, with **215,567** documents (**59.7 GB**).
+**13** datasets, with **215,569** documents (**59.7 GB**).
 
 ## 001 🏛️ Hansard
 
@@ -36,7 +36,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:12:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:41:33-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -68,7 +68,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:09:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:40:09-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -84,7 +84,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:04:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:34:47-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
@@ -100,7 +100,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:29:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:59:07-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes)
 
@@ -164,13 +164,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 011 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:18:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_21:00:11-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**79,064** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**1.2 GB**), from **2021-09-12** to **2025-10-04**, scraped from [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.virakesari.lk](https://www.virakesari.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
+- [**79,066** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**1.2 GB**), from **2021-09-12** to **2025-10-04**, scraped from [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.virakesari.lk](https://www.virakesari.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
@@ -180,7 +180,7 @@ A collection of lk_news documents.
 
 ## 012 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_20:03:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_21:02:56-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -196,7 +196,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 013 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_19:34:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--04_21:03:21-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
