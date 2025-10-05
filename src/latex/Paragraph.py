@@ -19,13 +19,14 @@ class Paragraph:
             if isinstance(item, str):
                 str_items.append(item)
             else:
-                doc.append(NoEscape(" ".join(str_items)))
+                doc.append(NoEscape("\n ".join(str_items)))
                 str_items = []
                 if isinstance(item, (Cite, Footnote)):
                     doc.append(NoEscape("~"))
                 doc.append(item)
         if str_items:
             doc.append(NoEscape(" ".join(str_items)))
+        doc.append(NoEscape("\n"))
 
     @staticmethod
     def fill_doc_from_list(doc, items_list):
