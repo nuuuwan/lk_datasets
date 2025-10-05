@@ -14,28 +14,25 @@ class ArXivDocSectionAbstract:
         n_datasets = global_summary["n_datasets"]
 
         doc.append(NoEscape(r"\begin{abstract}"))
-
         Paragraph(
             [
-                "We present a collection of open, machine-readable document"
-                + " datasets covering parliamentary proceedings,"
-                + " legal judgments, government publications, news, and"
-                + " tourism statistics from Sri Lanka.",
-                "",
-                f"As of {version},"
-                + f" the collection currently comprises {n_docs:,} documents "
-                + f"({all_dataset_size_humanized}) across"
-                + f" {n_datasets} datasets "
-                "in Sinhala, Tamil, and English,"
-                + " updated daily and mirrored on GitHub and Hugging Face.",
-                "",
-                "These datasets aim to support research in computational"
-                + " linguistics, legal analytics, socio-political studies,"
-                + " and multilingual natural language processing.",
-                "",
-                "We describe the sources, collection pipeline,"
-                + " formats, and potential use cases,"
-                + " while discussing licensing and ethical considerations.",
+                "We present a collection of open, machine-readable",
+                "document datasets covering parliamentary",
+                "proceedings, legal judgments, government",
+                "publications, news, and tourism statistics from",
+                "Sri Lanka.",
+                f"As of {version}, the collection currently comprises",
+                f"{n_docs:,} documents ({all_dataset_size_humanized})",
+                f"across {n_datasets} datasets in Sinhala, Tamil, and",
+                "English. The datasets are updated daily and mirrored",
+                "on GitHub and Hugging Face.",
+                "These resources aim to support research in",
+                "computational linguistics, legal analytics,",
+                "socio-political studies, and multilingual natural",
+                "language processing.",
+                "We describe the data sources, collection pipeline,",
+                "formats, and potential use cases, while discussing",
+                "licensing and ethical considerations.",
             ]
         ).fill_doc(doc)
         doc.append(NoEscape(r"\end{abstract}"))
