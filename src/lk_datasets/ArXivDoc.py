@@ -1,7 +1,7 @@
 import os
 
-from pylatex import Command, Document, Itemize, Package, Section, Subsection
-from pylatex.utils import NoEscape
+from pylatex import Command, Document, Enumerate, Package, Section
+from pylatex.utils import NoEscape, bold, italic
 from utils import File, Log, Time, TimeFormat
 
 from latex import Cite, Paragraph
@@ -202,23 +202,25 @@ class ArXivDoc(File):
             )
 
     @staticmethod
-    def fill_subsection_dataset(doc, summary):
+    def fill_subsection_dataset(enumer, summary):
         title = Latex.clean(summary["doc_class_label"]).title()
         description = Latex.clean(summary["doc_class_description"])
-        with doc.create(Subsection(title)):
-            doc.append(description)
-            with doc.create(Itemize()) as itemize:
-                itemize.add_item(
-                    "Number of Documents: " + f'{summary["n_docs"]:,}'
+        n_docs = summary["n_docs"]
+        dataset_size_humanized = File.humanize_size(summary["dataset_size"])
+        date_str_min = summary["date_str_min"]
+        date_str_max = summary["date_str_max"]
+        enumer.add_item(
+            NoEscape(
+                bold(title)
+                + ": "
+                + description
+                + italic(
+                    f" ({n_docs:,} documents, "
+                    + f" {dataset_size_humanized}, "
+                    + f" from {date_str_min} to {date_str_max})"
                 )
-                itemize.add_item(
-                    "Date Range: "
-                    + f'{summary["date_str_min"]} to {summary["date_str_max"]}'
-                )
-                itemize.add_item(
-                    "Dataset Size: "
-                    + f'{File.humanize_size(summary["dataset_size"])}'
-                )
+            )
+        )
 
     @staticmethod
     def fill_section_datasets(doc, version, summary_list):
@@ -228,8 +230,9 @@ class ArXivDoc(File):
                 f"As of {version}, Sri Lanka Document Datasets"
                 + f" consists of {n} datasets."
             )
-            for summary in summary_list:
-                ArXivDoc.fill_subsection_dataset(doc, summary)
+            with doc.create(Enumerate()) as enumer:
+                for summary in summary_list:
+                    ArXivDoc.fill_subsection_dataset(enumer, summary)
 
     @staticmethod
     def fill_section_data_collection_pipeline(doc):
