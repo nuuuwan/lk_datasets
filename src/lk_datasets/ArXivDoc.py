@@ -499,7 +499,6 @@ class ArXivDoc(File):
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
         os.system(f"bibtex {self.PATH_PREFIX}")
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
-        doc.generate_pdf(self.PATH_PREFIX, clean=False, clean_tex=False)
+        doc.generate_pdf(self.PATH_PREFIX, clean=True, clean_tex=False)
         assert os.path.exists(self.PDF_PATH)
-        log.info(f"Generated {File(self.PDF_PATH)}")
         log.info(f"Generated {File(self.PDF_PATH)}")
