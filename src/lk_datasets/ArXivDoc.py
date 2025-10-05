@@ -2,7 +2,7 @@ import os
 
 from pylatex import Command, Document, Itemize, Package, Section, Subsection
 from pylatex.utils import NoEscape
-from utils import File, Log
+from utils import File, Log, Time, TimeFormat
 
 from latex import Cite, Paragraph
 from lk_datasets.LKDatasetsGlobalReadMe import LKDatasetsGlobalReadMe
@@ -21,9 +21,10 @@ class ArXivDoc(File):
         lk_datasets_global_readme = LKDatasetsGlobalReadMe()
         self.summary_list = lk_datasets_global_readme.summary_list
         self.global_summary = lk_datasets_global_readme.global_summary
+        self.version = TimeFormat("v%Y%m%d").format(Time.now())
 
     @staticmethod
-    def fill_preamble(doc):
+    def fill_preamble(doc, version):
 
         # ACL-compatible setup
         doc.packages.append(Package("times"))
@@ -31,14 +32,15 @@ class ArXivDoc(File):
         doc.packages.append(Package("textcomp"))
         doc.packages.append(Package("lastpage"))
         doc.packages.append(Package("hyperref"))
-        doc.packages.append(NoEscape(r"\usepackage[numbers]{natbib}"))
+        # doc.packages.append(NoEscape(r"\usepackage[numbers]{natbib}"))
+        doc.packages.append(Package("acl", options="hyperref"))
 
         doc.preamble.append(
             Command(
                 "title",
                 "Sri Lanka Document Datasets:"
                 + " A Large-Scale, Multilingual Resource for"
-                + " Law, News, and Policy",
+                + f" Law, News, and Policy ({version})",
             )
         )
         email = "nuwans@alumni.stanford.edu"
@@ -47,6 +49,7 @@ class ArXivDoc(File):
                 "author",
                 NoEscape(
                     r"Nuwan I. Senaratna\\"
+                    r"Independent Researcher\\"
                     r"\vspace{0.25em}\texttt{\href{mailto:%s}{%s}}"
                     % (email, email)
                 ),
@@ -56,8 +59,8 @@ class ArXivDoc(File):
         doc.append(NoEscape(r"\maketitle"))
 
     @staticmethod
-    def fill_abstract(doc, global_summary):
-        n_docs = global_summary["n_docs"]
+    def fill_abstract(doc, version, global_summary):
+        global_summary["n_docs"]
         all_dataset_size_humanized = File.humanize_size(
             global_summary["all_dataset_size"]
         )
@@ -72,7 +75,8 @@ class ArXivDoc(File):
                 + " legal judgments, government publications, news, and"
                 + " tourism statistics from Sri Lanka.",
                 "",
-                f"The collection currently comprises {n_docs:,} documents "
+                f"As of {version},"
+                + " the collection currently comprises {n_docs:,} documents "
                 + f"({all_dataset_size_humanized}) across"
                 + f" {n_datasets} datasets "
                 "in Sinhala, Tamil, and English,"
@@ -205,9 +209,6 @@ class ArXivDoc(File):
             doc.append(description)
             with doc.create(Itemize()) as itemize:
                 itemize.add_item(
-                    "Time Updated: " + f'{summary["time_updated"]}'
-                )
-                itemize.add_item(
                     "Number of Documents: " + f'{summary["n_docs"]:,}'
                 )
                 itemize.add_item(
@@ -220,8 +221,13 @@ class ArXivDoc(File):
                 )
 
     @staticmethod
-    def fill_section_datasets(doc, summary_list):
+    def fill_section_datasets(doc, version, summary_list):
+        n = len(summary_list)
         with doc.create(Section("Datasets")):
+            doc.append(
+                f"As of {version}, Sri Lanka Document Datasets"
+                + f" consists of {n} datasets."
+            )
             for summary in summary_list:
                 ArXivDoc.fill_subsection_dataset(doc, summary)
 
@@ -447,22 +453,25 @@ class ArXivDoc(File):
 
     @staticmethod
     def fill_end(doc):
-        doc.append(NoEscape(r"\bibliographystyle{unsrtnat}"))
+        # doc.append(NoEscape(r"\bibliographystyle{unsrtnat}"))
+        # doc.append(NoEscape(r"\bibliography{latex/references}"))
+        doc.append(NoEscape(r"\bibliographystyle{acl_natbib}"))
         doc.append(NoEscape(r"\bibliography{latex/references}"))
 
     def build_with_pylatex(self):
         doc = Document(
             documentclass="article",
-            document_options=["11pt", "a4paper", "twocolumn"],  # 👈 key bit
+            # document_options=["10pt", "a4paper", "twocolumn"],
+            document_options=["10pt", "a4paper"],
         )
 
-        self.fill_preamble(doc)
-        self.fill_abstract(doc, self.global_summary)
+        self.fill_preamble(doc, self.version)
+        self.fill_abstract(doc, self.version, self.global_summary)
 
         self.fill_section_introduction(doc)
         self.fill_section_related_work(doc)
 
-        self.fill_section_datasets(doc, self.summary_list)
+        self.fill_section_datasets(doc, self.version, self.summary_list)
 
         self.fill_section_data_collection_pipeline(doc)
         self.fill_section_licensing_and_access(doc)

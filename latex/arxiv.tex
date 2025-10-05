@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,twocolumn]{article}%
+\documentclass[10pt,a4paper]{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
 \usepackage{lmodern}%
@@ -6,17 +6,17 @@
 \usepackage{lastpage}%
 \usepackage{times}%
 \usepackage{hyperref}%
-\usepackage[numbers]{natbib}%
+\usepackage[hyperref]{acl}%
 %
-\title{Sri Lanka Document Datasets: A Large{-}Scale, Multilingual Resource for Law, News, and Policy}%
-\author{Nuwan I. Senaratna\\\vspace{0.25em}\texttt{\href{mailto:nuwans@alumni.stanford.edu}{nuwans@alumni.stanford.edu}}}%
+\title{Sri Lanka Document Datasets: A Large{-}Scale, Multilingual Resource for Law, News, and Policy (v20251005)}%
+\author{Nuwan I. Senaratna\\Independent Researcher\\\vspace{0.25em}\texttt{\href{mailto:nuwans@alumni.stanford.edu}{nuwans@alumni.stanford.edu}}}%
 \date{\today}%
 %
 \begin{document}%
 \normalsize%
 \maketitle%
 \begin{abstract}%
-We present a collection of open, machine{-}readable document datasets covering parliamentary proceedings, legal judgments, government publications, news, and tourism statistics from Sri Lanka.  The collection currently comprises 215,552 documents (59.6 GB) across 13 datasets in Sinhala, Tamil, and English, updated daily and mirrored on GitHub and Hugging Face.  These datasets aim to support research in computational linguistics, legal analytics, socio{-}political studies, and multilingual natural language processing.  We describe the sources, collection pipeline, formats, and potential use cases, while discussing licensing and ethical considerations.%
+We present a collection of open, machine{-}readable document datasets covering parliamentary proceedings, legal judgments, government publications, news, and tourism statistics from Sri Lanka.  As of v20251005, the collection currently comprises \{n\_docs:,\} documents (59.6 GB) across 13 datasets in Sinhala, Tamil, and English, updated daily and mirrored on GitHub and Hugging Face.  These datasets aim to support research in computational linguistics, legal analytics, socio{-}political studies, and multilingual natural language processing.  We describe the sources, collection pipeline, formats, and potential use cases, while discussing licensing and ethical considerations.%
 \newline%
 \newline%
 \end{abstract}%
@@ -70,12 +70,11 @@ The Sri Lanka Document Datasets aim to fill this gap by aggregating diverse sour
 %
 \section{Datasets}%
 \label{sec:Datasets}%
+As of \{version\}, Sri Lanka Document Datasets consists of 13 datasets.%
 \subsection{Hansard}%
 \label{subsec:Hansard}%
 A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:36:13%
 \item%
 Number of Documents: 1,665%
 \item%
@@ -90,8 +89,6 @@ Dataset Size: 17.9 GB%
 A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.%
 \begin{itemize}%
 \item%
-Time Updated: 2025{-}10{-}04 18:44:41%
-\item%
 Number of Documents: 10,146%
 \item%
 Date Range: 2012{-}04{-}23 to 2025{-}10{-}03%
@@ -104,8 +101,6 @@ Dataset Size: 10.3 GB%
 \label{subsec:SupremeCourtJudgements}%
 A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:44:12%
 \item%
 Number of Documents: 1,575%
 \item%
@@ -120,8 +115,6 @@ Dataset Size: 1.3 GB%
 A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.%
 \begin{itemize}%
 \item%
-Time Updated: 2025{-}10{-}04 18:28:49%
-\item%
 Number of Documents: 736%
 \item%
 Date Range: 2025{-}05{-}01 to 2025{-}10{-}03%
@@ -134,8 +127,6 @@ Dataset Size: 250.5 MB%
 \label{subsec:Acts}%
 A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:42:02%
 \item%
 Number of Documents: 3,928%
 \item%
@@ -150,8 +141,6 @@ Dataset Size: 6.8 GB%
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.%
 \begin{itemize}%
 \item%
-Time Updated: 2025{-}10{-}04 18:37:26%
-\item%
 Number of Documents: 4,077%
 \item%
 Date Range: 2010{-}05{-}10 to 2025{-}10{-}26%
@@ -164,8 +153,6 @@ Dataset Size: 1.8 GB%
 \label{subsec:ExtraordinaryGazettes}%
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:39:51%
 \item%
 Number of Documents: 101,532%
 \item%
@@ -180,8 +167,6 @@ Dataset Size: 19.4 GB%
 A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.%
 \begin{itemize}%
 \item%
-Time Updated: 2025{-}10{-}04 18:08:09%
-\item%
 Number of Documents: 10,369%
 \item%
 Date Range: 2010{-}09{-}27 to 2025{-}09{-}22%
@@ -194,8 +179,6 @@ Dataset Size: 125.3 MB%
 \label{subsec:TreasuryPressReleases}%
 A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:18:09%
 \item%
 Number of Documents: 133%
 \item%
@@ -210,8 +193,6 @@ Dataset Size: 142.9 MB%
 A Sri Lanka Presidential Media Division press release shares official updates on national decisions, policies, or events. It’s vital as the authoritative source ensuring transparency and public awareness.%
 \begin{itemize}%
 \item%
-Time Updated: 2025{-}09{-}26 08:23:47%
-\item%
 Number of Documents: 2,182%
 \item%
 Date Range: 2024{-}09{-}23 to 2025{-}09{-}24%
@@ -224,8 +205,6 @@ Dataset Size: 55.9 MB%
 \label{subsec:News}%
 A collection of news documents.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:41:30%
 \item%
 Number of Documents: 79,049%
 \item%
@@ -240,8 +219,6 @@ Dataset Size: 1.2 GB%
 Report on Weekly Tourist Arrivals to Sri Lanka.%
 \begin{itemize}%
 \item%
-Time Updated: 2025{-}10{-}04 18:36:40%
-\item%
 Number of Documents: 33%
 \item%
 Date Range: 2023{-}01{-}01 to 2025{-}09{-}01%
@@ -254,8 +231,6 @@ Dataset Size: 91.5 MB%
 \label{subsec:TourismMonthlyReports}%
 Report on Monthly Tourist Arrivals to Sri Lanka.%
 \begin{itemize}%
-\item%
-Time Updated: 2025{-}10{-}04 18:36:59%
 \item%
 Number of Documents: 127%
 \item%
@@ -372,6 +347,6 @@ Together, these directions will further improve coverage, data quality, and usab
 \newline
 
 %
-\bibliographystyle{unsrtnat}%
+\bibliographystyle{acl_natbib}%
 \bibliography{latex/references}%
 \end{document}
