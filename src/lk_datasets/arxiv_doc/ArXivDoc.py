@@ -1,4 +1,5 @@
 import os
+import shutil
 
 from pylatex import Document
 from utils import File, Log, Time, TimeFormat
@@ -35,7 +36,8 @@ class ArXivDoc(
     ArXivDocSection6ConclusionAndFutureWork,
     ArXivDocEnd,
 ):
-    PATH_PREFIX = os.path.join("latex", "arxiv")
+    DOC_ID = "lk_datasets"
+    PATH_PREFIX = os.path.join("latex", DOC_ID)
     TEX_PATH = PATH_PREFIX + ".tex"
     PDF_PATH = PATH_PREFIX + ".pdf"
 
@@ -69,6 +71,10 @@ class ArXivDoc(
         assert os.path.exists(self.TEX_PATH)
         log.info(f"Wrote {File(self.TEX_PATH)}")
 
+        shutil.copy(
+            os.path.join("latex", "references.bib"),
+            os.path.join(self.PATH_PREFIX + ".bib"),
+        )
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
         os.system(f"bibtex {self.PATH_PREFIX}")
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
