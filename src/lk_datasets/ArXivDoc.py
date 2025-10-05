@@ -1,3 +1,4 @@
+import json
 import os
 
 from pylatex import Command, Document, Enumerate, Package, Section
@@ -20,6 +21,7 @@ class ArXivDoc(File):
         super().__init__(self.TEX_PATH)
         lk_datasets_global_readme = LKDatasetsGlobalReadMe()
         self.summary_list = lk_datasets_global_readme.summary_list
+        print(json.dumps(self.summary_list, indent=2))
         self.global_summary = lk_datasets_global_readme.global_summary
         self.version = TimeFormat("v%Y%m%d").format(Time.now())
 
@@ -253,7 +255,6 @@ class ArXivDoc(File):
                 doc,
                 [
                     [
-                        "Data Collection Pipeline",
                         "Our pipeline is automated, reproducible, and",
                         "resilient. It continuously discovers, ingests,",
                         "parses, validates, and versions documents from",
@@ -468,14 +469,12 @@ class ArXivDoc(File):
 
     @staticmethod
     def fill_end(doc):
-        # doc.append(NoEscape(r"\bibliographystyle{unsrtnat}"))
         doc.append(NoEscape(r"\bibliographystyle{acl_natbib}"))
         doc.append(NoEscape(r"\bibliography{latex/references}"))
 
-    def build_with_pylatex(self):
+    def build(self):
         doc = Document(
             documentclass="article",
-            # document_options=["10pt", "a4paper", "twocolumn"],
             document_options=["10pt", "a4paper"],
         )
 
