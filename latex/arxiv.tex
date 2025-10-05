@@ -178,7 +178,7 @@ Raw artifacts are preserved alongside parsed
 .%
 
 %
-PDF parsing uses PyMuPDF (fitz). For each PDF,
+PDF parsing uses PyMuPDF (also known as fitz). For each PDF,
  we extract text, metadata, and layout blocks,
  retain page boundaries, and normalize Unicode.
  When images contain embedded text, PyMuPDF’s
@@ -188,44 +188,16 @@ PDF parsing uses PyMuPDF (fitz). For each PDF,
 .%
 
 %
-The parser records coordinates for blocks,
- allowing approximate structure recovery
- (sections, headings, tables) where present.
- Heuristics join hyphenated lines and
- preserve numbering and legal citations%
-~%
-\citep{DocumentLayoutAnalysis2021}%
-.%
+The parser records coordinates for blocks, allowing approximate structure recovery (sections, headings, tables) where present. Heuristics join hyphenated lines and preserve numbering and legal citations .%
 
 %
-Quality gates run in CI. Schemas are validated,
- required fields are enforced, and checksums
- guard against corruption. Unit tests cover
- fetching, parsing, and serialization, and
- fail the job on regressions%
-~%
-\citep{DataQuality2022}%
-.%
+Quality gates run in CI. Schemas are validated, required fields are enforced, and checksums guard against corruption. Unit tests cover fetching, parsing, and serialization, and fail the job on regressions .%
 
 %
-Historical coverage was built via a
- back-population pipeline. We iterate over
- archival indexes and date ranges, enqueue
- jobs in batches, checkpoint progress, and
- resume safely after interruptions%
-~%
-\citep{HistoricalWebData2019}%
-.%
+Historical coverage was built via a back-population pipeline. We iterate over archival indexes and date ranges, enqueue jobs in batches, checkpoint progress, and resume safely after interruptions .%
 
 %
-Transparency is prioritized. Run metadata,
- document counts, and last-updated timestamps
- are published to README badges. Commit
- messages summarize deltas, enabling clear,
- auditable provenance across releases%
-~%
-\citep{OpenDataPractices2020}%
-.%
+Transparency is prioritized. Run metadata, document counts, and last-updated timestamps are published to README badges. Commit messages summarize deltas, enabling clear, auditable provenance across releases .%
 
 %
 \section{Licensing and Access}%

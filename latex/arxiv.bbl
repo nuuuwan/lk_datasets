@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Ashraf et~al.(2022)}]{MLOpsSurvey2022}
@@ -6,11 +6,6 @@ Omar Ashraf et~al. 2022.
 \newblock \href {https://doi.org/10.1016/j.jss.2022.111223} {A survey on mlops:
   Building reliable machine learning systems}.
 \newblock \emph{Journal of Systems and Software}.
-
-\bibitem[{Ben-David et~al.(2019)}]{HistoricalWebData2019}
-Eytan Ben-David et~al. 2019.
-\newblock Archival web data collection and preservation at scale.
-\newblock In \emph{Proceedings of the Web Archiving Conference}.
 
 \bibitem[{Blaustein et~al.(2020)}]{DataVersioning2020}
 Nathan Blaustein et~al. 2020.
@@ -29,22 +24,10 @@ Marijn Janssen et~al. 2020.
   practices and governance: A comprehensive framework}.
 \newblock \emph{Government Information Quarterly}.
 
-\bibitem[{Li et~al.(2021)}]{DocumentLayoutAnalysis2021}
-Chen Li et~al. 2021.
-\newblock \href {https://doi.org/10.1016/j.patrec.2021.07.014} {Document layout
-  analysis via geometric and semantic segmentation}.
-\newblock \emph{Pattern Recognition Letters}.
-
 \bibitem[{Pant and Srinivasan(2021)}]{WebCrawlingBestPractices2021}
 Gautam Pant and Padmini Srinivasan. 2021.
 \newblock Web crawling best practices: Ethics, efficiency, and effectiveness.
 \newblock In \emph{Proceedings of the Web Conference}.
-
-\bibitem[{Pipino et~al.(2022)}]{DataQuality2022}
-Leo Pipino et~al. 2022.
-\newblock \href {https://doi.org/10.1007/s10796-022-10314-2} {Data quality
-  assessment frameworks in data engineering}.
-\newblock \emph{Information Systems Frontiers}.
 
 \bibitem[{Stodden et~al.(2017)Stodden, Seiler, and
   Ma}]{ReproducibleResearch2017}

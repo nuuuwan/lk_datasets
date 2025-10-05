@@ -57,7 +57,7 @@ PARAGRAPH_ITEMS = [
         ".",
     ],
     [
-        "PDF parsing uses PyMuPDF (fitz). For each PDF,",
+        "PDF parsing uses PyMuPDF (also known as fitz). For each PDF,",
         "we extract text, metadata, and layout blocks,",
         "retain page boundaries, and normalize Unicode.",
         "When images contain embedded text, PyMuPDF’s",
@@ -71,7 +71,6 @@ PARAGRAPH_ITEMS = [
         "(sections, headings, tables) where present.",
         "Heuristics join hyphenated lines and",
         "preserve numbering and legal citations",
-        Cite("DocumentLayoutAnalysis2021"),
         ".",
     ],
     [
@@ -80,7 +79,6 @@ PARAGRAPH_ITEMS = [
         "guard against corruption. Unit tests cover",
         "fetching, parsing, and serialization, and",
         "fail the job on regressions",
-        Cite("DataQuality2022"),
         ".",
     ],
     [
@@ -89,7 +87,6 @@ PARAGRAPH_ITEMS = [
         "archival indexes and date ranges, enqueue",
         "jobs in batches, checkpoint progress, and",
         "resume safely after interruptions",
-        Cite("HistoricalWebData2019"),
         ".",
     ],
     [
@@ -98,7 +95,6 @@ PARAGRAPH_ITEMS = [
         "are published to README badges. Commit",
         "messages summarize deltas, enabling clear,",
         "auditable provenance across releases",
-        Cite("OpenDataPractices2020"),
         ".",
     ],
 ]
