@@ -1,9 +1,9 @@
-from lk_datasets import GlobalRLKDatasetsGlobalReadMeeadMe
+from lk_datasets import LKDatasetsGlobalReadMe
 
 
 def main():
 
-    GlobalRLKDatasetsGlobalReadMeeadMe().build()
+    LKDatasetsGlobalReadMe().build()
 
 
 if __name__ == "__main__":
