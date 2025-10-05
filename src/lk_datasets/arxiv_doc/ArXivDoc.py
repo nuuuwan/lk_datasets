@@ -12,19 +12,7 @@ from utils_future import Latex
 log = Log("ArXivDoc")
 
 
-class ArXivDoc(File):
-    PATH_PREFIX = os.path.join("latex", "arxiv")
-    TEX_PATH = PATH_PREFIX + ".tex"
-    PDF_PATH = PATH_PREFIX + ".pdf"
-
-    def __init__(self):
-        super().__init__(self.TEX_PATH)
-        lk_datasets_global_readme = LKDatasetsGlobalReadMe()
-        self.summary_list = lk_datasets_global_readme.summary_list
-        print(json.dumps(self.summary_list, indent=2))
-        self.global_summary = lk_datasets_global_readme.global_summary
-        self.version = TimeFormat("v%Y%m%d").format(Time.now())
-
+class ArXivDocPreamble:
     @staticmethod
     def fill_preamble(doc, version):
 
@@ -58,6 +46,8 @@ class ArXivDoc(File):
         doc.preamble.append(Command("date", NoEscape(r"\today")))
         doc.append(NoEscape(r"\maketitle"))
 
+
+class ArXivDocSectionAbstract:
     @staticmethod
     def fill_abstract(doc, version, global_summary):
         n_docs = global_summary["n_docs"]
@@ -93,6 +83,8 @@ class ArXivDoc(File):
         ).fill_doc(doc)
         doc.append(NoEscape(r"\end{abstract}"))
 
+
+class ArXivDocSectionIntroduction:
     @staticmethod
     def fill_section_introduction(doc):
 
@@ -144,6 +136,9 @@ class ArXivDoc(File):
                     ],
                 ],
             )
+
+
+class ArXivDocSectionRelatedWork:
 
     @staticmethod
     def fill_section_related_work(doc):
@@ -206,6 +201,9 @@ class ArXivDoc(File):
                 ],
             )
 
+
+class ArXivDocSectionDatasets:
+
     @staticmethod
     def fill_subsection_dataset(enumer, summary):
         title = Latex.clean(summary["doc_class_label"]).title()
@@ -252,6 +250,9 @@ class ArXivDoc(File):
             with doc.create(Enumerate()) as enumer:
                 for summary in summary_list:
                     ArXivDoc.fill_subsection_dataset(enumer, summary)
+
+
+class ArXivDocSectionDataCollectionPipeline:
 
     @staticmethod
     def fill_section_data_collection_pipeline(doc):
@@ -349,6 +350,8 @@ class ArXivDoc(File):
                 ],
             )
 
+
+class ArXivDocSectionLicensingAndAccess:
     @staticmethod
     def fill_section_licensing_and_access(doc):
         with doc.create(Section("Licensing and Access")):
@@ -409,6 +412,8 @@ class ArXivDoc(File):
                 ],
             )
 
+
+class ArXivDocConclusionAndFutureWork:
     @staticmethod
     def fill_section_conclusion_and_future_work(doc):
         with doc.create(Section("Conclusion and Future Work")):
@@ -472,10 +477,37 @@ class ArXivDoc(File):
                 ],
             )
 
+
+class ArXivDocEnd:
     @staticmethod
     def fill_end(doc):
         doc.append(NoEscape(r"\bibliographystyle{acl_natbib}"))
         doc.append(NoEscape(r"\bibliography{latex/references}"))
+
+
+class ArXivDoc(
+    File,
+    ArXivDocPreamble,
+    ArXivDocSectionAbstract,
+    ArXivDocSectionIntroduction,
+    ArXivDocSectionRelatedWork,
+    ArXivDocSectionDatasets,
+    ArXivDocSectionDataCollectionPipeline,
+    ArXivDocSectionLicensingAndAccess,
+    ArXivDocConclusionAndFutureWork,
+    ArXivDocEnd,
+):
+    PATH_PREFIX = os.path.join("latex", "arxiv")
+    TEX_PATH = PATH_PREFIX + ".tex"
+    PDF_PATH = PATH_PREFIX + ".pdf"
+
+    def __init__(self):
+        super().__init__(self.TEX_PATH)
+        lk_datasets_global_readme = LKDatasetsGlobalReadMe()
+        self.summary_list = lk_datasets_global_readme.summary_list
+        print(json.dumps(self.summary_list, indent=2))
+        self.global_summary = lk_datasets_global_readme.global_summary
+        self.version = TimeFormat("v%Y%m%d").format(Time.now())
 
     def build(self):
         doc = Document(
