@@ -26,11 +26,12 @@ class ArXivDoc(File):
     def fill_preamble(doc):
 
         # ACL-compatible setup
-        doc.packages.append(NoEscape(r"\usepackage[hyperref]{acl}"))
         doc.packages.append(Package("times"))
         doc.packages.append(Package("lmodern"))
         doc.packages.append(Package("textcomp"))
         doc.packages.append(Package("lastpage"))
+        doc.packages.append(Package("hyperref"))
+        doc.packages.append(NoEscape(r"\usepackage[numbers]{natbib}"))
 
         doc.preamble.append(
             Command(
@@ -446,8 +447,8 @@ class ArXivDoc(File):
 
     @staticmethod
     def fill_end(doc):
-        doc.append(NoEscape("\\bibliographystyle{acl_natbib}"))
-        doc.append(NoEscape("\\bibliography{latex/references}"))
+        doc.append(NoEscape(r"\bibliographystyle{unsrtnat}"))
+        doc.append(NoEscape(r"\bibliography{latex/references}"))
 
     def build_with_pylatex(self):
         doc = Document(

@@ -4,8 +4,9 @@
 \usepackage{lmodern}%
 \usepackage{textcomp}%
 \usepackage{lastpage}%
-\usepackage[hyperref]{acl}%
 \usepackage{times}%
+\usepackage{hyperref}%
+\usepackage[numbers]{natbib}%
 %
 \title{Sri Lanka Document Datasets: A Large{-}Scale, Multilingual Resource for Law, News, and Policy}%
 \author{Nuwan I. Senaratna\\\vspace{0.25em}\texttt{\href{mailto:nuwans@alumni.stanford.edu}{nuwans@alumni.stanford.edu}}}%
@@ -38,27 +39,27 @@ In this paper, we describe the scope and structure of these datasets, outline th
 \section{Related Work}%
 \label{sec:RelatedWork}%
 The study of open datasets has been central to the development of natural language processing (NLP) and computational social science. Large corpora such as Common Crawl%
-\citep{commoncrawl2020}%
+\cite{commoncrawl2020}%
 , Wikipedia Dumps%
-\citep{wikidumps2018}%
+\cite{wikidumps2018}%
 , and OpenWebText%
-\citep{openwebtext2019}%
+\cite{openwebtext2019}%
 have powered models that generalize across domains. However, these resources are dominated by data from high{-}resource languages and global institutions.%
 \newline%
 \newline%
 Regional initiatives have sought to address this imbalance by creating domain{-}specific collections. Examples include the Indian Kanoon legal corpus%
-\citep{indiankanoon2018}%
+\cite{indiankanoon2018}%
 , the OpenSubtitles multilingual dataset%
-\citep{opensubtitles2016}%
+\cite{opensubtitles2016}%
 , and the African News Corpus%
-\citep{africannews2021}%
+\cite{africannews2021}%
 . Such datasets have improved representation for under{-}resourced languages and enabled comparative linguistic research.%
 \newline%
 \newline%
 In South Asia, efforts remain scattered and often focus on individual media outlets or institutions. Sri Lanka, in particular, lacks consolidated and machine{-}readable documentation of its public records. Prior datasets were either limited in size, language coverage, or temporal continuity%
-\citep{sltalk2023}%
+\cite{sltalk2023}%
 %
-\citep{srilankanlp2022}%
+\cite{srilankanlp2022}%
 .%
 \newline%
 \newline%
@@ -267,47 +268,47 @@ Dataset Size: 308.9 MB%
 \section{Data Collection Pipeline}%
 \label{sec:DataCollectionPipeline}%
 Data Collection Pipeline Our pipeline is automated, reproducible, and resilient. It continuously discovers, ingests, parses, validates, and versions documents from official Sri Lankan sources.%
-\citep{MLOpsSurvey2022}%
+\cite{MLOpsSurvey2022}%
 \newline%
 \newline%
 GitHub Actions orchestrates the workflow. Cron jobs run several times per day, per dataset. A matrix strategy isolates each source, allowing independent retries without blocking others. Secrets manage tokens; caches speed I/O.%
-\citep{GitHubActions2023}%
+\cite{GitHubActions2023}%
 \newline%
 \newline%
 Each run is idempotent and incremental. Before crawling, we load a manifest of known items. New or changed items are detected by stable keys (URL + date) and content hashes. Only deltas are committed to the repository.%
-\citep{ReproducibleResearch2017}%
+\cite{ReproducibleResearch2017}%
 \newline%
 \newline%
 Crawling is implemented in Python with Selenium in headless Chromium. We wait for dynamic content via explicit conditions (e.g., presence of selectors), handle pagination, and capture canonical URLs.%
-\citep{Selenium2023}%
+\cite{Selenium2023}%
 \newline%
 \newline%
 Politeness is enforced. We respect robots.txt, throttle requests, randomize delays, and apply exponential backoff on transient failures. Errors are logged and surfaced in the Actions summary for rapid triage.%
-\citep{WebCrawlingBestPractices2021}%
+\cite{WebCrawlingBestPractices2021}%
 \newline%
 \newline%
 Raw artifacts are preserved alongside parsed representations. For each document we store the fetched HTML or PDF, plus normalized JSON with metadata (title, date, source, language, hashes) to enable downstream reproducibility.%
-\citep{DataVersioning2020}%
+\cite{DataVersioning2020}%
 \newline%
 \newline%
 PDF parsing uses PyMuPDF (fitz). For each PDF, we extract text, metadata, and layout blocks, retain page boundaries, and normalize Unicode. When images contain embedded text, PyMuPDF’s text extraction captures vector text regions.%
-\citep{PyMuPDF2024}%
+\cite{PyMuPDF2024}%
 \newline%
 \newline%
 The parser records coordinates for blocks, allowing approximate structure recovery (sections, headings, tables) where present. Heuristics join hyphenated lines and preserve numbering and legal citations.%
-\citep{DocumentLayoutAnalysis2021}%
+\cite{DocumentLayoutAnalysis2021}%
 \newline%
 \newline%
 Quality gates run in CI. Schemas are validated, required fields are enforced, and checksums guard against corruption. Unit tests cover fetching, parsing, and serialization, and fail the job on regressions.%
-\citep{DataQuality2022}%
+\cite{DataQuality2022}%
 \newline%
 \newline%
 Historical coverage was built via a back{-}population pipeline. We iterate over archival indexes and date ranges, enqueue jobs in batches, checkpoint progress, and resume safely after interruptions.%
-\citep{HistoricalWebData2019}%
+\cite{HistoricalWebData2019}%
 \newline%
 \newline%
 Transparency is prioritized. Run metadata, document counts, and last{-}updated timestamps are published to README badges. Commit messages summarize deltas, enabling clear, auditable provenance across releases.%
-\citep{OpenDataPractices2020}%
+\cite{OpenDataPractices2020}%
 \newline%
 \newline
 
@@ -315,27 +316,27 @@ Transparency is prioritized. Run metadata, document counts, and last{-}updated t
 \section{Licensing and Access}%
 \label{sec:LicensingandAccess}%
 All datasets and code are openly available to the public. The repositories are hosted on GitHub under the MIT License, which permits reuse, modification, and redistribution with attribution to the original author.%
-\citep{MITLicense1988}%
+\cite{MITLicense1988}%
 \newline%
 \newline%
 This permissive model encourages transparency and collaboration. Researchers, developers, and institutions can integrate the datasets into their pipelines without restrictive terms or commercial barriers.%
-\citep{OpenDataPractices2020}%
+\cite{OpenDataPractices2020}%
 \newline%
 \newline%
 Each dataset repository includes structured metadata, versioned releases, and README files with descriptive statistics and provenance. All assets are mirrored on Hugging Face to ensure redundancy and faster global access.%
-\citep{HuggingFaceDatasets2021}%
+\cite{HuggingFaceDatasets2021}%
 \newline%
 \newline%
 Public accessibility is a design principle. Automated GitHub Actions update metadata badges and commit summaries whenever new data are ingested. Users can clone, fork, or download any subset directly without authentication.%
-\citep{GitHubActions2023}%
+\cite{GitHubActions2023}%
 \newline%
 \newline%
 Licensing notices are embedded in every dataset directory, clarifying reuse rights and responsibilities. The datasets intentionally avoid any personally identifiable information or restricted content to uphold ethical data{-}sharing standards.%
-\citep{EthicalOpenData2019}%
+\cite{EthicalOpenData2019}%
 \newline%
 \newline%
 The open license facilitates reproducible science and supports downstream applications in natural language processing, digital governance, and policy research. By ensuring public access, the project aligns with FAIR principles—Findable, Accessible, Interoperable, and Reusable.%
-\citep{FAIRPrinciples2016}%
+\cite{FAIRPrinciples2016}%
 \newline%
 \newline
 
@@ -343,34 +344,34 @@ The open license facilitates reproducible science and supports downstream applic
 \section{Conclusion and Future Work}%
 \label{sec:ConclusionandFutureWork}%
 This project establishes an open, reproducible, and scalable foundation for Sri Lankan document datasets, spanning legal, governmental, and media sources. The pipeline integrates crawling, parsing, and versioning into a unified ecosystem for data{-}driven research.%
-\citep{OpenDataPractices2020}%
+\cite{OpenDataPractices2020}%
 \newline%
 \newline%
 The datasets already serve as a valuable resource for natural language processing, computational law, and policy analysis. They enable quantitative and qualitative insights into governance, lawmaking, and civic communication over time.%
-\citep{FAIRPrinciples2016}%
+\cite{FAIRPrinciples2016}%
 \newline%
 \newline%
 Future development focuses on three priorities:%
 \newline%
 \newline%
 First, expanding coverage by adding new datasets from additional government agencies, media sources, and historical archives.%
-\citep{DataExpansion2023}%
+\cite{DataExpansion2023}%
 \newline%
 \newline%
 Second, improving the linguistic accuracy of Sinhala and Tamil parsing, particularly for complex sentence structures and transliterated terms. Enhancements in tokenization, font handling, and multilingual embeddings are planned.%
-\citep{MultilingualNLP2022}%
+\cite{MultilingualNLP2022}%
 \newline%
 \newline%
 Third, integrating OCR parsing for PDFs with unstructured or scanned content. We are experimenting with deep{-}learning{-}based OCR pipelines that combine layout recognition and language modeling to recover high{-}quality text from low{-}quality sources.%
-\citep{OCROpenResearch2021}%
+\cite{OCROpenResearch2021}%
 \newline%
 \newline%
 Together, these directions will further improve coverage, data quality, and usability, ensuring that the Sri Lanka Datasets initiative remains a sustainable open infrastructure for the region’s digital and academic ecosystem.%
-\citep{OpenDataSustainability2020}%
+\cite{OpenDataSustainability2020}%
 \newline%
 \newline
 
 %
-\bibliographystyle{acl_natbib}%
+\bibliographystyle{unsrtnat}%
 \bibliography{latex/references}%
 \end{document}
