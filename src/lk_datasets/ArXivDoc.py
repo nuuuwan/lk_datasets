@@ -210,10 +210,15 @@ class ArXivDoc(File):
         url_source_list = summary.get("url_source_list", [])
         if len(url_source_list) == 1:
             url_source = url_source_list[0]
-            url_source = f"\\href{{{url_source}}}{{{url_source}}})"
+            url_source = f"\\href{{{url_source}}}{{{url_source}}}"
 
         else:
             url_source = "multiple sources"
+        url_data = summary["url_data"]
+        url_data = url_data.replace("_", r"\_")
+        url_data_label = summary["doc_class_label"].replace("_", "\\_")
+        data_link = f"\\href{{{url_data}}}{{{url_data_label}}}"
+
         enumer.add_item(
             NoEscape(
                 bold(title)
@@ -225,6 +230,7 @@ class ArXivDoc(File):
                     + f" from {date_str_min} to {date_str_max}."
                 )
                 + f" Source: {url_source}."
+                + f" Dataset: {data_link}."
             )
         )
 
@@ -494,7 +500,7 @@ class ArXivDoc(File):
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
         os.system(f"bibtex {self.PATH_PREFIX}")
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
-        doc.generate_pdf(self.PATH_PREFIX, clean=True, clean_tex=False)
+        doc.generate_pdf(self.PATH_PREFIX, clean=False, clean_tex=False)
         assert os.path.exists(self.PDF_PATH)
         log.info(f"Generated {File(self.PDF_PATH)}")
         log.info(f"Generated {File(self.PDF_PATH)}")
