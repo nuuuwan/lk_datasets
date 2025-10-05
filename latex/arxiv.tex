@@ -1,11 +1,11 @@
-\documentclass[10pt,a4paper,twocolumn]{article}%
+\documentclass[10pt,a4paper]{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
 \usepackage{lmodern}%
 \usepackage{textcomp}%
 \usepackage{lastpage}%
+\usepackage{times}%
 \usepackage{hyperref}%
-\usepackage[numbers]{natbib}%
 \usepackage{acl}%
 %
 \title{Sri Lanka Document Datasets: A Large{-}Scale, Multilingual Resource for Law, News, and Policy (v20251005)}%
@@ -39,27 +39,27 @@ In this paper, we describe the scope and structure of these datasets, outline th
 \section{Related Work}%
 \label{sec:RelatedWork}%
 The study of open datasets has been central to the development of natural language processing (NLP) and computational social science. Large corpora such as Common Crawl%
-\cite{commoncrawl2020}%
+\footnote{\href{https://commoncrawl.org/}{https://commoncrawl.org/}}%
 , Wikipedia Dumps%
-\cite{wikidumps2018}%
+\footnote{\href{https://dumps.wikimedia.org/}{https://dumps.wikimedia.org/}}%
 , and OpenWebText%
-\cite{openwebtext2019}%
+\citep{openwebtext2019}%
 have powered models that generalize across domains. However, these resources are dominated by data from high{-}resource languages and global institutions.%
 \newline%
 \newline%
 Regional initiatives have sought to address this imbalance by creating domain{-}specific collections. Examples include the Indian Kanoon legal corpus%
-\cite{indiankanoon2018}%
+\footnote{\href{https://indiankanoon.org/}{https://indiankanoon.org/}}%
 , the OpenSubtitles multilingual dataset%
-\cite{opensubtitles2016}%
+\footnote{\href{https://opus.nlpl.eu/OpenSubtitles.php}{https://opus.nlpl.eu/OpenSubtitles.php}}%
 , and the African News Corpus%
-\cite{africannews2021}%
-. Such datasets have improved representation for under{-}resourced languages and enabled comparative linguistic research.%
+\footnote{\href{https://data.africanlp.org}{https://data.africanlp.org}}%
+. Such datasxets have improved representation for under{-}resourced languages and enabled comparative linguistic research.%
 \newline%
 \newline%
 In South Asia, efforts remain scattered and often focus on individual media outlets or institutions. Sri Lanka, in particular, lacks consolidated and machine{-}readable documentation of its public records. Prior datasets were either limited in size, language coverage, or temporal continuity%
-\cite{sltalk2023}%
+\footnote{\href{https://github.com/sltalk}{https://github.com/sltalk}}%
 %
-\cite{srilankanlp2022}%
+\footnote{\href{https://github.com/SriLankaNLP}{https://github.com/SriLankaNLP}}%
 .%
 \newline%
 \newline%
@@ -73,78 +73,78 @@ The Sri Lanka Document Datasets aim to fill this gap by aggregating diverse sour
 As of v20251005, Sri Lanka Document Datasets consists of 13 datasets.%
 \begin{enumerate}%
 \item%
-\textbf{Hansard}: A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.\textit{ (1,665 documents, 17.9 GB, from 2006{-}02{-}01 to 2025{-}09{-}24, https://www.parliament.lk)}%
+\textbf{Hansard}: A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.\textit{ 1,665 documents, 17.9 GB, from 2006{-}02{-}01 to 2025{-}09{-}24.} Source: \href{https://www.parliament.lk}{https://www.parliament.lk}).%
 \item%
-\textbf{Appeal Court Judgements}: A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.\textit{ (10,146 documents, 10.3 GB, from 2012{-}04{-}23 to 2025{-}10{-}03, https://courtofappeal.lk)}%
+\textbf{Appeal Court Judgements}: A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.\textit{ 10,146 documents, 10.3 GB, from 2012{-}04{-}23 to 2025{-}10{-}03.} Source: \href{https://courtofappeal.lk}{https://courtofappeal.lk}).%
 \item%
-\textbf{Supreme Court Judgements}: A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.\textit{ (1,575 documents, 1.3 GB, from 2016{-}07{-}22 to 2025{-}10{-}03, https://supremecourt.lk)}%
+\textbf{Supreme Court Judgements}: A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.\textit{ 1,575 documents, 1.3 GB, from 2016{-}07{-}22 to 2025{-}10{-}03.} Source: \href{https://supremecourt.lk}{https://supremecourt.lk}).%
 \item%
-\textbf{Police Press Releases}: A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.\textit{ (736 documents, 250.5 MB, from 2025{-}05{-}01 to 2025{-}10{-}03, https://www.police.lk)}%
+\textbf{Police Press Releases}: A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.\textit{ 736 documents, 250.5 MB, from 2025{-}05{-}01 to 2025{-}10{-}03.} Source: \href{https://www.police.lk}{https://www.police.lk}).%
 \item%
-\textbf{Acts}: A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.\textit{ (3,928 documents, 6.8 GB, from 1981{-}01{-}22 to 2025{-}09{-}22, https://documents.gov.lk)}%
+\textbf{Acts}: A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.\textit{ 3,928 documents, 6.8 GB, from 1981{-}01{-}22 to 2025{-}09{-}22.} Source: \href{https://documents.gov.lk}{https://documents.gov.lk}).%
 \item%
-\textbf{Bills}: A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.\textit{ (4,077 documents, 1.8 GB, from 2010{-}05{-}10 to 2025{-}10{-}26, https://documents.gov.lk)}%
+\textbf{Bills}: A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.\textit{ 4,077 documents, 1.8 GB, from 2010{-}05{-}10 to 2025{-}10{-}26.} Source: \href{https://documents.gov.lk}{https://documents.gov.lk}).%
 \item%
-\textbf{Extraordinary Gazettes}: An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.\textit{ (101,532 documents, 19.4 GB, from 2010{-}01{-}01 to 2025{-}10{-}03, https://documents.gov.lk)}%
+\textbf{Extraordinary Gazettes}: An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.\textit{ 101,532 documents, 19.4 GB, from 2010{-}01{-}01 to 2025{-}10{-}03.} Source: \href{https://documents.gov.lk}{https://documents.gov.lk}).%
 \item%
-\textbf{Cabinet Decisions}: A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.\textit{ (10,369 documents, 125.3 MB, from 2010{-}09{-}27 to 2025{-}09{-}22, https://www.cabinetoffice.gov.lk)}%
+\textbf{Cabinet Decisions}: A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.\textit{ 10,369 documents, 125.3 MB, from 2010{-}09{-}27 to 2025{-}09{-}22.} Source: \href{https://www.cabinetoffice.gov.lk}{https://www.cabinetoffice.gov.lk}).%
 \item%
-\textbf{Treasury Press Releases}: A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.\textit{ (133 documents, 142.9 MB, from 2015{-}09{-}08 to 2025{-}07{-}30, https://www.treasury.gov.lk)}%
+\textbf{Treasury Press Releases}: A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.\textit{ 133 documents, 142.9 MB, from 2015{-}09{-}08 to 2025{-}07{-}30.} Source: \href{https://www.treasury.gov.lk}{https://www.treasury.gov.lk}).%
 \item%
-\textbf{Pmd Press Releases}: A Sri Lanka Presidential Media Division press release shares official updates on national decisions, policies, or events. It’s vital as the authoritative source ensuring transparency and public awareness.\textit{ (2,182 documents, 55.9 MB, from 2024{-}09{-}23 to 2025{-}09{-}24, multiple sources)}%
+\textbf{Pmd Press Releases}: A Sri Lanka Presidential Media Division press release shares official updates on national decisions, policies, or events. It’s vital as the authoritative source ensuring transparency and public awareness.\textit{ 2,182 documents, 55.9 MB, from 2024{-}09{-}23 to 2025{-}09{-}24.} Source: multiple sources.%
 \item%
-\textbf{News}: A collection of news documents.\textit{ (79,049 documents, 1.2 GB, from 2021{-}09{-}12 to 2025{-}10{-}04, multiple sources)}%
+\textbf{News}: A collection of news documents.\textit{ 79,049 documents, 1.2 GB, from 2021{-}09{-}12 to 2025{-}10{-}04.} Source: multiple sources.%
 \item%
-\textbf{Tourism Weekly Reports}: Report on Weekly Tourist Arrivals to Sri Lanka.\textit{ (33 documents, 91.5 MB, from 2023{-}01{-}01 to 2025{-}09{-}01, https://www.sltda.gov.lk)}%
+\textbf{Tourism Weekly Reports}: Report on Weekly Tourist Arrivals to Sri Lanka.\textit{ 33 documents, 91.5 MB, from 2023{-}01{-}01 to 2025{-}09{-}01.} Source: \href{https://www.sltda.gov.lk}{https://www.sltda.gov.lk}).%
 \item%
-\textbf{Tourism Monthly Reports}: Report on Monthly Tourist Arrivals to Sri Lanka.\textit{ (127 documents, 308.9 MB, from 2015{-}01{-}01 to 2025{-}08{-}01, multiple sources)}%
+\textbf{Tourism Monthly Reports}: Report on Monthly Tourist Arrivals to Sri Lanka.\textit{ 127 documents, 308.9 MB, from 2015{-}01{-}01 to 2025{-}08{-}01.} Source: multiple sources.%
 \end{enumerate}
 
 %
 \section{Data Collection Pipeline}%
 \label{sec:DataCollectionPipeline}%
 Data Collection Pipeline Our pipeline is automated, reproducible, and resilient. It continuously discovers, ingests, parses, validates, and versions documents from official Sri Lankan sources.%
-\cite{MLOpsSurvey2022}%
+\citep{MLOpsSurvey2022}%
 \newline%
 \newline%
 GitHub Actions orchestrates the workflow. Cron jobs run several times per day, per dataset. A matrix strategy isolates each source, allowing independent retries without blocking others. Secrets manage tokens; caches speed I/O.%
-\cite{GitHubActions2023}%
+\footnote{\href{https://docs.github.com/actions}{https://docs.github.com/actions}}%
 \newline%
 \newline%
 Each run is idempotent and incremental. Before crawling, we load a manifest of known items. New or changed items are detected by stable keys (URL + date) and content hashes. Only deltas are committed to the repository.%
-\cite{ReproducibleResearch2017}%
+\citep{ReproducibleResearch2017}%
 \newline%
 \newline%
 Crawling is implemented in Python with Selenium in headless Chromium. We wait for dynamic content via explicit conditions (e.g., presence of selectors), handle pagination, and capture canonical URLs.%
-\cite{Selenium2023}%
+\footnote{\href{https://www.selenium.dev/documentation/}{https://www.selenium.dev/documentation/}}%
 \newline%
 \newline%
 Politeness is enforced. We respect robots.txt, throttle requests, randomize delays, and apply exponential backoff on transient failures. Errors are logged and surfaced in the Actions summary for rapid triage.%
-\cite{WebCrawlingBestPractices2021}%
+\citep{WebCrawlingBestPractices2021}%
 \newline%
 \newline%
 Raw artifacts are preserved alongside parsed representations. For each document we store the fetched HTML or PDF, plus normalized JSON with metadata (title, date, source, language, hashes) to enable downstream reproducibility.%
-\cite{DataVersioning2020}%
+\citep{DataVersioning2020}%
 \newline%
 \newline%
 PDF parsing uses PyMuPDF (fitz). For each PDF, we extract text, metadata, and layout blocks, retain page boundaries, and normalize Unicode. When images contain embedded text, PyMuPDF’s text extraction captures vector text regions.%
-\cite{PyMuPDF2024}%
+\footnote{\href{https://pymupdf.readthedocs.io}{https://pymupdf.readthedocs.io}}%
 \newline%
 \newline%
 The parser records coordinates for blocks, allowing approximate structure recovery (sections, headings, tables) where present. Heuristics join hyphenated lines and preserve numbering and legal citations.%
-\cite{DocumentLayoutAnalysis2021}%
+\citep{DocumentLayoutAnalysis2021}%
 \newline%
 \newline%
 Quality gates run in CI. Schemas are validated, required fields are enforced, and checksums guard against corruption. Unit tests cover fetching, parsing, and serialization, and fail the job on regressions.%
-\cite{DataQuality2022}%
+\citep{DataQuality2022}%
 \newline%
 \newline%
 Historical coverage was built via a back{-}population pipeline. We iterate over archival indexes and date ranges, enqueue jobs in batches, checkpoint progress, and resume safely after interruptions.%
-\cite{HistoricalWebData2019}%
+\citep{HistoricalWebData2019}%
 \newline%
 \newline%
 Transparency is prioritized. Run metadata, document counts, and last{-}updated timestamps are published to README badges. Commit messages summarize deltas, enabling clear, auditable provenance across releases.%
-\cite{OpenDataPractices2020}%
+\citep{OpenDataPractices2020}%
 \newline%
 \newline
 
@@ -152,27 +152,27 @@ Transparency is prioritized. Run metadata, document counts, and last{-}updated t
 \section{Licensing and Access}%
 \label{sec:LicensingandAccess}%
 All datasets and code are openly available to the public. The repositories are hosted on GitHub under the MIT License, which permits reuse, modification, and redistribution with attribution to the original author.%
-\cite{MITLicense1988}%
+\footnote{\href{https://opensource.org/licenses/MIT}{https://opensource.org/licenses/MIT}}%
 \newline%
 \newline%
 This permissive model encourages transparency and collaboration. Researchers, developers, and institutions can integrate the datasets into their pipelines without restrictive terms or commercial barriers.%
-\cite{OpenDataPractices2020}%
+\citep{OpenDataPractices2020}%
 \newline%
 \newline%
 Each dataset repository includes structured metadata, versioned releases, and README files with descriptive statistics and provenance. All assets are mirrored on Hugging Face to ensure redundancy and faster global access.%
-\cite{HuggingFaceDatasets2021}%
+\citep{HuggingFaceDatasets2021}%
 \newline%
 \newline%
 Public accessibility is a design principle. Automated GitHub Actions update metadata badges and commit summaries whenever new data are ingested. Users can clone, fork, or download any subset directly without authentication.%
-\cite{GitHubActions2023}%
+\footnote{\href{https://docs.github.com/actions}{https://docs.github.com/actions}}%
 \newline%
 \newline%
 Licensing notices are embedded in every dataset directory, clarifying reuse rights and responsibilities. The datasets intentionally avoid any personally identifiable information or restricted content to uphold ethical data{-}sharing standards.%
-\cite{EthicalOpenData2019}%
+\citep{EthicalOpenData2019}%
 \newline%
 \newline%
 The open license facilitates reproducible science and supports downstream applications in natural language processing, digital governance, and policy research. By ensuring public access, the project aligns with FAIR principles—Findable, Accessible, Interoperable, and Reusable.%
-\cite{FAIRPrinciples2016}%
+\citep{FAIRPrinciples2016}%
 \newline%
 \newline
 
@@ -180,34 +180,34 @@ The open license facilitates reproducible science and supports downstream applic
 \section{Conclusion and Future Work}%
 \label{sec:ConclusionandFutureWork}%
 This project establishes an open, reproducible, and scalable foundation for Sri Lankan document datasets, spanning legal, governmental, and media sources. The pipeline integrates crawling, parsing, and versioning into a unified ecosystem for data{-}driven research.%
-\cite{OpenDataPractices2020}%
+\citep{OpenDataPractices2020}%
 \newline%
 \newline%
 The datasets already serve as a valuable resource for natural language processing, computational law, and policy analysis. They enable quantitative and qualitative insights into governance, lawmaking, and civic communication over time.%
-\cite{FAIRPrinciples2016}%
+\citep{FAIRPrinciples2016}%
 \newline%
 \newline%
 Future development focuses on three priorities:%
 \newline%
 \newline%
 First, expanding coverage by adding new datasets from additional government agencies, media sources, and historical archives.%
-\cite{DataExpansion2023}%
+\citep{DataExpansion2023}%
 \newline%
 \newline%
 Second, improving the linguistic accuracy of Sinhala and Tamil parsing, particularly for complex sentence structures and transliterated terms. Enhancements in tokenization, font handling, and multilingual embeddings are planned.%
-\cite{MultilingualNLP2022}%
+\citep{MultilingualNLP2022}%
 \newline%
 \newline%
 Third, integrating OCR parsing for PDFs with unstructured or scanned content. We are experimenting with deep{-}learning{-}based OCR pipelines that combine layout recognition and language modeling to recover high{-}quality text from low{-}quality sources.%
-\cite{OCROpenResearch2021}%
+\citep{OCROpenResearch2021}%
 \newline%
 \newline%
 Together, these directions will further improve coverage, data quality, and usability, ensuring that the Sri Lanka Datasets initiative remains a sustainable open infrastructure for the region’s digital and academic ecosystem.%
-\cite{OpenDataSustainability2020}%
+\citep{OpenDataSustainability2020}%
 \newline%
 \newline
 
 %
-\bibliographystyle{latex/acl_natbib}%
+\bibliographystyle{acl_natbib}%
 \bibliography{latex/references}%
 \end{document}

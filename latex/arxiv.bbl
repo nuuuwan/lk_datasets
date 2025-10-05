@@ -1,45 +1,5 @@
-\begin{thebibliography}{27}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-
-\bibitem[{ope(2016)}]{opensubtitles2016}
- 2016.
-\newblock Opensubtitles: Multilingual parallel corpus.
-\newblock \url{https://opus.nlpl.eu/OpenSubtitles.php}.
-
-\bibitem[{ind(2018)}]{indiankanoon2018}
- 2018.
-\newblock Indian kanoon legal corpus.
-\newblock \url{https://indiankanoon.org}.
-
-\bibitem[{wik(2018)}]{wikidumps2018}
- 2018.
-\newblock Wikipedia dumps.
-\newblock \url{https://dumps.wikimedia.org}.
-
-\bibitem[{com(2020)}]{commoncrawl2020}
- 2020.
-\newblock Common crawl: Open web corpus.
-\newblock \url{https://commoncrawl.org}.
-
-\bibitem[{afr(2021)}]{africannews2021}
- 2021.
-\newblock African news corpus.
-\newblock \url{https://data.africanlp.org}.
-
-\bibitem[{sri(2022)}]{srilankanlp2022}
- 2022.
-\newblock Srilankanlp: Sinhala and tamil language resources.
-\newblock \url{https://github.com/SriLankaNLP}.
-
-\bibitem[{slt(2023)}]{sltalk2023}
- 2023.
-\newblock Sltalk: Sinhala and tamil social media dataset.
-\newblock \url{https://github.com/sltalk}.
-
-\bibitem[{{Artifex Software}(2024)}]{PyMuPDF2024}
-{Artifex Software}. 2024.
-\newblock Pymupdf documentation.
-\newblock \url{https://pymupdf.readthedocs.io}.
 
 \bibitem[{Ashraf et~al.(2022)}]{MLOpsSurvey2022}
 Omar Ashraf et~al. 2022.
@@ -76,11 +36,6 @@ Luciano Floridi and Mariarosaria Taddeo. 2019.
 \newblock \href {https://doi.org/10.1098/rsta.2018.0083} {What is data ethics?}
 \newblock \emph{Philosophical Transactions of the Royal Society A}.
 
-\bibitem[{{GitHub, Inc.}(2023)}]{GitHubActions2023}
-{GitHub, Inc.} 2023.
-\newblock Github actions documentation.
-\newblock \url{https://docs.github.com/actions}.
-
 \bibitem[{Gokaslan and Cohen(2019)}]{openwebtext2019}
 Aaron Gokaslan and Vanya Cohen. 2019.
 \newblock Openwebtext corpus.
@@ -105,11 +60,6 @@ Chen Li et~al. 2021.
   analysis via geometric and semantic segmentation}.
 \newblock \emph{Pattern Recognition Letters}.
 
-\bibitem[{{Massachusetts Institute of Technology}(1988)}]{MITLicense1988}
-{Massachusetts Institute of Technology}. 1988.
-\newblock The mit license (mit).
-\newblock \url{https://opensource.org/licenses/MIT}.
-
 \bibitem[{Mishra et~al.(2023)}]{DataExpansion2023}
 Arjun Mishra et~al. 2023.
 \newblock \href {https://doi.org/10.1162/dint_a_00123} {Scaling open data:
@@ -126,11 +76,6 @@ Leo Pipino et~al. 2022.
 \newblock \href {https://doi.org/10.1007/s10796-022-10314-2} {Data quality
   assessment frameworks in data engineering}.
 \newblock \emph{Information Systems Frontiers}.
-
-\bibitem[{{Selenium Project}(2023)}]{Selenium2023}
-{Selenium Project}. 2023.
-\newblock Selenium webdriver documentation.
-\newblock \url{https://www.selenium.dev/documentation/}.
 
 \bibitem[{Stodden et~al.(2017)Stodden, Seiler, and
   Ma}]{ReproducibleResearch2017}

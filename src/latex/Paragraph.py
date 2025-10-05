@@ -1,13 +1,14 @@
 from pylatex import Itemize, NewLine
 
 from latex.Cite import Cite
+from latex.Footnote import Footnote
 
 
 class Paragraph:
     def __init__(self, items):
         assert isinstance(items, list)
         assert isinstance(
-            items[0], (str, Cite, Itemize)
+            items[0], (str, Cite, Itemize, Footnote)
         ), f"Invalid item type: {type(items[0])}"
         self.items = items
 

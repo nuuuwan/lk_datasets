@@ -4,7 +4,7 @@ from pylatex import Command, Document, Enumerate, Package, Section
 from pylatex.utils import NoEscape, bold, italic
 from utils import File, Log, Time, TimeFormat
 
-from latex import Cite, Paragraph
+from latex import Cite, Footnote, Paragraph
 from lk_datasets.LKDatasetsGlobalReadMe import LKDatasetsGlobalReadMe
 from utils_future import Latex
 
@@ -27,10 +27,10 @@ class ArXivDoc(File):
     def fill_preamble(doc, version):
 
         # ACL-compatible setup
+        doc.packages.append(Package("times"))
         doc.packages.append(Package("textcomp"))
         doc.packages.append(Package("lastpage"))
         doc.packages.append(Package("hyperref"))
-        doc.packages.append(NoEscape(r"\usepackage[numbers]{natbib}"))
         doc.packages.append(Package("acl"))
 
         doc.preamble.append(
@@ -150,10 +150,10 @@ class ArXivDoc(File):
                         "development of natural language processing (NLP)",
                         "and computational social science. Large corpora such",
                         "as Common Crawl",
-                        Cite("commoncrawl2020"),
+                        Footnote("https://commoncrawl.org/"),
                         ", Wikipedia",
                         "Dumps",
-                        Cite("wikidumps2018"),
+                        Footnote("https://dumps.wikimedia.org/"),
                         ", and OpenWebText",
                         Cite("openwebtext2019"),
                         "have powered models that",
@@ -165,13 +165,13 @@ class ArXivDoc(File):
                         "Regional initiatives have sought to address this",
                         "imbalance by creating domain-specific collections.",
                         "Examples include the Indian Kanoon legal corpus",
-                        Cite("indiankanoon2018"),
+                        Footnote("https://indiankanoon.org/"),
                         ", the OpenSubtitles",
                         "multilingual dataset",
-                        Cite("opensubtitles2016"),
+                        Footnote("https://opus.nlpl.eu/OpenSubtitles.php"),
                         ", and the African News Corpus",
-                        Cite("africannews2021"),
-                        ". Such datasets have",
+                        Footnote("https://data.africanlp.org"),
+                        ". Such datasxets have",
                         "improved representation for under-resourced",
                         "languages and enabled comparative linguistic",
                         "research.",
@@ -183,8 +183,8 @@ class ArXivDoc(File):
                         "machine-readable documentation of its public",
                         "records. Prior datasets were either limited in size,",
                         "language coverage, or temporal continuity",
-                        Cite("sltalk2023"),
-                        Cite("srilankanlp2022"),
+                        Footnote("https://github.com/sltalk"),
+                        Footnote("https://github.com/SriLankaNLP"),
                         ".",
                     ],
                     [
@@ -210,6 +210,7 @@ class ArXivDoc(File):
         url_source_list = summary.get("url_source_list", [])
         if len(url_source_list) == 1:
             url_source = url_source_list[0]
+            url_source = f"\\href{{{url_source}}}{{{url_source}}})"
 
         else:
             url_source = "multiple sources"
@@ -219,11 +220,11 @@ class ArXivDoc(File):
                 + ": "
                 + description
                 + italic(
-                    f" ({n_docs:,} documents,"
+                    f" {n_docs:,} documents,"
                     + f" {dataset_size_humanized},"
-                    + f" from {date_str_min} to {date_str_max},"
-                    + f" {url_source})"
+                    + f" from {date_str_min} to {date_str_max}."
                 )
+                + f" Source: {url_source}."
             )
         )
 
@@ -259,7 +260,7 @@ class ArXivDoc(File):
                         "dataset. A matrix strategy isolates each source,",
                         "allowing independent retries without blocking",
                         "others. Secrets manage tokens; caches speed I/O.",
-                        Cite("GitHubActions2023"),
+                        Footnote("https://docs.github.com/actions"),
                     ],
                     [
                         "Each run is idempotent and incremental.",
@@ -275,7 +276,7 @@ class ArXivDoc(File):
                         "We wait for dynamic content via explicit",
                         "conditions (e.g., presence of selectors),",
                         "handle pagination, and capture canonical URLs.",
-                        Cite("Selenium2023"),
+                        Footnote("https://www.selenium.dev/documentation/"),
                     ],
                     [
                         "Politeness is enforced. We respect robots.txt,",
@@ -299,7 +300,7 @@ class ArXivDoc(File):
                         "retain page boundaries, and normalize Unicode.",
                         "When images contain embedded text, PyMuPDF’s",
                         "text extraction captures vector text regions.",
-                        Cite("PyMuPDF2024"),
+                        Footnote("https://pymupdf.readthedocs.io"),
                     ],
                     [
                         "The parser records coordinates for blocks,",
@@ -348,7 +349,7 @@ class ArXivDoc(File):
                         "GitHub under the MIT License, which permits",
                         "reuse, modification, and redistribution with",
                         "attribution to the original author.",
-                        Cite("MITLicense1988"),
+                        Footnote("https://opensource.org/licenses/MIT"),
                     ],
                     [
                         "This permissive model encourages transparency",
@@ -372,7 +373,7 @@ class ArXivDoc(File):
                         "and commit summaries whenever new data are",
                         "ingested. Users can clone, fork, or download",
                         "any subset directly without authentication.",
-                        Cite("GitHubActions2023"),
+                        Footnote("https://docs.github.com/actions"),
                     ],
                     [
                         "Licensing notices are embedded in every dataset",
@@ -462,14 +463,14 @@ class ArXivDoc(File):
     @staticmethod
     def fill_end(doc):
         # doc.append(NoEscape(r"\bibliographystyle{unsrtnat}"))
-        doc.append(NoEscape(r"\bibliographystyle{latex/acl_natbib}"))
+        doc.append(NoEscape(r"\bibliographystyle{acl_natbib}"))
         doc.append(NoEscape(r"\bibliography{latex/references}"))
 
     def build_with_pylatex(self):
         doc = Document(
             documentclass="article",
-            document_options=["10pt", "a4paper", "twocolumn"],
-            # document_options=["10pt", "a4paper"],
+            # document_options=["10pt", "a4paper", "twocolumn"],
+            document_options=["10pt", "a4paper"],
         )
 
         self.fill_preamble(doc, self.version)
