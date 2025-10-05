@@ -2,7 +2,7 @@ from lk_datasets import ArXivDoc
 
 
 def main():
-    ArXivDoc().build()
+    ArXivDoc().build_with_pylatex()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,102 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[ope(2016)]{opensubtitles2016}
+Opensubtitles: Multilingual parallel corpus.
+\newblock \url{https://opus.nlpl.eu/OpenSubtitles.php}, 2016.
+
+\bibitem[ind(2018)]{indiankanoon2018}
+Indian kanoon legal corpus.
+\newblock \url{https://indiankanoon.org}, 2018.
+
+\bibitem[wik(2018)]{wikidumps2018}
+Wikipedia dumps.
+\newblock \url{https://dumps.wikimedia.org}, 2018.
+
+\bibitem[com(2020)]{commoncrawl2020}
+Common crawl: Open web corpus.
+\newblock \url{https://commoncrawl.org}, 2020.
+
+\bibitem[afr(2021)]{africannews2021}
+African news corpus.
+\newblock \url{https://data.africanlp.org}, 2021.
+
+\bibitem[sri(2022)]{srilankanlp2022}
+Srilankanlp: Sinhala and tamil language resources.
+\newblock \url{https://github.com/SriLankaNLP}, 2022.
+
+\bibitem[slt(2023)]{sltalk2023}
+Sltalk: Sinhala and tamil social media dataset.
+\newblock \url{https://github.com/sltalk}, 2023.
+
+\bibitem[{Artifex Software}(2024)]{PyMuPDF2024}
+{Artifex Software}.
+\newblock Pymupdf documentation.
+\newblock \url{https://pymupdf.readthedocs.io}, 2024.
+
+\bibitem[Ashraf et~al.(2022)]{MLOpsSurvey2022}
+Omar Ashraf et~al.
+\newblock A survey on mlops: Building reliable machine learning systems.
+\newblock \emph{Journal of Systems and Software}, 2022.
+\newblock \doi{10.1016/j.jss.2022.111223}.
+
+\bibitem[Ben-David et~al.(2019)]{HistoricalWebData2019}
+Eytan Ben-David et~al.
+\newblock Archival web data collection and preservation at scale.
+\newblock In \emph{Proceedings of the Web Archiving Conference}, 2019.
+
+\bibitem[Blaustein et~al.(2020)]{DataVersioning2020}
+Nathan Blaustein et~al.
+\newblock Data versioning in practice: Challenges and solutions.
+\newblock \emph{Data Science Journal}, 2020.
+\newblock \doi{10.5334/dsj-2020-012}.
+
+\bibitem[{GitHub, Inc.}(2023)]{GitHubActions2023}
+{GitHub, Inc.}
+\newblock Github actions documentation.
+\newblock \url{https://docs.github.com/actions}, 2023.
+
+\bibitem[Gokaslan and Cohen(2019)]{openwebtext2019}
+Aaron Gokaslan and Vanya Cohen.
+\newblock Openwebtext corpus.
+\newblock \url{https://skylion007.github.io/OpenWebTextCorpus}, 2019.
+
+\bibitem[Janssen et~al.(2020)]{OpenDataPractices2020}
+Marijn Janssen et~al.
+\newblock Open data practices and governance: A comprehensive framework.
+\newblock \emph{Government Information Quarterly}, 2020.
+\newblock \doi{10.1016/j.giq.2020.101458}.
+
+\bibitem[Li et~al.(2021)]{DocumentLayoutAnalysis2021}
+Chen Li et~al.
+\newblock Document layout analysis via geometric and semantic segmentation.
+\newblock \emph{Pattern Recognition Letters}, 2021.
+\newblock \doi{10.1016/j.patrec.2021.07.014}.
+
+\bibitem[Pant and Srinivasan(2021)]{WebCrawlingBestPractices2021}
+Gautam Pant and Padmini Srinivasan.
+\newblock Web crawling best practices: Ethics, efficiency, and effectiveness.
+\newblock In \emph{Proceedings of the Web Conference}, 2021.
+
+\bibitem[Pipino et~al.(2022)]{DataQuality2022}
+Leo Pipino et~al.
+\newblock Data quality assessment frameworks in data engineering.
+\newblock \emph{Information Systems Frontiers}, 2022.
+\newblock \doi{10.1007/s10796-022-10314-2}.
+
+\bibitem[{Selenium Project}(2023)]{Selenium2023}
+{Selenium Project}.
+\newblock Selenium webdriver documentation.
+\newblock \url{https://www.selenium.dev/documentation/}, 2023.
+
+\bibitem[Stodden et~al.(2017)Stodden, Seiler, and Ma]{ReproducibleResearch2017}
+Victoria Stodden, Jennifer Seiler, and Zhaokun Ma.
+\newblock An empirical analysis of journal policy for reproducibility.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 2017.
+\newblock \doi{10.1073/pnas.1708290114}.
+
+\end{thebibliography}

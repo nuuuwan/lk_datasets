@@ -1,114 +1,320 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[margin=1in]{geometry}%
+\usepackage{microtype}%
+\usepackage{url}%
+\usepackage[numbers]{natbib}%
+\usepackage{hyperref}%
+%
+\title{Sri Lanka Document Datasets: A Large{-}Scale, Multilingual Resource for Law, News, and Policy}%
+\author{Nuwan I. Senaratna\\\vspace{0.25em}\texttt{\href{mailto:nuwans@alumni.stanford.edu}{nuwans@alumni.stanford.edu}}}%
+\date{\today}%
+%
+\begin{document}%
+\normalsize%
+\maketitle%
+\begin{abstract}%
+We present a collection of open, machine{-}readable document datasets covering parliamentary proceedings, legal judgments, government publications, news, and tourism statistics from Sri Lanka.  The collection currently comprises 215,552 documents (59.6 GB) across 13 datasets in Sinhala, Tamil, and English, updated daily and mirrored on GitHub and Hugging Face.  These datasets aim to support research in computational linguistics, legal analytics, socio{-}political studies, and multilingual natural language processing.  We describe the sources, collection pipeline, formats, and potential use cases, while discussing licensing and ethical considerations.%
+\newline%
+\newline%
+\end{abstract}%
+\section{Introduction}%
+\label{sec:Introduction}%
+Sri Lanka’s digital record of law, policy, and media is fragmented across numerous government and private sources. Much of this information exists as PDFs or web pages, often lacking machine{-}readable structure or public archival consistency. This fragmentation limits access for citizens, journalists, and researchers interested in the island’s governance, history, and socio{-}economic trends.%
+\newline%
+\newline%
+The Sri Lanka Document Datasets initiative aims to bridge this gap by collecting, cleaning, and organizing key public documents into standardized, machine{-}readable formats. It unifies diverse materials—from Hansards and court judgements to news articles and tourism reports—under a common data framework. All datasets are openly licensed and continuously updated to ensure reproducibility and public transparency.%
+\newline%
+\newline%
+This effort is particularly significant for data{-}driven research in low{-}resource contexts. By providing structured data in Sinhala, Tamil, and English, the project supports the development of natural language processing models, cross{-}lingual studies, and digital humanities research. The datasets also enable policy analysis, legal precedent tracking, and media monitoring in a transparent, open science environment.%
+\newline%
+\newline%
+In this paper, we describe the scope and structure of these datasets, outline the scraping and curation processes, and highlight their potential applications in AI, governance, and public knowledge. Our goal is to create a living data archive that strengthens civic engagement and academic research through open, verifiable information.%
+\newline%
+\newline
 
+%
+\section{Related Work}%
+\label{sec:RelatedWork}%
+The study of open datasets has been central to the development of natural language processing (NLP) and computational social science. Large corpora such as Common Crawl%
+\cite{commoncrawl2020}%
+, Wikipedia Dumps%
+\cite{wikidumps2018}%
+, and OpenWebText%
+\cite{openwebtext2019}%
+have powered models that generalize across domains. However, these resources are dominated by data from high{-}resource languages and global institutions.%
+\newline%
+\newline%
+Regional initiatives have sought to address this imbalance by creating domain{-}specific collections. Examples include the Indian Kanoon legal corpus%
+\cite{indiankanoon2018}%
+, the OpenSubtitles multilingual dataset%
+\cite{opensubtitles2016}%
+, and the African News Corpus%
+\cite{africannews2021}%
+. Such datasets have improved representation for under{-}resourced languages and enabled comparative linguistic research.%
+\newline%
+\newline%
+In South Asia, efforts remain scattered and often focus on individual media outlets or institutions. Sri Lanka, in particular, lacks consolidated and machine{-}readable documentation of its public records. Prior datasets were either limited in size, language coverage, or temporal continuity%
+\cite{sltalk2023}%
+%
+\cite{srilankanlp2022}%
+.%
+\newline%
+\newline%
+The Sri Lanka Document Datasets aim to fill this gap by aggregating diverse sources—parliamentary debates, court judgements, gazettes, press releases, and news—into a unified, open, and multilingual repository. This complements global initiatives by providing a structured view of a unique national information ecosystem.%
+\newline%
+\newline
 
-\documentclass[11pt]{article}
+%
+\section{Datasets}%
+\label{sec:Datasets}%
+\subsection{Hansard}%
+\label{subsec:Hansard}%
+A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:36:13%
+\item%
+Number of Documents: 1,665%
+\item%
+Date Range: 2006{-}02{-}01 to 2025{-}09{-}24%
+\item%
+Dataset Size: 17.9 GB%
+\end{itemize}
 
-% Packages
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{geometry}
-\geometry{margin=1in}
+%
+\subsection{Appeal Court Judgements}%
+\label{subsec:AppealCourtJudgements}%
+A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:44:41%
+\item%
+Number of Documents: 10,146%
+\item%
+Date Range: 2012{-}04{-}23 to 2025{-}10{-}03%
+\item%
+Dataset Size: 10.3 GB%
+\end{itemize}
 
-\title{%
-Sri Lanka Document Datasets: \\
-A Large-Scale, Multilingual Resource for Law, News, and Policy
-}
+%
+\subsection{Supreme Court Judgements}%
+\label{subsec:SupremeCourtJudgements}%
+A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:44:12%
+\item%
+Number of Documents: 1,575%
+\item%
+Date Range: 2016{-}07{-}22 to 2025{-}10{-}03%
+\item%
+Dataset Size: 1.3 GB%
+\end{itemize}
 
-\author{Nuwan I. Senaratna \small{Independent Researcher} \\
-\texttt{nuwans@alumni.stanford.edu}
-}
+%
+\subsection{Police Press Releases}%
+\label{subsec:PolicePressReleases}%
+A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:28:49%
+\item%
+Number of Documents: 736%
+\item%
+Date Range: 2025{-}05{-}01 to 2025{-}10{-}03%
+\item%
+Dataset Size: 250.5 MB%
+\end{itemize}
 
-\date{\today}
+%
+\subsection{Acts}%
+\label{subsec:Acts}%
+A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:42:02%
+\item%
+Number of Documents: 3,928%
+\item%
+Date Range: 1981{-}01{-}22 to 2025{-}09{-}22%
+\item%
+Dataset Size: 6.8 GB%
+\end{itemize}
 
-\begin{document}
+%
+\subsection{Bills}%
+\label{subsec:Bills}%
+A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:37:26%
+\item%
+Number of Documents: 4,077%
+\item%
+Date Range: 2010{-}05{-}10 to 2025{-}10{-}26%
+\item%
+Dataset Size: 1.8 GB%
+\end{itemize}
 
-\maketitle
+%
+\subsection{Extraordinary Gazettes}%
+\label{subsec:ExtraordinaryGazettes}%
+An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:39:51%
+\item%
+Number of Documents: 101,532%
+\item%
+Date Range: 2010{-}01{-}01 to 2025{-}10{-}03%
+\item%
+Dataset Size: 19.4 GB%
+\end{itemize}
 
+%
+\subsection{Cabinet Decisions}%
+\label{subsec:CabinetDecisions}%
+A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:08:09%
+\item%
+Number of Documents: 10,369%
+\item%
+Date Range: 2010{-}09{-}27 to 2025{-}09{-}22%
+\item%
+Dataset Size: 125.3 MB%
+\end{itemize}
 
-\begin{abstract}
+%
+\subsection{Treasury Press Releases}%
+\label{subsec:TreasuryPressReleases}%
+A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:18:09%
+\item%
+Number of Documents: 133%
+\item%
+Date Range: 2015{-}09{-}08 to 2025{-}07{-}30%
+\item%
+Dataset Size: 142.9 MB%
+\end{itemize}
 
-We present a collection of open, machine-readable document datasets covering
-parliamentary proceedings, legal judgments, government publications, news, and
-tourism statistics from Sri Lanka. The collection currently comprises
-$\sim$215,552 documents (59.6 GB)
-across 13 datasets in Sinhala, Tamil, and
-English, updated daily and mirrored on GitHub and Hugging Face. These datasets
-aim to support research in computational linguistics, legal analytics,
-socio-political studies, and multilingual natural language processing. We
-describe the sources, collection pipeline, formats, and potential use cases,
-while discussing licensing and ethical considerations.
+%
+\subsection{Pmd Press Releases}%
+\label{subsec:PmdPressReleases}%
+A Sri Lanka Presidential Media Division press release shares official updates on national decisions, policies, or events. It’s vital as the authoritative source ensuring transparency and public awareness.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}09{-}26 08:23:47%
+\item%
+Number of Documents: 2,182%
+\item%
+Date Range: 2024{-}09{-}23 to 2025{-}09{-}24%
+\item%
+Dataset Size: 55.9 MB%
+\end{itemize}
 
-\end{abstract}
-            
+%
+\subsection{News}%
+\label{subsec:News}%
+A collection of news documents.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:41:30%
+\item%
+Number of Documents: 79,049%
+\item%
+Date Range: 2021{-}09{-}12 to 2025{-}10{-}04%
+\item%
+Dataset Size: 1.2 GB%
+\end{itemize}
 
-\section{Introduction}
+%
+\subsection{Tourism Weekly Reports}%
+\label{subsec:TourismWeeklyReports}%
+Report on Weekly Tourist Arrivals to Sri Lanka.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:36:40%
+\item%
+Number of Documents: 33%
+\item%
+Date Range: 2023{-}01{-}01 to 2025{-}09{-}01%
+\item%
+Dataset Size: 91.5 MB%
+\end{itemize}
 
-\section{Related Work}
+%
+\subsection{Tourism Monthly Reports}%
+\label{subsec:TourismMonthlyReports}%
+Report on Monthly Tourist Arrivals to Sri Lanka.%
+\begin{itemize}%
+\item%
+Time Updated: 2025{-}10{-}04 18:36:59%
+\item%
+Number of Documents: 127%
+\item%
+Date Range: 2015{-}01{-}01 to 2025{-}08{-}01%
+\item%
+Dataset Size: 308.9 MB%
+\end{itemize}
 
+%
+\section{Data Collection Pipeline}%
+\label{sec:DataCollectionPipeline}%
+Data Collection Pipeline Our pipeline is automated, reproducible, and resilient. It continuously discovers, ingests, parses, validates, and versions documents from official Sri Lankan sources.%
+\cite{MLOpsSurvey2022}%
+\newline%
+\newline%
+GitHub Actions orchestrates the workflow. Cron jobs run several times per day, per dataset. A matrix strategy isolates each source, allowing independent retries without blocking others. Secrets manage tokens; caches speed I/O.%
+\cite{GitHubActions2023}%
+\newline%
+\newline%
+Each run is idempotent and incremental. Before crawling, we load a manifest of known items. New or changed items are detected by stable keys (URL + date) and content hashes. Only deltas are committed to the repository.%
+\cite{ReproducibleResearch2017}%
+\newline%
+\newline%
+Crawling is implemented in Python with Selenium in headless Chromium. We wait for dynamic content via explicit conditions (e.g., presence of selectors), handle pagination, and capture canonical URLs.%
+\cite{Selenium2023}%
+\newline%
+\newline%
+Politeness is enforced. We respect robots.txt, throttle requests, randomize delays, and apply exponential backoff on transient failures. Errors are logged and surfaced in the Actions summary for rapid triage.%
+\cite{WebCrawlingBestPractices2021}%
+\newline%
+\newline%
+Raw artifacts are preserved alongside parsed representations. For each document we store the fetched HTML or PDF, plus normalized JSON with metadata (title, date, source, language, hashes) to enable downstream reproducibility.%
+\cite{DataVersioning2020}%
+\newline%
+\newline%
+PDF parsing uses PyMuPDF (fitz). For each PDF, we extract text, metadata, and layout blocks, retain page boundaries, and normalize Unicode. When images contain embedded text, PyMuPDF’s text extraction captures vector text regions.%
+\cite{PyMuPDF2024}%
+\newline%
+\newline%
+The parser records coordinates for blocks, allowing approximate structure recovery (sections, headings, tables) where present. Heuristics join hyphenated lines and preserve numbering and legal citations.%
+\cite{DocumentLayoutAnalysis2021}%
+\newline%
+\newline%
+Quality gates run in CI. Schemas are validated, required fields are enforced, and checksums guard against corruption. Unit tests cover fetching, parsing, and serialization, and fail the job on regressions.%
+\cite{DataQuality2022}%
+\newline%
+\newline%
+Historical coverage was built via a back{-}population pipeline. We iterate over archival indexes and date ranges, enqueue jobs in batches, checkpoint progress, and resume safely after interruptions.%
+\cite{HistoricalWebData2019}%
+\newline%
+\newline%
+Transparency is prioritized. Run metadata, document counts, and last{-}updated timestamps are published to README badges. Commit messages summarize deltas, enabling clear, auditable provenance across releases.%
+\cite{OpenDataPractices2020}%
+\newline%
+\newline
 
-\section{Datasets}
-
-\subsection{Hansard}
-
-
-
-\subsection{Appeal Court Judgements}
-
-
-
-\subsection{Supreme Court Judgements}
-
-
-
-\subsection{Police Press Releases}
-
-
-
-\subsection{Acts}
-
-
-
-\subsection{Bills}
-
-
-
-\subsection{Extraordinary Gazettes}
-
-
-
-\subsection{Cabinet Decisions}
-
-
-
-\subsection{Treasury Press Releases}
-
-
-
-\subsection{Pmd Press Releases}
-
-
-
-\subsection{News}
-
-
-
-\subsection{Tourism Weekly Reports}
-
-
-
-\subsection{Tourism Monthly Reports}
-
-
-\section{Data Collection Pipeline}
-
-\section{Licensing and Access}
-
-\section{Conclusion and Future Work}
-
-\bibliographystyle{plain}
-\bibliography{references}
-
+%
+\bibliographystyle{plainnat}%
+\bibliography{latex/references}%
 \end{document}
-
-    
