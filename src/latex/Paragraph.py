@@ -21,6 +21,8 @@ class Paragraph:
             else:
                 doc.append(NoEscape(" ".join(str_items)))
                 str_items = []
+                if isinstance(item, (Cite, Footnote)):
+                    doc.append(NoEscape("~"))
                 doc.append(item)
         if str_items:
             doc.append(NoEscape(" ".join(str_items)))
