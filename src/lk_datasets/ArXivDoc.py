@@ -25,15 +25,12 @@ class ArXivDoc(File):
     @staticmethod
     def fill_preamble(doc):
 
-        doc.packages.append(Package("geometry", options="margin=1in"))
+        # ACL-compatible setup
+        doc.packages.append(NoEscape(r"\usepackage[hyperref]{acl}"))
+        doc.packages.append(Package("times"))
         doc.packages.append(Package("lmodern"))
-        doc.packages.append(Package("fontenc", options="T1"))
-        doc.packages.append(Package("inputenc", options="utf8"))
-        doc.packages.append(Package("microtype"))
-        doc.packages.append(Package("url"))
-        doc.packages.append(Package("natbib", options="numbers"))
-        doc.packages.append(Package("url"))
-        doc.packages.append(Package("hyperref"))
+        doc.packages.append(Package("textcomp"))
+        doc.packages.append(Package("lastpage"))
 
         doc.preamble.append(
             Command(
@@ -325,12 +322,138 @@ class ArXivDoc(File):
             )
 
     @staticmethod
+    def fill_section_licensing_and_access(doc):
+        with doc.create(Section("Licensing and Access")):
+            Paragraph.fill_doc_from_list(
+                doc,
+                [
+                    [
+                        "All datasets and code are openly available to",
+                        "the public. The repositories are hosted on",
+                        "GitHub under the MIT License, which permits",
+                        "reuse, modification, and redistribution with",
+                        "attribution to the original author.",
+                        Cite("MITLicense1988"),
+                    ],
+                    [
+                        "This permissive model encourages transparency",
+                        "and collaboration. Researchers, developers, and",
+                        "institutions can integrate the datasets into",
+                        "their pipelines without restrictive terms or",
+                        "commercial barriers.",
+                        Cite("OpenDataPractices2020"),
+                    ],
+                    [
+                        "Each dataset repository includes structured",
+                        "metadata, versioned releases, and README files",
+                        "with descriptive statistics and provenance.",
+                        "All assets are mirrored on Hugging Face to",
+                        "ensure redundancy and faster global access.",
+                        Cite("HuggingFaceDatasets2021"),
+                    ],
+                    [
+                        "Public accessibility is a design principle.",
+                        "Automated GitHub Actions update metadata badges",
+                        "and commit summaries whenever new data are",
+                        "ingested. Users can clone, fork, or download",
+                        "any subset directly without authentication.",
+                        Cite("GitHubActions2023"),
+                    ],
+                    [
+                        "Licensing notices are embedded in every dataset",
+                        "directory, clarifying reuse rights and",
+                        "responsibilities. The datasets intentionally",
+                        "avoid any personally identifiable information",
+                        "or restricted content to uphold ethical",
+                        "data-sharing standards.",
+                        Cite("EthicalOpenData2019"),
+                    ],
+                    [
+                        "The open license facilitates reproducible",
+                        "science and supports downstream applications",
+                        "in natural language processing, digital",
+                        "governance, and policy research. By ensuring",
+                        "public access, the project aligns with FAIR",
+                        "principles—Findable, Accessible, Interoperable,",
+                        "and Reusable.",
+                        Cite("FAIRPrinciples2016"),
+                    ],
+                ],
+            )
+
+    @staticmethod
+    def fill_section_conclusion_and_future_work(doc):
+        with doc.create(Section("Conclusion and Future Work")):
+
+            Paragraph.fill_doc_from_list(
+                doc,
+                [
+                    [
+                        "This project establishes an open, reproducible,",
+                        "and scalable foundation for Sri Lankan document",
+                        "datasets, spanning legal, governmental, and",
+                        "media sources. The pipeline integrates crawling,",
+                        "parsing, and versioning into a unified",
+                        "ecosystem for data-driven research.",
+                        Cite("OpenDataPractices2020"),
+                    ],
+                    [
+                        "The datasets already serve as a valuable",
+                        "resource for natural language processing,",
+                        "computational law, and policy analysis. They",
+                        "enable quantitative and qualitative insights",
+                        "into governance, lawmaking, and civic",
+                        "communication over time.",
+                        Cite("FAIRPrinciples2016"),
+                    ],
+                    [
+                        "Future development focuses on three priorities:",
+                    ],
+                    [
+                        "First, expanding coverage by adding new",
+                        "datasets from additional government agencies,",
+                        "media sources, and historical archives.",
+                        Cite("DataExpansion2023"),
+                    ],
+                    [
+                        "Second, improving the linguistic accuracy of",
+                        "Sinhala and Tamil parsing, particularly for",
+                        "complex sentence structures and transliterated",
+                        "terms. Enhancements in tokenization, font",
+                        "handling, and multilingual embeddings are",
+                        "planned.",
+                        Cite("MultilingualNLP2022"),
+                    ],
+                    [
+                        "Third, integrating OCR parsing for PDFs with",
+                        "unstructured or scanned content. We are",
+                        "experimenting with deep-learning-based OCR",
+                        "pipelines that combine layout recognition and",
+                        "language modeling to recover high-quality text",
+                        "from low-quality sources.",
+                        Cite("OCROpenResearch2021"),
+                    ],
+                    [
+                        "Together, these directions will further improve",
+                        "coverage, data quality, and usability, ensuring",
+                        "that the Sri Lanka Datasets initiative remains a",
+                        "sustainable open infrastructure for the region’s",
+                        "digital and academic ecosystem.",
+                        Cite("OpenDataSustainability2020"),
+                    ],
+                ],
+            )
+
+    @staticmethod
     def fill_end(doc):
-        doc.append(NoEscape("\\bibliographystyle{plainnat}"))
+        doc.append(NoEscape("\\bibliographystyle{acl_natbib}"))
         doc.append(NoEscape("\\bibliography{latex/references}"))
 
     def build_with_pylatex(self):
-        doc = Document(documentclass="article")
+        doc = Document(
+            documentclass="article",
+            document_options=["11pt", "a4paper", "twocolumn"],  # 👈 key bit
+        )
 
         self.fill_preamble(doc)
         self.fill_abstract(doc, self.global_summary)
@@ -341,8 +464,8 @@ class ArXivDoc(File):
         self.fill_section_datasets(doc, self.summary_list)
 
         self.fill_section_data_collection_pipeline(doc)
-        doc.create(Section("Licensing and Access"))
-        doc.create(Section("Conclusion and Future Work"))
+        self.fill_section_licensing_and_access(doc)
+        self.fill_section_conclusion_and_future_work(doc)
 
         self.fill_end(doc)
 

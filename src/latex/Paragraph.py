@@ -1,4 +1,4 @@
-from pylatex import NewLine
+from pylatex import Itemize, NewLine
 
 from latex.Cite import Cite
 
@@ -7,7 +7,7 @@ class Paragraph:
     def __init__(self, items):
         assert isinstance(items, list)
         assert isinstance(
-            items[0], (str, Cite)
+            items[0], (str, Cite, Itemize)
         ), f"Invalid item type: {type(items[0])}"
         self.items = items
 
@@ -19,7 +19,10 @@ class Paragraph:
             else:
                 doc.append(" ".join(str_items))
                 str_items = []
-                doc.append(item)
+                if isinstance(item, Itemize):
+                    doc.create(item)
+                else:
+                    doc.append(item)
         if str_items:
             doc.append(" ".join(str_items))
         doc.append(NewLine())
