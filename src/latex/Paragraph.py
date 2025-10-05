@@ -1,4 +1,5 @@
 from pylatex import Itemize, NewLine
+from pylatex.utils import NoEscape
 
 from latex.Cite import Cite
 from latex.Footnote import Footnote
@@ -18,14 +19,11 @@ class Paragraph:
             if isinstance(item, str):
                 str_items.append(item)
             else:
-                doc.append(" ".join(str_items))
+                doc.append(NoEscape(" ".join(str_items)))
                 str_items = []
-                if isinstance(item, Itemize):
-                    doc.create(item)
-                else:
-                    doc.append(item)
+                doc.append(item)
         if str_items:
-            doc.append(" ".join(str_items))
+            doc.append(NoEscape(" ".join(str_items)))
         doc.append(NewLine())
         doc.append(NewLine())
 

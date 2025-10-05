@@ -1,4 +1,4 @@
-from pylatex.utils import NoEscape
+from pylatex.utils import NoEscape, bold
 from utils import File
 
 from latex import Paragraph
@@ -21,9 +21,16 @@ class ArXivDocSectionAbstract:
                 "proceedings, legal judgments, government",
                 "publications, news, and tourism statistics from",
                 "Sri Lanka.",
-                f"As of {version}, the collection currently comprises",
-                f"{n_docs:,} documents ({all_dataset_size_humanized})",
-                f"across {n_datasets} datasets in Sinhala, Tamil, and",
+                "As of",
+                bold(version),
+                ", the collection currently comprises",
+                bold(f"{n_docs:,}"),
+                " documents (",
+                bold(all_dataset_size_humanized),
+                ")",
+                "across",
+                bold(f"{n_datasets}"),
+                " datasets in Sinhala, Tamil, and",
                 "English. The datasets are updated daily and mirrored",
                 "on GitHub and Hugging Face.",
                 "These resources aim to support research in",
