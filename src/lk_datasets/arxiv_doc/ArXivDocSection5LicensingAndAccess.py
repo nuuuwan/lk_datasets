@@ -63,7 +63,7 @@ PARAGRAPH_ITEMS = [
 ]
 
 
-class ArXivDocSectionLicensingAndAccess:
+class ArXivDocSection5LicensingAndAccess:
     @staticmethod
     def fill_section_licensing_and_access(doc):
         with doc.create(Section("Licensing and Access")):

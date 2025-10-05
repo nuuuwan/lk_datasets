@@ -65,7 +65,7 @@ PARAGRAPH_ITEMS = [
 ]
 
 
-class ArXivDocConclusionAndFutureWork:
+class ArXivDocSection6ConclusionAndFutureWork:
 
     @staticmethod
     def fill_section_conclusion_and_future_work(doc):

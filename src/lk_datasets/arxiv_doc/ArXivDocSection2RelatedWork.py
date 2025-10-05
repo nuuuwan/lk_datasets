@@ -57,7 +57,7 @@ PARAGRAPH_ITEMS = [
 ]
 
 
-class ArXivDocSectionRelatedWork:
+class ArXivDocSection2RelatedWork:
 
     @staticmethod
     def fill_section_related_work(doc):

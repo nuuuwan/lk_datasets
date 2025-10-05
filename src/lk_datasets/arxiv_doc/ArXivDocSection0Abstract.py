@@ -4,7 +4,7 @@ from utils import File
 from latex import Paragraph
 
 
-class ArXivDocSectionAbstract:
+class ArXivDocSection0Abstract:
     @staticmethod
     def fill_abstract(doc, version, global_summary):
         n_docs = global_summary["n_docs"]

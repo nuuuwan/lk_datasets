@@ -48,7 +48,7 @@ PARAGRAPH_ITEMS = [
 ]
 
 
-class ArXivDocSectionIntroduction:
+class ArXivDocSection1Introduction:
     @staticmethod
     def fill_section_introduction(doc):
         with doc.create(Section("Introduction")):

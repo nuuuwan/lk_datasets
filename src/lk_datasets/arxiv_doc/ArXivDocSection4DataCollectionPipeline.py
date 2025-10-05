@@ -104,7 +104,7 @@ PARAGRAPH_ITEMS = [
 ]
 
 
-class ArXivDocSectionDataCollectionPipeline:
+class ArXivDocSection4DataCollectionPipeline:
 
     @staticmethod
     def fill_section_data_collection_pipeline(doc):

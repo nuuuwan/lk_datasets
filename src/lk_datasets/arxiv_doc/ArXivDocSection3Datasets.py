@@ -5,7 +5,7 @@ from utils import File
 from utils_future import Latex
 
 
-class ArXivDocSectionDatasets:
+class ArXivDocSection3Datasets:
 
     @staticmethod
     def fill_subsection_dataset(enumer, summary):
@@ -52,6 +52,6 @@ class ArXivDocSectionDatasets:
             )
             with doc.create(Enumerate()) as enumer:
                 for summary in summary_list:
-                    ArXivDocSectionDatasets.fill_subsection_dataset(
+                    ArXivDocSection3Datasets.fill_subsection_dataset(
                         enumer, summary
                     )
