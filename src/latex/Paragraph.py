@@ -1,4 +1,4 @@
-from pylatex import Itemize, NewLine
+from pylatex import Itemize
 from pylatex.utils import NoEscape
 
 from latex.Cite import Cite
@@ -26,8 +26,6 @@ class Paragraph:
                 doc.append(item)
         if str_items:
             doc.append(NoEscape(" ".join(str_items)))
-        doc.append(NewLine())
-        doc.append(NewLine())
 
     @staticmethod
     def fill_doc_from_list(doc, items_list):
