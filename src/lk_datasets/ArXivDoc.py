@@ -27,13 +27,11 @@ class ArXivDoc(File):
     def fill_preamble(doc, version):
 
         # ACL-compatible setup
-        doc.packages.append(Package("times"))
-        doc.packages.append(Package("lmodern"))
         doc.packages.append(Package("textcomp"))
         doc.packages.append(Package("lastpage"))
         doc.packages.append(Package("hyperref"))
-        # doc.packages.append(NoEscape(r"\usepackage[numbers]{natbib}"))
-        doc.packages.append(Package("acl", options="hyperref"))
+        doc.packages.append(NoEscape(r"\usepackage[numbers]{natbib}"))
+        doc.packages.append(Package("acl"))
 
         doc.preamble.append(
             Command(
@@ -60,7 +58,7 @@ class ArXivDoc(File):
 
     @staticmethod
     def fill_abstract(doc, version, global_summary):
-        global_summary["n_docs"]
+        n_docs = global_summary["n_docs"]
         all_dataset_size_humanized = File.humanize_size(
             global_summary["all_dataset_size"]
         )
@@ -76,7 +74,7 @@ class ArXivDoc(File):
                 + " tourism statistics from Sri Lanka.",
                 "",
                 f"As of {version},"
-                + " the collection currently comprises {n_docs:,} documents "
+                + f" the collection currently comprises {n_docs:,} documents "
                 + f"({all_dataset_size_humanized}) across"
                 + f" {n_datasets} datasets "
                 "in Sinhala, Tamil, and English,"
@@ -209,15 +207,22 @@ class ArXivDoc(File):
         dataset_size_humanized = File.humanize_size(summary["dataset_size"])
         date_str_min = summary["date_str_min"]
         date_str_max = summary["date_str_max"]
+        url_source_list = summary.get("url_source_list", [])
+        if len(url_source_list) == 1:
+            url_source = url_source_list[0]
+
+        else:
+            url_source = "multiple sources"
         enumer.add_item(
             NoEscape(
                 bold(title)
                 + ": "
                 + description
                 + italic(
-                    f" ({n_docs:,} documents, "
-                    + f" {dataset_size_humanized}, "
-                    + f" from {date_str_min} to {date_str_max})"
+                    f" ({n_docs:,} documents,"
+                    + f" {dataset_size_humanized},"
+                    + f" from {date_str_min} to {date_str_max},"
+                    + f" {url_source})"
                 )
             )
         )
@@ -457,15 +462,14 @@ class ArXivDoc(File):
     @staticmethod
     def fill_end(doc):
         # doc.append(NoEscape(r"\bibliographystyle{unsrtnat}"))
-        # doc.append(NoEscape(r"\bibliography{latex/references}"))
-        doc.append(NoEscape(r"\bibliographystyle{acl_natbib}"))
+        doc.append(NoEscape(r"\bibliographystyle{latex/acl_natbib}"))
         doc.append(NoEscape(r"\bibliography{latex/references}"))
 
     def build_with_pylatex(self):
         doc = Document(
             documentclass="article",
-            # document_options=["10pt", "a4paper", "twocolumn"],
-            document_options=["10pt", "a4paper"],
+            document_options=["10pt", "a4paper", "twocolumn"],
+            # document_options=["10pt", "a4paper"],
         )
 
         self.fill_preamble(doc, self.version)
@@ -489,7 +493,7 @@ class ArXivDoc(File):
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
         os.system(f"bibtex {self.PATH_PREFIX}")
         doc.generate_pdf(self.PATH_PREFIX, clean=False)
-        doc.generate_pdf(self.PATH_PREFIX, clean=True, clean_tex=False)
+        doc.generate_pdf(self.PATH_PREFIX, clean=False, clean_tex=False)
         assert os.path.exists(self.PDF_PATH)
         log.info(f"Generated {File(self.PDF_PATH)}")
         log.info(f"Generated {File(self.PDF_PATH)}")

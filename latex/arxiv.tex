@@ -1,12 +1,12 @@
-\documentclass[10pt,a4paper]{article}%
+\documentclass[10pt,a4paper,twocolumn]{article}%
 \usepackage[T1]{fontenc}%
 \usepackage[utf8]{inputenc}%
 \usepackage{lmodern}%
 \usepackage{textcomp}%
 \usepackage{lastpage}%
-\usepackage{times}%
 \usepackage{hyperref}%
-\usepackage[hyperref]{acl}%
+\usepackage[numbers]{natbib}%
+\usepackage{acl}%
 %
 \title{Sri Lanka Document Datasets: A Large{-}Scale, Multilingual Resource for Law, News, and Policy (v20251005)}%
 \author{Nuwan I. Senaratna\\Independent Researcher\\\vspace{0.25em}\texttt{\href{mailto:nuwans@alumni.stanford.edu}{nuwans@alumni.stanford.edu}}}%
@@ -16,7 +16,7 @@
 \normalsize%
 \maketitle%
 \begin{abstract}%
-We present a collection of open, machine{-}readable document datasets covering parliamentary proceedings, legal judgments, government publications, news, and tourism statistics from Sri Lanka.  As of v20251005, the collection currently comprises \{n\_docs:,\} documents (59.6 GB) across 13 datasets in Sinhala, Tamil, and English, updated daily and mirrored on GitHub and Hugging Face.  These datasets aim to support research in computational linguistics, legal analytics, socio{-}political studies, and multilingual natural language processing.  We describe the sources, collection pipeline, formats, and potential use cases, while discussing licensing and ethical considerations.%
+We present a collection of open, machine{-}readable document datasets covering parliamentary proceedings, legal judgments, government publications, news, and tourism statistics from Sri Lanka.  As of v20251005, the collection currently comprises 215,552 documents (59.6 GB) across 13 datasets in Sinhala, Tamil, and English, updated daily and mirrored on GitHub and Hugging Face.  These datasets aim to support research in computational linguistics, legal analytics, socio{-}political studies, and multilingual natural language processing.  We describe the sources, collection pipeline, formats, and potential use cases, while discussing licensing and ethical considerations.%
 \newline%
 \newline%
 \end{abstract}%
@@ -73,31 +73,31 @@ The Sri Lanka Document Datasets aim to fill this gap by aggregating diverse sour
 As of v20251005, Sri Lanka Document Datasets consists of 13 datasets.%
 \begin{enumerate}%
 \item%
-\textbf{Hansard}: A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.\textit{ (1,665 documents,  17.9 GB,  from 2006{-}02{-}01 to 2025{-}09{-}24)}%
+\textbf{Hansard}: A Hansard is the official verbatim record of parliamentary debates, preserving lawmakers’ words and decisions for history, law, and public accountability.\textit{ (1,665 documents, 17.9 GB, from 2006{-}02{-}01 to 2025{-}09{-}24, https://www.parliament.lk)}%
 \item%
-\textbf{Appeal Court Judgements}: A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.\textit{ (10,146 documents,  10.3 GB,  from 2012{-}04{-}23 to 2025{-}10{-}03)}%
+\textbf{Appeal Court Judgements}: A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.\textit{ (10,146 documents, 10.3 GB, from 2012{-}04{-}23 to 2025{-}10{-}03, https://courtofappeal.lk)}%
 \item%
-\textbf{Supreme Court Judgements}: A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.\textit{ (1,575 documents,  1.3 GB,  from 2016{-}07{-}22 to 2025{-}10{-}03)}%
+\textbf{Supreme Court Judgements}: A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.\textit{ (1,575 documents, 1.3 GB, from 2016{-}07{-}22 to 2025{-}10{-}03, https://supremecourt.lk)}%
 \item%
-\textbf{Police Press Releases}: A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.\textit{ (736 documents,  250.5 MB,  from 2025{-}05{-}01 to 2025{-}10{-}03)}%
+\textbf{Police Press Releases}: A police press release is an official update from law enforcement on crimes, arrests, safety alerts, or public notices, ensuring transparency and public awareness.\textit{ (736 documents, 250.5 MB, from 2025{-}05{-}01 to 2025{-}10{-}03, https://www.police.lk)}%
 \item%
-\textbf{Acts}: A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.\textit{ (3,928 documents,  6.8 GB,  from 1981{-}01{-}22 to 2025{-}09{-}22)}%
+\textbf{Acts}: A legal act is a law passed by Parliament that governs rights, duties, economy, and society, shaping daily life and national policy.\textit{ (3,928 documents, 6.8 GB, from 1981{-}01{-}22 to 2025{-}09{-}22, https://documents.gov.lk)}%
 \item%
-\textbf{Bills}: A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.\textit{ (4,077 documents,  1.8 GB,  from 2010{-}05{-}10 to 2025{-}10{-}26)}%
+\textbf{Bills}: A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.\textit{ (4,077 documents, 1.8 GB, from 2010{-}05{-}10 to 2025{-}10{-}26, https://documents.gov.lk)}%
 \item%
-\textbf{Extraordinary Gazettes}: An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.\textit{ (101,532 documents,  19.4 GB,  from 2010{-}01{-}01 to 2025{-}10{-}03)}%
+\textbf{Extraordinary Gazettes}: An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.\textit{ (101,532 documents, 19.4 GB, from 2010{-}01{-}01 to 2025{-}10{-}03, https://documents.gov.lk)}%
 \item%
-\textbf{Cabinet Decisions}: A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.\textit{ (10,369 documents,  125.3 MB,  from 2010{-}09{-}27 to 2025{-}09{-}22)}%
+\textbf{Cabinet Decisions}: A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabinet of Ministers, shaping governance, law, and national development in the country.\textit{ (10,369 documents, 125.3 MB, from 2010{-}09{-}27 to 2025{-}09{-}22, https://www.cabinetoffice.gov.lk)}%
 \item%
-\textbf{Treasury Press Releases}: A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.\textit{ (133 documents,  142.9 MB,  from 2015{-}09{-}08 to 2025{-}07{-}30)}%
+\textbf{Treasury Press Releases}: A Sri Lanka Treasury press release shares key govt financial updates—on budgets, debt, or policy—vital for transparency, guiding investors, citizens, and markets on the nation’s economic direction.\textit{ (133 documents, 142.9 MB, from 2015{-}09{-}08 to 2025{-}07{-}30, https://www.treasury.gov.lk)}%
 \item%
-\textbf{Pmd Press Releases}: A Sri Lanka Presidential Media Division press release shares official updates on national decisions, policies, or events. It’s vital as the authoritative source ensuring transparency and public awareness.\textit{ (2,182 documents,  55.9 MB,  from 2024{-}09{-}23 to 2025{-}09{-}24)}%
+\textbf{Pmd Press Releases}: A Sri Lanka Presidential Media Division press release shares official updates on national decisions, policies, or events. It’s vital as the authoritative source ensuring transparency and public awareness.\textit{ (2,182 documents, 55.9 MB, from 2024{-}09{-}23 to 2025{-}09{-}24, multiple sources)}%
 \item%
-\textbf{News}: A collection of news documents.\textit{ (79,049 documents,  1.2 GB,  from 2021{-}09{-}12 to 2025{-}10{-}04)}%
+\textbf{News}: A collection of news documents.\textit{ (79,049 documents, 1.2 GB, from 2021{-}09{-}12 to 2025{-}10{-}04, multiple sources)}%
 \item%
-\textbf{Tourism Weekly Reports}: Report on Weekly Tourist Arrivals to Sri Lanka.\textit{ (33 documents,  91.5 MB,  from 2023{-}01{-}01 to 2025{-}09{-}01)}%
+\textbf{Tourism Weekly Reports}: Report on Weekly Tourist Arrivals to Sri Lanka.\textit{ (33 documents, 91.5 MB, from 2023{-}01{-}01 to 2025{-}09{-}01, https://www.sltda.gov.lk)}%
 \item%
-\textbf{Tourism Monthly Reports}: Report on Monthly Tourist Arrivals to Sri Lanka.\textit{ (127 documents,  308.9 MB,  from 2015{-}01{-}01 to 2025{-}08{-}01)}%
+\textbf{Tourism Monthly Reports}: Report on Monthly Tourist Arrivals to Sri Lanka.\textit{ (127 documents, 308.9 MB, from 2015{-}01{-}01 to 2025{-}08{-}01, multiple sources)}%
 \end{enumerate}
 
 %
@@ -208,6 +208,6 @@ Together, these directions will further improve coverage, data quality, and usab
 \newline
 
 %
-\bibliographystyle{acl_natbib}%
+\bibliographystyle{latex/acl_natbib}%
 \bibliography{latex/references}%
 \end{document}
