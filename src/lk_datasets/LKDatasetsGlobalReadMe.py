@@ -7,9 +7,7 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
             {
                 "lk_hansard": ["lk_hansard"],
                 "lk_appeal_court_judgements": ["lk_appeal_court_judgements"],
-                "lk_supreme_court_judgements": [
-                    "lk_supreme_court_judgements"
-                ],
+                "lk_supreme_court_judgements": ["lk_supreme_court_judgements"],
                 "lk_police_press_releases": ["lk_police_press_releases"],
                 "lk_legal_docs": [
                     "lk_acts",
@@ -23,6 +21,12 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
                 "lk_tourism": [
                     "lk_tourism_weekly_reports",
                     "lk_tourism_monthly_reports",
+                ],
+                "lk_dmc": [
+                    "lk_dmc_situation_reports",
+                    "lk_dmc_weather_forecasts",
+                    "lk_dmc_river_water_level_and_flood_warnings",
+                    "lk_dmc_landslide_warnings",
                 ],
             }
         )
