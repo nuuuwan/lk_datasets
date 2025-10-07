@@ -4,7 +4,7 @@
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_09:51:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:43:28-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -15,6 +15,8 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 - In **JSON**, **PDF** (98%), **TXT** (98%) & **🤗 Hugging Face** (98%)
 
 - In **සිංහල**, **தமிழ்** & **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_hansard/refs/heads/data/data/lk_hansard/docs_by_year_and_lang.png)
 
@@ -32,6 +34,8 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 - In **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_appeal_court_judgements/refs/heads/data/data/lk_appeal_court_judgements/docs_by_year_and_lang.png)
 
 ## 003 ⚖️ Supreme Court Judgements
@@ -47,6 +51,8 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 - In **JSON**, **PDF** (89%), **TXT** (89%) & **🤗 Hugging Face** (89%)
 
 - In **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_supreme_court_judgements/refs/heads/data/data/lk_supreme_court_judgements/docs_by_year_and_lang.png)
 
@@ -64,11 +70,13 @@ A police press release is an official update from law enforcement on crimes, arr
 
 - In **සිංහල**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_police_press_releases/refs/heads/data/data/lk_police_press_releases/docs_by_month_and_lang.png)
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:16:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:43:34-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -80,11 +88,13 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 - In **සිංහල**, **தமிழ்** & **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data_lk_acts/data/lk_acts/docs_by_decade_and_lang.png)
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:09:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:36:51-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
@@ -95,6 +105,8 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 - In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
 
 - In **සිංහල**, **தமிழ்** & **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data_lk_bills/data/lk_bills/docs_by_year_and_lang.png)
 
@@ -112,6 +124,8 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 - In **සිංහල**, **தமிழ்** & **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_legal_docs/refs/heads/data_lk_extraordinary_gazettes/data/lk_extraordinary_gazettes/docs_by_year_and_lang.png)
 
 ## 008 🏛️ Cabinet Decisions
@@ -127,6 +141,8 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
 - In **සිංහල** & **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_cabinet_decisions/refs/heads/data/data/lk_cabinet_decisions/docs_by_year_and_lang.png)
 
@@ -144,6 +160,8 @@ A Sri Lanka Treasury press release shares key govt financial updates—on budget
 
 - In **සිංහල** & **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_treasury/refs/heads/data_lk_treasury_press_releases/data/lk_treasury_press_releases/docs_by_year_and_lang.png)
 
 ## 010 📢 Pmd Press Releases
@@ -159,6 +177,8 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
 - In **සිංහල**, **தமிழ்** & **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_pmd/refs/heads/data_lk_pmd_press_releases/data/lk_pmd_press_releases/docs_by_month_and_lang.png)
 
@@ -176,6 +196,8 @@ A collection of lk_news documents.
 
 - In **සිංහල**, **தமிழ்** & **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_news/refs/heads/data/data/lk_news/docs_by_month_and_lang.png)
 
 ## 012 🌴 Tourism Weekly Reports
@@ -192,11 +214,13 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 - In **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_tourism/refs/heads/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports/docs_by_month_and_lang.png)
 
 ## 013 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:07:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:34:49-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -207,6 +231,8 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 - In **JSON**, **PDF** (99%), **TXT** (99%) & **🤗 Hugging Face** (99%)
 
 - In **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_tourism/refs/heads/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports/docs_by_year_and_lang.png)
 
@@ -224,6 +250,8 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 - In **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports/docs_by_day_and_lang.png)
 
 ## 015 ☔️ Dmc Weather Forecasts
@@ -240,11 +268,13 @@ Weather Forecasts for various places in Sri Lanka.
 
 - In **English**
 
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
+
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts/docs_by_day_and_lang.png)
 
 ## 016 💧 Dmc River Water Level And Flood Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:22:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--07_10:38:25-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings)
 
@@ -255,6 +285,8 @@ River Water Level and Flood Warnings for various places in Sri Lanka.
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
 - In **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings/docs_by_day_and_lang.png)
 
@@ -271,6 +303,8 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
 - In **English**
+
+- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings/docs_by_month_and_lang.png)
 
