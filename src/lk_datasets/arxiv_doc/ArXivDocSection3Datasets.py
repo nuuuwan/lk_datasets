@@ -2,6 +2,7 @@ from pylatex import Enumerate, Section
 from pylatex.utils import NoEscape, bold, italic
 from utils import File
 
+from latex import Footnote, Paragraph
 from utils_future import Latex
 
 
@@ -46,10 +47,15 @@ class ArXivDocSection3Datasets:
     def fill_section_datasets(doc, version, summary_list):
         n = len(summary_list)
         with doc.create(Section("Datasets")):
-            doc.append(
-                f"As of {version}, Sri Lanka Document Datasets"
-                + f" consists of {n} datasets."
-            )
+            url_lk_datasets = r"https://github.com/nuuuwan/lk\_datasets"
+            Paragraph(
+                [
+                    f"As of {version}, Sri Lanka Document Datasets",
+                    f" consists of {n} datasets",
+                    "and are publicly accessible on GitHub.",
+                    Footnote(url_lk_datasets),
+                ]
+            ).fill_doc(doc)
             with doc.create(Enumerate()) as enumer:
                 for summary in summary_list:
                     ArXivDocSection3Datasets.fill_subsection_dataset(

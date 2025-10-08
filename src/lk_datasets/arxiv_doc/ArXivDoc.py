@@ -37,7 +37,8 @@ class ArXivDoc(
     ArXivDocEnd,
 ):
     DOC_ID = "lk_datasets"
-    PATH_PREFIX = os.path.join("latex", DOC_ID)
+    DIR_LATEX = "latex"
+    PATH_PREFIX = os.path.join(DIR_LATEX, DOC_ID)
     TEX_PATH = PATH_PREFIX + ".tex"
     PDF_PATH = PATH_PREFIX + ".pdf"
 
@@ -46,6 +47,18 @@ class ArXivDoc(
         self.summary_list = lk_datasets_global_readme.summary_list
         self.global_summary = lk_datasets_global_readme.global_summary
         self.version = TimeFormat("v%Y-%m-%d-%H%M").format(Time.now())
+
+    def cleanup_old_files(self):
+        for file in os.listdir(self.DIR_LATEX):
+            ext = os.path.splitext(file)[1]
+            if file.startswith(self.DOC_ID) and ext not in [
+                ".tex",
+                ".pdf",
+                ".bib",
+            ]:
+                path = os.path.join(self.DIR_LATEX, file)
+                log.debug(f"Removing old file {File(path)}")
+                os.remove(path)
 
     def build(self):
         doc = Document(
@@ -67,6 +80,7 @@ class ArXivDoc(
 
         self.fill_end(doc)
 
+        self.cleanup_old_files()
         doc.generate_tex(self.PATH_PREFIX)
         assert os.path.exists(self.TEX_PATH)
         log.info(f"Wrote {File(self.TEX_PATH)}")
@@ -81,3 +95,4 @@ class ArXivDoc(
         doc.generate_pdf(self.PATH_PREFIX, clean=True, clean_tex=False)
         assert os.path.exists(self.PDF_PATH)
         log.info(f"Generated {File(self.PDF_PATH)}")
+        self.cleanup_old_files()
