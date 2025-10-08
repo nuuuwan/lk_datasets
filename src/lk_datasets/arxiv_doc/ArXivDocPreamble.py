@@ -21,15 +21,15 @@ class ArXivDocPreamble:
                 + f" Law, News, and Policy ({version})",
             )
         )
-        email = "nuwans@alumni.stanford.edu"
+        url_github = "https://github.com/nuuuwan"
         doc.preamble.append(
             Command(
                 "author",
                 NoEscape(
                     r"Nuwan I. Senaratna\\"
                     r"Independent Researcher\\"
-                    r"\vspace{0.25em}\texttt{\href{mailto:%s}{%s}}"
-                    % (email, email)
+                    r"\vspace{0.25em}\texttt{\href{%s}{%s}}"
+                    % (url_github, url_github)
                 ),
             )
         )
