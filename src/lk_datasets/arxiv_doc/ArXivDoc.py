@@ -52,7 +52,7 @@ class ArXivDoc(
         lk_datasets_global_readme = LKDatasetsGlobalReadMe()
         self.summary_list = lk_datasets_global_readme.summary_list
         self.global_summary = lk_datasets_global_readme.global_summary
-        self.version = TimeFormat("v%Y%m%d-%H%M").format(Time.now())
+        self.version = TimeFormat("v%Y-%m-%d-%H%M").format(Time.now())
 
     def build(self):
         doc = Document(
