@@ -12,7 +12,8 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
                 "lk_legal_docs": [
                     "lk_acts",
                     "lk_bills",
-                    "lk_extraordinary_gazettes",
+                    "lk_extraordinary_gazettes_2020s",
+                    "lk_extraordinary_gazettes_2010s",
                 ],
                 "lk_cabinet_decisions": ["lk_cabinet_decisions"],
                 "lk_treasury": ["lk_treasury_press_releases"],
