@@ -30,5 +30,8 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
                     "lk_dmc_landslide_warnings",
                 ],
                 "cbsl": ["cbsl_annual_reports"],
+                "lk_fisheries": [
+                    "lk_fisheries_annual_statistics_reports",
+                ],
             }
         )

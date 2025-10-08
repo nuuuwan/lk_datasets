@@ -16,7 +16,7 @@ Datasets to add.
 - https://www.fisheries.gov.lk/web/index.php/en/statistics/monthly-fish-production#2025
 - https://www.fisheries.gov.lk/web/index.php/en/statistics/weekly-fish-prices#september-2025
 - https://www.fisheries.gov.lk/web/index.php/en/statistics/export-import#2025
-- https://www.fisheries.gov.lk/web/index.php/en/statistics/annual-statistics-reports
+
 
 ## doa (Department of Agriculture)
 
