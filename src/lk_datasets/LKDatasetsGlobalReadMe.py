@@ -29,5 +29,6 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
                     "lk_dmc_river_water_level_and_flood_warnings",
                     "lk_dmc_landslide_warnings",
                 ],
+                "cbsl": ["cbsl_annual_reports"],
             }
         )

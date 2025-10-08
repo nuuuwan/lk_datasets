@@ -22,6 +22,3 @@ Datasets to add.
 
 - https://doa.gov.lk/agro-met-advisory/
 
-## cbsl (Central Bank of Sri Lanka)
-
-- https://www.cbsl.gov.lk/en/publications/economic-and-financial-reports/annual-reports
