@@ -12,8 +12,6 @@ class ArXivDocPreamble:
         doc.packages.append(Package("lastpage"))
         doc.packages.append(Package("hyperref"))
         doc.packages.append(Package("acl"))
-        doc.preamble.append(Command("usepackage", "datetime2"))
-        doc.preamble.append(Command("DTMsetdatestyle", "iso"))
 
         doc.preamble.append(
             Command(
@@ -35,5 +33,5 @@ class ArXivDocPreamble:
                 ),
             )
         )
-        doc.preamble.append(Command("date", NoEscape(r"\DTMnow")))
+        doc.preamble.append(Command("date", NoEscape(r"\today")))
         doc.append(NoEscape(r"\maketitle"))
