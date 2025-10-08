@@ -94,7 +94,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:36:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:13:23-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
@@ -148,7 +148,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 009 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:06:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:08:24-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -166,7 +166,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:08:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:14:23-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -220,7 +220,7 @@ A collection of lk_news documents.
 
 ## 013 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:36:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:12:00-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -238,7 +238,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 014 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:36:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:12:28-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -292,7 +292,7 @@ Weather Forecasts for various places in Sri Lanka.
 
 ## 017 💧 Dmc River Water Level And Flood Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:42:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:14:07-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings)
 
@@ -310,7 +310,7 @@ River Water Level and Flood Warnings for various places in Sri Lanka.
 
 ## 018 🗻 Dmc Landslide Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:44:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:16:04-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings)
 
@@ -346,7 +346,7 @@ Annual Reports of the Central Bank of Sri Lanka (CBSL).It has been discountinued
 
 ## 020 🐟 Fisheries Annual Statistics Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_11:58:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--08_12:12:18-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports)
 
