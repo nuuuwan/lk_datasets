@@ -33,5 +33,6 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
                 "lk_fisheries": [
                     "lk_fisheries_annual_statistics_reports",
                 ],
+                "lk_edupub": ["lk_edupub"],
             }
         )
