@@ -21,8 +21,7 @@ class ArXivDocSection0Abstract:
                 "proceedings, legal judgments, government",
                 "publications, news, and tourism statistics from",
                 "Sri Lanka.",
-                f"As of {version}, ",
-                "the collection currently comprises",
+                "The collection currently comprises of ",
                 f"{n_docs:,}",
                 " documents",
                 f"({all_dataset_size_humanized})",
@@ -38,6 +37,7 @@ class ArXivDocSection0Abstract:
                 "We describe the data sources, collection pipeline,",
                 "formats, and potential use cases, while discussing",
                 "licensing and ethical considerations.",
+                f"This manuscript is at version {version}.",
             ]
         ).fill_doc(doc)
         doc.append(NoEscape(r"\end{abstract}"))

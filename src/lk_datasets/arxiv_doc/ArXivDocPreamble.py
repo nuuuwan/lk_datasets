@@ -18,7 +18,7 @@ class ArXivDocPreamble:
                 "title",
                 "Sri Lanka Document Datasets:"
                 + " A Large-Scale, Multilingual Resource for"
-                + f" Law, News, and Policy ({version})",
+                + " Law, News, and Policy",
             )
         )
         url_github = "https://github.com/nuuuwan"
