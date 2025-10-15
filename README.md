@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**24** datasets, with **230,037** documents (**57.4 GB**).
+**24** datasets, with **230,040** documents (**57.5 GB**).
 
 ## 001 🏛️ Hansard
 
@@ -22,7 +22,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_20:36:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:05:12-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -30,7 +30,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 - [**10,164** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**10.5 GB**), from **2012-04-23** to **2025-10-15**, scraped from [https://courtofappeal.lk](https://courtofappeal.lk)
 
-- In **JSON**, **PDF**, **TXT**, **Tables** (38%) & **🤗 Hugging Face**
+- In **JSON**, **PDF**, **TXT**, **Tables** (59%) & **🤗 Hugging Face**
 
 - In **English**
 
@@ -40,7 +40,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_20:53:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:53:21-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -76,7 +76,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 005 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--13_13:14:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:19:30-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -84,7 +84,7 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 - [**3,934** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts) (**6.8 GB**), from **1981-01-22** to **2025-10-07**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
 
-- In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
+- In **JSON**, **PDF** (100%), **TXT** (100%), **Tables** (0%) & **🤗 Hugging Face** (100%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
@@ -94,15 +94,15 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 006 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--14_08:50:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:19:24-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,077** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills) (**1.8 GB**), from **2010-05-10** to **2025-10-26**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
+- [**4,080** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills) (**1.8 GB**), from **2010-05-10** to **2025-10-26**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
 
-- In **JSON**, **PDF** (100%), **TXT** (100%) & **🤗 Hugging Face** (100%)
+- In **JSON**, **PDF** (100%), **TXT** (100%), **Tables** (0%) & **🤗 Hugging Face** (100%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
@@ -112,7 +112,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_18:32:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:20:31-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s)
 
@@ -130,7 +130,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 008 ⚖️ Extraordinary Gazettes 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_09:29:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:20:32-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s)
 
@@ -138,7 +138,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 - [**56,379** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s) (**3.2 GB**), from **2010-01-01** to **2019-12-31**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
 
-- In **JSON**, **PDF** (10%), **TXT** (10%) & **🤗 Hugging Face** (10%)
+- In **JSON**, **PDF** (10%), **TXT** (10%), **Tables** (1%) & **🤗 Hugging Face** (10%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
@@ -148,7 +148,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 009 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:06:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:07:29-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -166,7 +166,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 010 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:07:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:11:16-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -202,7 +202,7 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 012 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:15:16-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:46:38-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
@@ -220,7 +220,7 @@ A collection of lk_news documents.
 
 ## 013 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:05:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:08:29-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 016 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_20:53:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:54:53-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
@@ -292,7 +292,7 @@ Weather Forecasts for various places in Sri Lanka.
 
 ## 017 💧 Dmc River Water Level And Flood Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:07:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:11:44-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings)
 
@@ -346,7 +346,7 @@ Annual Reports of the Central Bank of Sri Lanka (CBSL).It has been discountinued
 
 ## 020 🐟 Fisheries Annual Statistics Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:05:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:08:34-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports)
 
@@ -364,7 +364,7 @@ Annual Fisheries Statistics Reports of the Ministry of Fisheries,Aquatic and Oce
 
 ## 021 🐟 Fisheries Monthly Fish Production Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_21:05:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--15_22:08:22-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports)
 
