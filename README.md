@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**24** datasets, with **231,098** documents (**57.4 GB**).
+**24** datasets, with **231,105** documents (**57.4 GB**).
 
 ## 001 🏛️ Hansard
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_11:31:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:37:51-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard](https://github.com/nuuuwan/lk_hansard/tree/data/data/lk_hansard)
 
@@ -22,7 +22,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_11:54:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:24:11-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
@@ -40,7 +40,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 003 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_11:52:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:32:27-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -112,7 +112,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 007 ⚖️ Extraordinary Gazettes 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_09:33:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:28:38-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s)
 
@@ -130,7 +130,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 008 ⚖️ Extraordinary Gazettes 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_09:34:16-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:29:31-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s)
 
@@ -148,7 +148,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 009 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:08:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_13:07:23-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -202,13 +202,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 012 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_11:47:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:23:44-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**81,876** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**1.2 GB**), from **2021-09-12** to **2025-10-20**, scraped from [https://www.virakesari.lk](https://www.virakesari.lk), [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
+- [**81,883** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**1.2 GB**), from **2021-09-12** to **2025-10-20**, scraped from [https://www.virakesari.lk](https://www.virakesari.lk), [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
@@ -400,7 +400,7 @@ Weekly Fish Prices Reports of the Ministry of Fisheries,Aquatic and Ocean Resour
 
 ## 023 🐟 Fisheries Monthly Export Import Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_12:13:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--10--20_13:05:36-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports)
 
