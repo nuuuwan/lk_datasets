@@ -5,7 +5,11 @@ class LKDatasetsGlobalReadMe(GlobalReadMe):
     def __init__(self):
         super().__init__(
             {
-                "lk_hansard": ["lk_hansard"],
+                "lk_hansard": [
+                    "lk_hansard_2020s",
+                    "lk_hansard_2010s",
+                    "lk_hansard_2000s",
+                ],
                 "lk_appeal_court_judgements": ["lk_appeal_court_judgements"],
                 "lk_supreme_court_judgements": [
                     "lk_supreme_court_judgements"
