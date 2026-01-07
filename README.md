@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **248,501** documents (**67.7 GB**).
+**26** datasets, with **248,502** documents (**67.7 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_18:32:03-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:25:27-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:13:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_21:13:12-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:10:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_21:10:40-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:11:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_21:10:54-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_18:29:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:23:45-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,13 +310,13 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_18:30:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:24:35-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
 Weather Forecasts for various places in Sri Lanka.
 
-- [**4,083** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**5.0 GB**), from **2023-03-26** to **2026-01-07**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
+- [**4,084** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**5.0 GB**), from **2023-03-26** to **2026-01-07**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
 
 - In **JSON**, **PDF**, **TXT**, **Tables** (0%) & **🤗 Hugging Face**
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_20:15:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_21:14:29-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
