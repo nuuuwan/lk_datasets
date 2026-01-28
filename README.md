@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **251,851** documents (**70.4 GB**).
+**26** datasets, with **251,863** documents (**70.4 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--27_22:19:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:24:18-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2020s/data/lk_hansard_2020s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2020s/data/lk_hansard_2020s)
 
@@ -22,7 +22,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 🏛️ Hansard 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--27_22:17:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:22:49-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2010s/data/lk_hansard_2010s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2010s/data/lk_hansard_2010s)
 
@@ -40,7 +40,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 003 🏛️ Hansard 2000S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--27_22:17:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:23:00-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2000s/data/lk_hansard_2000s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2000s/data/lk_hansard_2000s)
 
@@ -76,7 +76,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 005 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--27_18:38:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:40:26-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_04:23:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:32:59-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -112,7 +112,7 @@ A police press release is an official update from law enforcement on crimes, arr
 
 ## 007 ⚖️ Acts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--27_17:39:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_05:44:12-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_acts/data/lk_acts)
 
@@ -130,13 +130,13 @@ A legal act is a law passed by Parliament that governs rights, duties, economy, 
 
 ## 008 ⚖️ Bills
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--27_17:38:35-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_05:43:08-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills)
 
 A Bill is a draft law proposed in Parliament. It becomes binding once passed and enacted, shaping governance, rights, and daily life in the country.
 
-- [**4,158** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills) (**1.8 GB**), from **2010-05-10** to **2026-01-20**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
+- [**4,158** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_bills/data/lk_bills) (**1.9 GB**), from **2010-05-10** to **2026-01-20**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
 
 - In **JSON**, **PDF** (100%), **TXT** (100%), **Tables** (1%) & **🤗 Hugging Face** (100%)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_05:10:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:23:08-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -238,13 +238,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 014 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_03:48:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:08:05-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**99,756** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**1.5 GB**), from **2021-09-12** to **2026-01-28**, scraped from [https://www.virakesari.lk](https://www.virakesari.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
+- [**99,767** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**1.5 GB**), from **2021-09-12** to **2026-01-28**, scraped from [https://www.virakesari.lk](https://www.virakesari.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_05:08:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:19:02-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_05:08:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:19:10-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_04:22:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:32:02-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,13 +310,13 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_04:22:49-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:32:23-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
 Weather Forecasts for various places in Sri Lanka.
 
-- [**4,191** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**5.2 GB**), from **2023-03-26** to **2026-01-27**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
+- [**4,192** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**5.2 GB**), from **2023-03-26** to **2026-01-28**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
 
 - In **JSON**, **PDF**, **TXT**, **Tables** (0%) & **🤗 Hugging Face**
 
@@ -328,7 +328,7 @@ Weather Forecasts for various places in Sri Lanka.
 
 ## 019 💧 Dmc River Water Level And Flood Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_04:10:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:20:28-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings)
 
@@ -346,7 +346,7 @@ River Water Level and Flood Warnings for various places in Sri Lanka.
 
 ## 020 🗻 Dmc Landslide Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_04:11:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:21:08-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_05:11:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--28_06:10:26-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
