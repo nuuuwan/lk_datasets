@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **253,812** documents (**72.2 GB**).
+**26** datasets, with **253,814** documents (**72.2 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_06:46:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_09:19:13-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_06:45:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_09:18:04-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,13 +310,13 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_06:45:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_09:18:36-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
 Weather Forecasts for various places in Sri Lanka.
 
-- [**4,265** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**5.3 GB**), from **2023-03-26** to **2026-02-10**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
+- [**4,267** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**5.3 GB**), from **2023-03-26** to **2026-02-10**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
 
 - In **JSON**, **PDF**, **TXT**, **Tables** (0%) & **🤗 Hugging Face**
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_08:44:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_09:54:10-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
