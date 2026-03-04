@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **257,626** documents (**75.1 GB**).
+**26** datasets, with **257,630** documents (**75.1 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -76,7 +76,7 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 005 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_18:39:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:45:21-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
@@ -148,13 +148,13 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 009 ⚖️ Extraordinary Gazettes 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_06:45:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:42:36-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s)
 
 An Extraordinary Gazette is an official government publication used to announce urgent laws, regulations, or public notices with immediate effect.
 
-- [**48,484** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s) (**10.7 GB**), from **2020-01-01** to **2026-02-28**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
+- [**48,488** documents](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s) (**10.7 GB**), from **2020-01-01** to **2026-02-28**, scraped from [https://documents.gov.lk](https://documents.gov.lk)
 
 - In **JSON**, **PDF** (27%), **TXT** (27%) & **🤗 Hugging Face** (27%)
 
@@ -166,7 +166,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 010 ⚖️ Extraordinary Gazettes 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_06:47:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:47:04-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s)
 
@@ -184,7 +184,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 011 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_19:02:41-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_07:06:53-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:25:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_07:52:26-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:24:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_07:05:04-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:23:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_07:04:48-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:16:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_07:13:17-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
@@ -382,7 +382,7 @@ Annual Reports of the Central Bank of Sri Lanka (CBSL).It has been discountinued
 
 ## 022 🐟 Fisheries Annual Statistics Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_18:50:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:54:17-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports)
 
@@ -400,13 +400,13 @@ Annual Fisheries Statistics Reports of the Ministry of Fisheries,Aquatic and Oce
 
 ## 023 🐟 Fisheries Monthly Fish Production Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_18:50:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:54:25-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports)
 
 Monthly Fish Production Reports of the Ministry of Fisheries,Aquatic and Ocean Resources, Sri Lanka
 
-- [**100** documents](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports) (**9.3 MB**), from **2019-01-01** to **2025-10-01**, scraped from [https://www.fisheries.gov.lk](https://www.fisheries.gov.lk)
+- [**100** documents](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports) (**9.4 MB**), from **2019-01-01** to **2025-10-01**, scraped from [https://www.fisheries.gov.lk](https://www.fisheries.gov.lk)
 
 - In **JSON**, **TXT**, **Excel**, **Tables** & **🤗 Hugging Face**
 
@@ -418,7 +418,7 @@ Monthly Fish Production Reports of the Ministry of Fisheries,Aquatic and Ocean R
 
 ## 024 🐟 Fisheries Weekly Fish Prices Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_18:50:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:54:15-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_weekly_fish_prices_reports/data/lk_fisheries_weekly_fish_prices_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_weekly_fish_prices_reports/data/lk_fisheries_weekly_fish_prices_reports)
 
@@ -436,13 +436,13 @@ Weekly Fish Prices Reports of the Ministry of Fisheries,Aquatic and Ocean Resour
 
 ## 025 🐟 Fisheries Monthly Export Import Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_18:50:41-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_06:54:22-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports)
 
 Monthly Fish Export and Import Reports of the Ministry of Fisheries,Aquatic and Ocean Resources, Sri Lanka
 
-- [**69** documents](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports) (**53.7 MB**), from **2019-01-01** to **2026-01-01**, scraped from [https://www.fisheries.gov.lk](https://www.fisheries.gov.lk)
+- [**69** documents](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports) (**54.2 MB**), from **2019-01-01** to **2026-01-01**, scraped from [https://www.fisheries.gov.lk](https://www.fisheries.gov.lk)
 
 - In **JSON**, **TXT** (16%), **Excel** (99%), **Tables** (6%) & **🤗 Hugging Face** (16%)
 
