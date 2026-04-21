@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **265,494** documents (**78.5 GB**).
+**26** datasets, with **265,494** documents (**78.8 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_00:23:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_01:25:04-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_00:20:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_01:24:36-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_00:20:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_01:25:03-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_00:05:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_01:05:55-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
@@ -454,15 +454,15 @@ Monthly Fish Export and Import Reports of the Ministry of Fisheries,Aquatic and 
 
 ## 026 📚 Edupub
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--12_00:43:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_00:51:27-green)
 
 [https://github.com/nuuuwan/lk_edupub/tree/data/data/lk_edupub](https://github.com/nuuuwan/lk_edupub/tree/data/data/lk_edupub)
 
 Educational Publications from the Educational Publications Department, Sri Lanka.
 
-- [**1,426** documents](https://github.com/nuuuwan/lk_edupub/tree/data/data/lk_edupub) (**9.0 GB**), from **2025-01-01** to **2025-01-01**, scraped from [http://www.edupub.gov.lk](http://www.edupub.gov.lk)
+- [**1,426** documents](https://github.com/nuuuwan/lk_edupub/tree/data/data/lk_edupub) (**9.3 GB**), from **2025-01-01** to **2025-01-01**, scraped from [http://www.edupub.gov.lk](http://www.edupub.gov.lk)
 
-- In **JSON**, **PDF** (92%), **TXT** (92%) & **🤗 Hugging Face** (92%)
+- In **JSON**, **PDF** (93%), **TXT** (93%) & **🤗 Hugging Face** (93%)
 
 - In **සිංහල**, **தமிழ்** & **English**
 
