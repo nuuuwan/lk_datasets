@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **268,215** documents (**79.3 GB**).
+**26** datasets, with **268,216** documents (**79.3 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_09:28:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_11:04:27-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_10:52:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_11:42:43-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,13 +256,13 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_10:02:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_11:13:14-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
 Report on Weekly Tourist Arrivals to Sri Lanka.
 
-- [**40** documents](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports) (**111.5 MB**), from **2023-01-01** to **2026-04-01**, scraped from [https://www.sltda.gov.lk](https://www.sltda.gov.lk)
+- [**41** documents](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports) (**112.2 MB**), from **2023-01-01** to **2026-05-01**, scraped from [https://www.sltda.gov.lk](https://www.sltda.gov.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_10:03:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_11:13:23-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_10:40:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--08_11:43:24-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
