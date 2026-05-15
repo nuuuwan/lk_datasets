@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **269,259** documents (**79.5 GB**).
+**26** datasets, with **269,261** documents (**79.5 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_13:19:41-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_15:14:49-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_14:33:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_15:48:07-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,13 +274,13 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_14:33:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_15:48:02-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
 Report on Monthly Tourist Arrivals to Sri Lanka.
 
-- [**134** documents](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports) (**352.8 MB**), from **2015-01-01** to **2026-03-01**, scraped from [https://sltda.gov.lk](https://sltda.gov.lk) & [https://www.sltda.gov.lk](https://www.sltda.gov.lk)
+- [**135** documents](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports) (**354.6 MB**), from **2015-01-01** to **2026-04-01**, scraped from [https://sltda.gov.lk](https://sltda.gov.lk) & [https://www.sltda.gov.lk](https://www.sltda.gov.lk)
 
 - In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_13:18:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_15:13:49-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,13 +310,13 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_13:19:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--15_15:15:08-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
 Weather Forecasts for various places in Sri Lanka.
 
-- [**4,955** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**6.1 GB**), from **2023-03-26** to **2026-05-15**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
+- [**4,956** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**6.1 GB**), from **2023-03-26** to **2026-05-15**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
 
 - In **JSON**, **PDF**, **TXT**, **Tables** (0%) & **🤗 Hugging Face**
 
