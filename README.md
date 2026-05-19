@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **269,840** documents (**79.6 GB**).
+**26** datasets, with **269,843** documents (**79.6 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -76,13 +76,13 @@ A Court of Appeal judgment is a higher court ruling that reviews decisions of lo
 
 ## 005 ⚖️ Supreme Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_07:07:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:19:04-green)
 
 [https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements)
 
 A Supreme Court judgment is a binding legal decision that interprets the Constitution and laws, shaping justice, governance, and citizens’ rights.
 
-- [**2,716** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.7 GB**), from **2009-01-27** to **2026-05-18**, scraped from [https://supremecourt.lk](https://supremecourt.lk)
+- [**2,719** documents](https://github.com/nuuuwan/lk_supreme_court_judgements/tree/data/data/lk_supreme_court_judgements) (**1.7 GB**), from **2009-01-27** to **2026-05-19**, scraped from [https://supremecourt.lk](https://supremecourt.lk)
 
 - In **JSON**, **PDF** (70%), **TXT** (70%) & **🤗 Hugging Face** (70%)
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_17:18:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:19:22-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -184,7 +184,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 011 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_07:16:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:37:34-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_17:17:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:18:01-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,7 +310,7 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_17:18:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:19:41-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_18:54:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:54:44-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
@@ -382,7 +382,7 @@ Annual Reports of the Central Bank of Sri Lanka (CBSL).It has been discountinued
 
 ## 022 🐟 Fisheries Annual Statistics Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_07:03:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:24:15-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports)
 
@@ -400,7 +400,7 @@ Annual Fisheries Statistics Reports of the Ministry of Fisheries,Aquatic and Oce
 
 ## 023 🐟 Fisheries Monthly Fish Production Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_07:03:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:24:22-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports)
 
@@ -418,7 +418,7 @@ Monthly Fish Production Reports of the Ministry of Fisheries,Aquatic and Ocean R
 
 ## 024 🐟 Fisheries Weekly Fish Prices Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_07:03:29-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:24:37-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_weekly_fish_prices_reports/data/lk_fisheries_weekly_fish_prices_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_weekly_fish_prices_reports/data/lk_fisheries_weekly_fish_prices_reports)
 
@@ -436,7 +436,7 @@ Weekly Fish Prices Reports of the Ministry of Fisheries,Aquatic and Ocean Resour
 
 ## 025 🐟 Fisheries Monthly Export Import Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_07:03:49-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_19:24:31-green)
 
 [https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports)
 
