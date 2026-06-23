@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--23_19:10:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--23_21:16:06-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--23_19:10:03-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--23_21:15:55-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,7 +310,7 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--23_19:11:35-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--23_21:17:15-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
