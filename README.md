@@ -148,7 +148,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 009 ⚖️ Extraordinary Gazettes 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--22_06:47:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_06:49:04-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s)
 
@@ -166,7 +166,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 010 ⚖️ Extraordinary Gazettes 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--22_06:48:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_06:49:53-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s)
 
@@ -184,7 +184,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 011 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--22_19:07:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_07:07:34-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_06:34:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_07:52:38-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_06:34:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_07:48:07-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_06:34:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_07:48:19-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_06:21:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--23_07:12:59-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
