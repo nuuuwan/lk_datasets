@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **286,333** documents (**81.5 GB**).
+**26** datasets, with **286,333** documents (**81.8 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -58,15 +58,15 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 004 ⚖️ Appeal Court Judgements
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--28_18:53:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:49:40-green)
 
 [https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements)
 
 A Court of Appeal judgment is a higher court ruling that reviews decisions of lower courts, shaping legal precedent and protecting citizens’ rights.
 
-- [**14,407** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**11.4 GB**), from **2010-10-16** to **2026-07-24**, scraped from [https://courtofappeal.lk](https://courtofappeal.lk)
+- [**14,407** documents](https://github.com/nuuuwan/lk_appeal_court_judgements/tree/data/data/lk_appeal_court_judgements) (**11.7 GB**), from **2010-10-16** to **2026-07-24**, scraped from [https://courtofappeal.lk](https://courtofappeal.lk)
 
-- In **JSON**, **PDF** (82%), **TXT** (82%) & **🤗 Hugging Face** (82%)
+- In **JSON**, **PDF** (85%), **TXT** (85%) & **🤗 Hugging Face** (85%)
 
 - In **English**
 
@@ -94,7 +94,7 @@ A Supreme Court judgment is a binding legal decision that interprets the Constit
 
 ## 006 👮‍♂️ Police Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_04:32:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:44:09-green)
 
 [https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases](https://github.com/nuuuwan/lk_police_press_releases/tree/data/data/lk_police_press_releases)
 
@@ -148,7 +148,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 009 ⚖️ Extraordinary Gazettes 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--28_06:46:02-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:48:36-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s)
 
@@ -166,7 +166,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 010 ⚖️ Extraordinary Gazettes 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--28_06:48:02-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:49:23-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s)
 
@@ -184,7 +184,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 011 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--28_19:07:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_07:07:40-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:33:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_07:52:16-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:30:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_07:12:04-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:30:54-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_07:12:03-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -364,7 +364,7 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ## 021 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_06:20:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--29_07:11:55-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
