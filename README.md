@@ -1,6 +1,6 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **293,744** documents (**84.1 GB**).
+**23** datasets, with **288,841** documents (**80.5 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_11:09:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_12:18:13-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -238,13 +238,13 @@ A Sri Lanka Presidential Media Division press release shares official updates on
 
 ## 014 📄 News
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_10:00:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_12:06:25-green)
 
 [https://github.com/nuuuwan/lk_news/tree/data/data/lk_news](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news)
 
 A collection of lk_news documents.
 
-- [**129,560** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**2.0 GB**), from **2021-09-12** to **2026-09-06**, scraped from [https://www.virakesari.lk](https://www.virakesari.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
+- [**129,569** documents](https://github.com/nuuuwan/lk_news/tree/data/data/lk_news) (**2.0 GB**), from **2021-09-12** to **2026-09-06**, scraped from [https://www.virakesari.lk](https://www.virakesari.lk), [https://www.tamilmirror.lk](https://www.tamilmirror.lk), [http://sinhala.adaderana.lk](http://sinhala.adaderana.lk), [https://www.ada.lk](https://www.ada.lk), [https://www.dailymirror.lk](https://www.dailymirror.lk), [https://www.adaderana.lk](https://www.adaderana.lk), [https://www.ft.lk](https://www.ft.lk), [http://island.lk](http://island.lk), [https://economynext.com](https://economynext.com), [https://www.lankadeepa.lk](https://www.lankadeepa.lk), [https://www.colombotelegraph.com](https://www.colombotelegraph.com), [https://www.bbc.com](https://www.bbc.com), [https://dbsjeyaraj.com](https://dbsjeyaraj.com), [https://www.newsfirst.lk](https://www.newsfirst.lk) & [https://english.newsfirst.lk](https://english.newsfirst.lk)
 
 - In **JSON**, **TXT** & **🤗 Hugging Face**
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_11:03:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_12:13:53-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -272,43 +272,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_tourism/refs/heads/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports/docs_by_month_and_lang.png)
 
-## 016 🌴 Tourism Monthly Reports
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_11:04:14-green)
-
-[https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
-
-Report on Monthly Tourist Arrivals to Sri Lanka.
-
-- [**138** documents](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports) (**365.8 MB**), from **2015-01-01** to **2026-07-01**, scraped from [https://sltda.gov.lk](https://sltda.gov.lk) & [https://www.sltda.gov.lk](https://www.sltda.gov.lk)
-
-- In **JSON**, **PDF**, **TXT** & **🤗 Hugging Face**
-
-- In **English**
-
-- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_tourism/refs/heads/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports/docs_by_year_and_lang.png)
-
-## 017 🌦️ Dmc Situation Reports
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_10:20:01-green)
-
-[https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
-
-Situation Report including information about Heavy Rain, Wind, Tree Falling, Lighting etc.
-
-- [**4,672** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports) (**3.2 GB**), from **2018-01-02** to **2026-09-04**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
-
-- In **JSON**, **PDF**, **TXT**, **Tables** (0%) & **🤗 Hugging Face**
-
-- In **English**
-
-- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports/docs_by_year_and_lang.png)
-
-## 018 ☔️ Dmc Weather Forecasts
+## 016 ☔️ Dmc Weather Forecasts
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_10:21:49-green)
 
@@ -326,9 +290,9 @@ Weather Forecasts for various places in Sri Lanka.
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts/docs_by_month_and_lang.png)
 
-## 019 💧 Dmc River Water Level And Flood Warnings
+## 017 💧 Dmc River Water Level And Flood Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_10:09:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_12:16:49-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings)
 
@@ -344,9 +308,9 @@ River Water Level and Flood Warnings for various places in Sri Lanka.
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_river_water_level_and_flood_warnings/data/lk_dmc_river_water_level_and_flood_warnings/docs_by_month_and_lang.png)
 
-## 020 🗻 Dmc Landslide Warnings
+## 018 🗻 Dmc Landslide Warnings
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_10:09:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_12:16:06-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings)
 
@@ -362,9 +326,9 @@ Landslide Warnings including early warnings, locations of potential risk, areas 
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_dmc/refs/heads/data_lk_dmc_landslide_warnings/data/lk_dmc_landslide_warnings/docs_by_year_and_lang.png)
 
-## 021 📙Cbsl Annual Reports
+## 019 📙Cbsl Annual Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_11:09:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_12:19:23-green)
 
 [https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports](https://github.com/nuuuwan/cbsl/tree/data_cbsl_annual_reports/data/cbsl_annual_reports)
 
@@ -380,7 +344,7 @@ Annual Reports of the Central Bank of Sri Lanka (CBSL).It has been discountinued
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/cbsl/refs/heads/data_cbsl_annual_reports/data/cbsl_annual_reports/docs_by_decade_and_lang.png)
 
-## 022 🐟 Fisheries Annual Statistics Reports
+## 020 🐟 Fisheries Annual Statistics Reports
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_06:47:26-green)
 
@@ -398,25 +362,7 @@ Annual Fisheries Statistics Reports of the Ministry of Fisheries,Aquatic and Oce
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_fisheries/refs/heads/data_lk_fisheries_annual_statistics_reports/data/lk_fisheries_annual_statistics_reports/docs_by_year_and_lang.png)
 
-## 023 🐟 Fisheries Monthly Fish Production Reports
-
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_06:47:27-green)
-
-[https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports)
-
-Monthly Fish Production Reports of the Ministry of Fisheries,Aquatic and Ocean Resources, Sri Lanka
-
-- [**102** documents](https://github.com/nuuuwan/lk_fisheries/tree/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports) (**9.7 MB**), from **2019-01-01** to **2025-12-01**, scraped from [https://www.fisheries.gov.lk](https://www.fisheries.gov.lk)
-
-- In **JSON**, **TXT**, **Excel**, **Tables** & **🤗 Hugging Face**
-
-- In **English**
-
-- 🎓 Cite as **[arXiv:2510.04124](https://arxiv.org/abs/2510.04124) [cs.CL]**
-
-![Chart](https://raw.githubusercontent.com/nuuuwan/lk_fisheries/refs/heads/data_lk_fisheries_monthly_fish_production_reports/data/lk_fisheries_monthly_fish_production_reports/docs_by_year_and_lang.png)
-
-## 024 🐟 Fisheries Weekly Fish Prices Reports
+## 021 🐟 Fisheries Weekly Fish Prices Reports
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_06:47:28-green)
 
@@ -434,7 +380,7 @@ Weekly Fish Prices Reports of the Ministry of Fisheries,Aquatic and Ocean Resour
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_fisheries/refs/heads/data_lk_fisheries_weekly_fish_prices_reports/data/lk_fisheries_weekly_fish_prices_reports/docs_by_year_and_lang.png)
 
-## 025 🐟 Fisheries Monthly Export Import Reports
+## 022 🐟 Fisheries Monthly Export Import Reports
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--06_06:48:06-green)
 
@@ -452,7 +398,7 @@ Monthly Fish Export and Import Reports of the Ministry of Fisheries,Aquatic and 
 
 ![Chart](https://raw.githubusercontent.com/nuuuwan/lk_fisheries/refs/heads/data_lk_fisheries_monthly_export_import_reports/data/lk_fisheries_monthly_export_import_reports/docs_by_year_and_lang.png)
 
-## 026 📚 Edupub
+## 023 📚 Edupub
 
 ![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--02_00:27:24-green)
 
