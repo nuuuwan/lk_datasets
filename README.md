@@ -1,10 +1,10 @@
 # 🇱🇰 #SriLanka `Datasets`
 
-**26** datasets, with **302,142** documents (**86.1 GB**).
+**26** datasets, with **302,143** documents (**86.1 GB**).
 
 ## 001 🏛️ Hansard 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--07_22:09:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:23:45-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2020s/data/lk_hansard_2020s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2020s/data/lk_hansard_2020s)
 
@@ -148,7 +148,7 @@ A Bill is a draft law proposed in Parliament. It becomes binding once passed and
 
 ## 009 ⚖️ Extraordinary Gazettes 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--07_06:32:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:35:17-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2020s/data/lk_extraordinary_gazettes_2020s)
 
@@ -166,7 +166,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 010 ⚖️ Extraordinary Gazettes 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--07_06:32:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:36:15-green)
 
 [https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s](https://github.com/nuuuwan/lk_legal_docs/tree/data_lk_extraordinary_gazettes_2010s/data/lk_extraordinary_gazettes_2010s)
 
@@ -184,7 +184,7 @@ An Extraordinary Gazette is an official government publication used to announce 
 
 ## 011 🏛️ Cabinet Decisions
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--07_18:39:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:39:17-green)
 
 [https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions](https://github.com/nuuuwan/lk_cabinet_decisions/tree/data/data/lk_cabinet_decisions)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:20:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_07:10:53-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:17:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_07:04:25-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:18:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_07:04:54-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
@@ -292,7 +292,7 @@ Report on Monthly Tourist Arrivals to Sri Lanka.
 
 ## 017 🌦️ Dmc Situation Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_04:16:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:30:31-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_situation_reports/data/lk_dmc_situation_reports)
 
@@ -310,13 +310,13 @@ Situation Report including information about Heavy Rain, Wind, Tree Falling, Lig
 
 ## 018 ☔️ Dmc Weather Forecasts
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_04:17:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--08_06:31:42-green)
 
 [https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts)
 
 Weather Forecasts for various places in Sri Lanka.
 
-- [**6,431** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**7.9 GB**), from **2023-03-26** to **2026-11-07**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
+- [**6,432** documents](https://github.com/nuuuwan/lk_dmc/tree/data_lk_dmc_weather_forecasts/data/lk_dmc_weather_forecasts) (**7.9 GB**), from **2023-03-26** to **2026-11-08**, scraped from [https://www.dmc.gov.lk](https://www.dmc.gov.lk)
 
 - In **JSON**, **PDF**, **TXT**, **Tables** (0%) & **🤗 Hugging Face**
 
