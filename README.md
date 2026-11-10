@@ -4,7 +4,7 @@
 
 ## 001 🏛️ Hansard 2020S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_14:10:13-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_22:21:37-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2020s/data/lk_hansard_2020s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2020s/data/lk_hansard_2020s)
 
@@ -22,7 +22,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 002 🏛️ Hansard 2010S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_14:07:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_22:21:41-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2010s/data/lk_hansard_2010s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2010s/data/lk_hansard_2010s)
 
@@ -40,7 +40,7 @@ A Hansard is the official verbatim record of parliamentary debates, preserving l
 
 ## 003 🏛️ Hansard 2000S
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_14:07:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_22:21:55-green)
 
 [https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2000s/data/lk_hansard_2000s](https://github.com/nuuuwan/lk_hansard/tree/data_lk_hansard_2000s/data/lk_hansard_2000s)
 
@@ -202,7 +202,7 @@ A Sri Lanka Cabinet Decision is an official policy or action agreed by the Cabin
 
 ## 012 💰 Treasury Press Releases
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_22:08:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_23:07:50-green)
 
 [https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases](https://github.com/nuuuwan/lk_treasury/tree/data_lk_treasury_press_releases/data/lk_treasury_press_releases)
 
@@ -256,7 +256,7 @@ A collection of lk_news documents.
 
 ## 015 🌴 Tourism Weekly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_22:03:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_23:03:46-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_weekly_reports/data/lk_tourism_weekly_reports)
 
@@ -274,7 +274,7 @@ Report on Weekly Tourist Arrivals to Sri Lanka.
 
 ## 016 🌴 Tourism Monthly Reports
 
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_22:04:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_23:05:12-green)
 
 [https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports](https://github.com/nuuuwan/lk_tourism/tree/data_lk_tourism_monthly_reports/data/lk_tourism_monthly_reports)
 
